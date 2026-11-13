@@ -41,6 +41,8 @@ def main(week_file, only=None):
                     mp4, jpg = out / f"{pid}.mp4", out / f"{pid}-cover.jpg"
                     dur = reel.render(post, words, tmp / "vo.mp3", brolls, tmp / "work", mp4, jpg)
                 entry.update(video=url(mp4), cover=url(jpg), duration=dur, broll_credits=credits)
+                m = reel.pick_music(post)
+                entry["music"] = m.name if m else None
             manifest["posts"][pid] = entry
             manifest["pexels_used"] = sorted(used)
             man_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False, default=str))
@@ -51,6 +53,21 @@ def main(week_file, only=None):
                     msg = msg.replace(os.environ[k], "***")
             print(f"[error] {pid}: {msg}", flush=True)
             errors.append(f"{pid}: {msg[:600]}")
+    # add background music to reels built before music existed (no new TTS needed)
+    for post in posts:
+        e = manifest["posts"].get(post["id"])
+        if not e or post["type"] == "carousel" or "music" in e:
+            continue
+        m = reel.pick_music(post)
+        if not m:
+            continue
+        try:
+            reel.add_music(out / f"{post['id']}.mp4", m, e["duration"], post.get("music_volume", 0.32))
+            e["music"] = m.name
+            man_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False, default=str))
+            print(f"[music] {post['id']} <- {m.name}", flush=True)
+        except Exception as ex:
+            errors.append(f"{post['id']} music: {ex}")
     print(f"[done] {len(manifest['posts'])} posts in {man_path}")
     err_path = out / "build-errors.txt"
     if errors:

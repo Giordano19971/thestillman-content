@@ -28,6 +28,16 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg libcairo2 fonts-dejavu-core
           pip install -q requests pyyaml pillow cairosvg "opencv-python-headless<5"
+      - name: Fetch new music tracks
+        run: |
+          if [ -f brand/music/sources.tsv ]; then
+            while IFS=$'\t' read -r dest url; do
+              [ -z "$dest" ] && continue
+              [ -f "brand/music/$dest" ] || curl -sSfL -o "brand/music/$dest" "$url" || echo "failed $dest"
+            done < brand/music/sources.tsv
+            rm brand/music/sources.tsv
+          fi
+          ls -la brand/music/*/ || true
       - name: Build newest week
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
@@ -48,6 +58,6 @@ jobs:
         run: |
           git config user.name "still-man-bot"
           git config user.email "still-man-bot@users.noreply.github.com"
-          git add docs
+          git add -A docs brand/music
           git diff --cached --quiet || git commit -m "Build media for week [skip ci]"
           git push

@@ -110,6 +110,25 @@ def shade_png(path):
     im = Image.new("RGBA", (W, H), (0, 0, 0, 255)); im.putalpha(a); im.save(path)
 
 
+
+MUSIC_DIR = Path(__file__).resolve().parent.parent / "brand" / "music"
+
+
+def pick_music(post):
+    """Background track: post['music'] (file name or 'none'), else warm/* for core reels and dark/* for mono reels."""
+    import hashlib
+    choice = post.get("music")
+    if choice == "none":
+        return None
+    if choice:
+        p = MUSIC_DIR / choice
+        return p if p.exists() else None
+    mood = "dark" if post.get("grade") == "mono" else "warm"
+    tracks = sorted((MUSIC_DIR / mood).glob("*.mp3"))
+    if not tracks:
+        return None
+    return tracks[int(hashlib.md5(post["id"].encode()).hexdigest(), 16) % len(tracks)]
+
 def render(post, words, audio, brolls, work, out_mp4, out_cover):
     work = Path(work); work.mkdir(parents=True, exist_ok=True)
     dur = round(words[-1]["end"] + 1.6, 2)
@@ -137,9 +156,34 @@ def render(post, words, audio, brolls, work, out_mp4, out_cover):
     t_logo = max(0.0, dur - 1.8)
     fc = (f"[0:v][1:v]overlay=0:0[s];[s]ass={ass}:fontsdir={FONTS}[c];"
           f"[2:v]format=rgba,fade=in:st={t_logo:.2f}:d=0.6:alpha=1[l];[c][l]overlay=(W-w)/2:360:shortest=0[v]")
+    music = pick_music(post)
+    if music:
+        fc += (f";[3:a]apad,atrim=0:{dur:.2f},asplit[v1][v2];"
+               f"[4:a]atrim=0:{dur:.2f},volume={post.get('music_volume', 0.32)},afade=t=in:d=0.8,"
+               f"afade=t=out:st={max(0, dur - 1.8):.2f}:d=1.8[m];"
+               f"[m][v2]sidechaincompress=threshold=0.04:ratio=5:attack=25:release=450[md];"
+               f"[v1][md]amix=inputs=2:duration=first:normalize=0[a]")
+        ins = ["-i", str(audio), "-stream_loop", "-1", "-i", str(music)]
+        amap = ["-map", "[a]"]
+    else:
+        ins = ["-i", str(audio)]
+        amap = ["-map", "3:a", "-af", "apad"]
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(base), "-loop", "1", "-i", str(shade), "-loop", "1", "-i", str(logo),
-         "-i", str(audio), "-filter_complex", fc, "-map", "[v]", "-map", "3:a", "-af", "apad",
+         *ins, "-filter_complex", fc, "-map", "[v]", *amap,
          "-t", f"{dur:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(out_mp4)])
     run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1.2", "-i", str(out_mp4), "-frames:v", "1", "-q:v", "3", str(out_cover)])
     return dur
+
+
+def add_music(mp4, music, dur, volume=0.32):
+    """Mix a background track under the existing voice of a rendered reel (video stream copied)."""
+    mp4 = Path(mp4); tmp = mp4.with_suffix(".music.mp4")
+    fc = (f"[0:a]apad,atrim=0:{dur:.2f},asplit[v1][v2];"
+          f"[1:a]atrim=0:{dur:.2f},volume={volume},afade=t=in:d=0.8,afade=t=out:st={max(0, dur - 1.8):.2f}:d=1.8[m];"
+          f"[m][v2]sidechaincompress=threshold=0.04:ratio=5:attack=25:release=450[md];"
+          f"[v1][md]amix=inputs=2:duration=first:normalize=0[a]")
+    run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp4), "-stream_loop", "-1", "-i", str(music),
+         "-filter_complex", fc, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+         "-t", f"{dur:.2f}", "-movflags", "+faststart", str(tmp)])
+    tmp.replace(mp4)
