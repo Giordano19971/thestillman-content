@@ -400,63 +400,6 @@
         }
       ]
     },
-    "mon-late": {
-      "date": "2026-11-16",
-      "time": "23:30",
-      "type": "reel",
-      "platforms": [
-        "instagram",
-        "tiktok"
-      ],
-      "caption": "Nobody is coming to make it easier. Good. The next move is his.\n\n#motivation #selfimprovement #discipline #quietconfidence #thestillman",
-      "title": "Nobody is coming to make it easier",
-      "tiktok_title": "Nobody is coming to make it easier",
-      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-late.mp4",
-      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-late-cover.jpg",
-      "duration": 27.71,
-      "broll_credits": [
-        {
-          "pixabay_image_id": 845709,
-          "author": "Leroy_Skalstad",
-          "url": "https://pixabay.com/photos/man-portrait-homeless-poverty-male-845709/"
-        },
-        {
-          "pixabay_image_id": 893537,
-          "author": "DEZALB",
-          "url": "https://pixabay.com/photos/united-states-washington-893537/"
-        },
-        {
-          "pixabay_image_id": 5455265,
-          "author": "TimHill",
-          "url": "https://pixabay.com/photos/winnats-pass-peak-district-5455265/"
-        },
-        {
-          "pixabay_image_id": 1835823,
-          "author": "Pexels",
-          "url": "https://pixabay.com/photos/cave-cavern-dark-daylight-1835823/"
-        },
-        {
-          "pixabay_image_id": 6706182,
-          "author": "chriszwettler",
-          "url": "https://pixabay.com/photos/alps-mountains-fog-clouds-nature-6706182/"
-        },
-        {
-          "pixabay_image_id": 7992124,
-          "author": "Mikewildadventure",
-          "url": "https://pixabay.com/photos/statue-stoic-markus-roman-7992124/"
-        },
-        {
-          "pixabay_image_id": 168132,
-          "author": "44833",
-          "url": "https://pixabay.com/photos/lighthouse-cliff-sea-ocean-beacon-168132/"
-        },
-        {
-          "pixabay_image_id": 6556336,
-          "author": "mariya_m",
-          "url": "https://pixabay.com/photos/trees-forest-park-avenue-path-6556336/"
-        }
-      ]
-    },
     "tue-late": {
       "date": "2026-11-17",
       "time": "23:30",

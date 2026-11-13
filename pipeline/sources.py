@@ -46,7 +46,7 @@ def pexels_video(query, used_ids, dest):
     return dest, {"pexels_id": v["id"], "author": v.get("user", {}).get("name"), "url": v.get("url")}
 
 
-BANNED_TAGS = {"woman", "women", "girl", "girls", "lady", "portrait", "face", "faces", "model", "selfie", "mask",
+BANNED_TAGS = {"jesus", "christ", "buddha", "religion", "church", "angel", "man portrait", "old man", "elderly", "woman", "women", "girl", "girls", "lady", "portrait", "face", "faces", "model", "selfie", "mask",
                "animation", "animated", "cartoon", "illustration", "3d", "render", "cgi", "fantasy", "smoke bomb",
                "halloween", "christmas", "child", "children", "kid", "baby", "fashion", "party"}
 
@@ -149,7 +149,9 @@ def pixabay_image_clip(query, used_ids, dest, allow_statues=False, seconds=8):
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", img, "-vf", vf, "-frames:v", str(frames),
                     "-c:v", "libx264", "-preset", "veryfast", "-pix_fmt", "yuv420p", str(dest)], check=True)
     used_ids.add(f"pi{h['id']}")
-    if not allow_statues and has_face(dest):
+    statue = bool({t.strip() for t in h.get("tags", "").lower().split(",")} &
+                  {"statue", "sculpture", "bust", "marble", "monument", "figure", "stone"})
+    if not statue and has_face(dest):
         return pixabay_image_clip(query, used_ids, dest, allow_statues, seconds)
     return dest, {"pixabay_image_id": h["id"], "author": h.get("user"), "url": h.get("pageURL")}
 

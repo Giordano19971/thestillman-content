@@ -1,0 +1,123 @@
+week: 2026-11-09
+# Times are Europe/Rome. Launch weekend: 2 reels/day (19:30 core, 23:30 motivation).
+posts:
+- id: sat-reel
+  type: reel
+  date: '2026-11-14'
+  time: '19:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: He stopped explaining himself
+  voiceover: There is a moment when a man stops explaining himself. Not out of pride. Out of calm. He says no... once. Clearly. Without the long story behind it. He doesn't defend every choice. He doesn't need the room to agree. A short answer, said gently... carries more weight than a speech.
+  highlight:
+  - explaining
+  - calm
+  - once
+  - agree
+  - weight
+  broll:
+  - man walking alone city night from behind
+  - hands closing notebook desk
+  - rain window city lights
+  - man silhouette doorway light
+  - calm sea dusk
+  caption: 'A short answer, said gently, carries more weight than a speech.
+
+
+    #quietconfidence #boundaries #selfrespect #selfimprovement #thestillman'
+  tiktok_title: He stopped explaining himself
+- id: sat-late
+  type: reel
+  date: '2026-11-14'
+  time: '23:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Saturday night, quiet work
+  voiceover: Saturday night. Everyone is out. He is home... and he is not missing anything. A book. An early night. A plan for Monday. Some seasons are loud. Others are for building. The man who can sit in a quiet room... and enjoy it... is already ahead.
+  highlight:
+  - home
+  - building
+  - quiet
+  - enjoy
+  - ahead
+  broll:
+  - 'img: marble statue face'
+  - 'img: candle book dark'
+  - 'img: night window city'
+  - 'img: marble bust profile'
+  - 'img: desk lamp notebook'
+  - 'img: still lake night'
+  - 'img: classical sculpture dark'
+  - 'img: moon night sky'
+  caption: 'Some seasons are loud. Others are for building.
+
+
+    #motivation #discipline #selfimprovement #quietconfidence #thestillman'
+  tiktok_title: Saturday night, quiet work
+  caption_words: 3
+  caption_lower: true
+  caption_style: serif_italic
+  grade: mono
+  allow_statues: true
+- id: sun-reel
+  type: reel
+  date: '2026-11-15'
+  time: '19:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: The Sunday reset
+  voiceover: Sunday. Twenty minutes. That's all the reset takes. He clears the desk. He writes the three things that matter this week... and nothing else. He lays out Monday's clothes. Small order on Sunday... becomes calm on Monday. Calm is not a mood. It's preparation.
+  highlight:
+  - reset
+  - three
+  - order
+  - calm
+  - preparation
+  broll:
+  - hands writing notebook coffee
+  - folding shirt
+  - morning light window room
+  - clean desk minimal
+  - coffee cup steam table
+  caption: 'Small order on Sunday becomes calm on Monday.
+
+
+    #sundayreset #routine #productivity #quietconfidence #thestillman'
+  tiktok_title: The 20-minute Sunday reset
+- id: sun-late
+  type: reel
+  date: '2026-11-15'
+  time: '23:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Tomorrow he starts again
+  voiceover: Tomorrow... he starts again. Not with a new life. Not with a dramatic speech. Just with the next right thing. Wake up. Show up. Keep one promise. Most men wait to feel ready. He knows something they don't. Readiness... comes after the first step. Never before.
+  highlight:
+  - again
+  - promise
+  - ready
+  - step
+  - never
+  broll:
+  - 'img: sunrise mountain fog'
+  - 'img: marble statue face'
+  - 'img: road sunrise'
+  - 'img: stone stairs light'
+  - 'img: marble bust dark'
+  - 'img: alarm clock dark'
+  - 'img: lighthouse dawn'
+  - 'img: ocean sunrise'
+  caption: 'Readiness comes after the first step. Never before.
+
+
+    #motivation #mondaymotivation #discipline #selfimprovement #thestillman'
+  tiktok_title: Readiness comes after the first step
+  caption_words: 3
+  caption_lower: true
+  caption_style: serif_italic
+  grade: mono
+  allow_statues: true

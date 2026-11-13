@@ -34,10 +34,15 @@ jobs:
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: |
-          FILE="${{ github.event.inputs.week_file }}"
-          if [ -z "$FILE" ]; then FILE=$(ls content/weeks/*.yaml | sort | tail -1); fi
-          echo "Building $FILE"
-          cd pipeline && python build_week.py "../$FILE"
+          FILES="${{ github.event.inputs.week_file }}"
+          if [ -z "$FILES" ]; then
+            CUTOFF=$(date -u -d '7 days ago' +%Y-%m-%d)
+            FILES=$(for f in content/weeks/*.yaml; do w=$(basename "$f" .yaml); [[ "$w" > "$CUTOFF" || "$w" == "$CUTOFF" ]] && echo "$f"; done)
+          fi
+          cd pipeline
+          rc=0
+          for FILE in $FILES; do echo "Building $FILE"; python build_week.py "../$FILE" || rc=1; done
+          exit $rc
       - name: Commit built media
         if: always()
         run: |
