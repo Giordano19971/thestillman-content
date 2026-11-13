@@ -30,7 +30,7 @@ def scene_cuts(words, n, dur):
     return cuts
 
 
-def caption_groups(words, highlight):
+def caption_groups(words, highlight, max_words=3, upper=False):
     """Phrases split at punctuation/pauses/spoken numbers, then into balanced chunks of at most 3 words."""
     hl = {clean(h) for h in highlight}
     is_num = lambda w: clean(w["text"]) in NUM_WORDS and w["text"].endswith(".")
@@ -46,7 +46,7 @@ def caption_groups(words, highlight):
     if cur: phrases.append(cur)
     groups = []
     for p in phrases:
-        n = -(-len(p) // 3)
+        n = -(-len(p) // max_words)
         k = 0
         for j in range(n):
             size = len(p) // n + (1 if j < len(p) % n else 0)
@@ -57,7 +57,7 @@ def caption_groups(words, highlight):
         end = groups[i + 1][0]["start"] if i + 1 < len(groups) else g[-1]["end"] + 1.2
         num = len(g) == 1 and is_num(g[0])
         out.append({"start": start, "end": end, "num": num,
-                    "words": [(w["text"].replace("...", "").rstrip("…"), clean(w["text"]) in hl) for w in g]})
+                    "words": [((lambda t: t.upper() if upper else t)(w["text"].replace("...", "").rstrip("…")), clean(w["text"]) in hl) for w in g]})
     return out
 
 
@@ -128,7 +128,7 @@ def render(post, words, audio, brolls, work, out_mp4, out_cover):
     lst = work / "list.txt"; lst.write_text("".join(f"file '{c.name}'\n" for c in clips))
     base = work / "base.mp4"
     run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(base)])
-    ass = work / "captions.ass"; write_ass(ass, caption_groups(words, post.get("highlight", [])), dur)
+    ass = work / "captions.ass"; write_ass(ass, caption_groups(words, post.get("highlight", []), post.get("caption_words", 3), post.get("caption_upper", False)), dur)
     shade = work / "shade.png"; shade_png(shade)
     logo = work / "logo.png"; logo_png(230).save(logo)
     t_logo = max(0.0, dur - 1.8)

@@ -27,6 +27,50 @@ posts:
 
       #thestillman #quietconfidence #bodylanguage #selfimprovement
 
+  - id: mon-stoic-reel
+    type: reel
+    date: 2026-11-16
+    time: "19:30"
+    platforms: [instagram, tiktok]
+    title: What stands in the way becomes the way
+    voiceover: >-
+      Marcus Aurelius ruled Rome through plague... and war.
+      In his private notes, he kept returning to one idea.
+      The obstacle is not in the way.
+      What stands in the way... becomes the way.
+      Not "why me." But... "what is this here to teach me?"
+      A still man does not wait for easier days.
+      He lets the hard ones train him.
+      One. Name the obstacle.
+      Two. Ask what it teaches.
+      Three. Take the next small step.
+    highlight: [idea, obstacle, way, teach, still, train, step]
+    caption_words: 2
+    caption_upper: true
+    allow_statues: true
+    broll:
+      - marcus aurelius statue
+      - roman statue marble
+      - ancient rome ruins columns
+      - candle old books
+      - greek statue
+      - stormy sea rocks
+      - ancient ruins sunset
+      - mountain sunrise fog
+      - stone stairs light
+      - marble sculpture
+    caption: |-
+      What stands in the way becomes the way.
+
+      Marcus Aurelius wrote it 1,800 years ago. It still works.
+
+      #stoicism #marcusaurelius #stoic #quietconfidence #thestillman
+    tiktok_title: What stands in the way becomes the way
+    tiktok_caption: |-
+      What stands in the way becomes the way. Marcus Aurelius, Meditations.
+
+      #stoicism #marcusaurelius #stoic #philosophy #mindset #thestillman
+
   - id: mon-carousel
     type: carousel
     date: 2026-11-16

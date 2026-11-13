@@ -86,16 +86,17 @@ def has_face(path, samples=8, conf=0.7):
     return found
 
 
-def pixabay_video(query, used_ids, dest):
+def pixabay_video(query, used_ids, dest, allow_statues=False):
     """Download a faceless, real-footage Pixabay video for `query` (prefers vertical/4K so a 9:16 crop stays sharp)."""
     if not PIXABAY_KEY:
         raise RuntimeError("PIXABAY_API_KEY missing")
     tried = 0
+    banned = BANNED_TAGS - {"face", "faces", "portrait"} if allow_statues else BANNED_TAGS
     for q in (query, " ".join(query.split()[:3]), " ".join(query.split()[:2])):
         r = _get("https://pixabay.com/api/videos/", params={"key": PIXABAY_KEY, "q": q[:100], "per_page": 40,
                                                            "safesearch": "true", "video_type": "film"})
         hits = [h for h in r.json().get("hits", []) if f"pb{h['id']}" not in used_ids and h.get("duration", 0) >= 4
-                and not ({t.strip() for t in h.get("tags", "").lower().split(",")} & BANNED_TAGS)]
+                and not ({t.strip() for t in h.get("tags", "").lower().split(",")} & banned)]
         def score(h):
             v = h["videos"]; big = v.get("large") or {}
             vertical = any(x.get("height", 0) > x.get("width", 0) for x in v.values() if isinstance(x, dict))
@@ -109,13 +110,13 @@ def pixabay_video(query, used_ids, dest):
                     out.write(chunk)
             used_ids.add(f"pb{h['id']}")
             tried += 1
-            if has_face(dest):
+            if not allow_statues and has_face(dest):
                 continue
             return dest, {"pixabay_id": h["id"], "author": h.get("user"), "url": h.get("pageURL")}
     raise RuntimeError(f"No faceless Pixabay video for: {query} ({tried} rejected)")
 
 
-def broll_video(query, used_ids, dest):
+def broll_video(query, used_ids, dest, allow_statues=False):
     """Pexels when a key is configured, otherwise Pixabay."""
     if PEXELS_KEY:
         try:
@@ -124,7 +125,7 @@ def broll_video(query, used_ids, dest):
             if not PIXABAY_KEY:
                 raise
             print(f"[pexels] {e} -> falling back to Pixabay", flush=True)
-    return pixabay_video(query, used_ids, dest)
+    return pixabay_video(query, used_ids, dest, allow_statues)
 
 
 def tts_with_words(text, voice_id, model, dest):

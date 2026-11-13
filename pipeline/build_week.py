@@ -25,7 +25,7 @@ def main(week_file, only=None):
         if pid in manifest["posts"] or (only and post["type"] != only):
             continue
         try:
-            entry = {k: post[k] for k in ("date", "time", "type", "platforms", "caption", "title") if k in post}
+            entry = {k: post[k] for k in ("date", "time", "type", "platforms", "caption", "title", "tiktok_title", "tiktok_caption") if k in post}
             print(f"[build] {pid} ({post['type']})", flush=True)
             if post["type"] == "carousel":
                 paths = carousel.render(post, out, pid)
@@ -35,7 +35,7 @@ def main(week_file, only=None):
                     tmp = Path(tmp)
                     brolls, credits = [], []  # b-roll first: a failure here costs no TTS credits
                     for i, q in enumerate(post["broll"]):
-                        pth, cr = sources.broll_video(q, used, tmp / f"b{i}.mp4")
+                        pth, cr = sources.broll_video(q, used, tmp / f"b{i}.mp4", post.get("allow_statues", False))
                         brolls.append(pth); credits.append(cr)
                     words = sources.tts_with_words(post["voiceover"], post.get("voice_id", VOICE_ID), TTS_MODEL, tmp / "vo.mp3")
                     mp4, jpg = out / f"{pid}.mp4", out / f"{pid}-cover.jpg"
