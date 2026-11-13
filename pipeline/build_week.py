@@ -3,7 +3,7 @@
 Usage: python pipeline/build_week.py content/weeks/2026-11-16.yaml [--only carousel]
 Posts already built (listed in an existing manifest) are skipped, so re-runs are cheap.
 """
-import json, re, os, sys, tempfile
+import json, re, os, shutil, sys, tempfile
 from pathlib import Path
 import yaml
 from common import ROOT, VOICE_ID, TTS_MODEL, PAGES_BASE
@@ -40,6 +40,8 @@ def main(week_file, only=None):
                     words = sources.tts_with_words(post["voiceover"], post.get("voice_id", VOICE_ID), TTS_MODEL, tmp / "vo.mp3")
                     mp4, jpg = out / f"{pid}.mp4", out / f"{pid}-cover.jpg"
                     dur = reel.render(post, words, tmp / "vo.mp3", brolls, tmp / "work", mp4, jpg)
+                    (out / "voice").mkdir(exist_ok=True)
+                    shutil.copy(tmp / "vo.mp3", out / "voice" / f"{pid}.mp3")
                 entry.update(video=url(mp4), cover=url(jpg), duration=dur, broll_credits=credits)
                 m = reel.pick_music(post)
                 entry["music"] = m.name if m else None
@@ -62,7 +64,8 @@ def main(week_file, only=None):
         if not m:
             continue
         try:
-            reel.add_music(out / f"{post['id']}.mp4", m, e["duration"], post.get("music_volume", 0.32))
+            reel.add_music(out / f"{post['id']}.mp4", m, e["duration"], post.get("music_volume"),
+                           out / "voice" / f"{post['id']}.mp3")
             e["music"] = m.name
             man_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False, default=str))
             print(f"[music] {post['id']} <- {m.name}", flush=True)

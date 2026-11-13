@@ -112,6 +112,7 @@ def shade_png(path):
 
 
 MUSIC_DIR = Path(__file__).resolve().parent.parent / "brand" / "music"
+MUSIC_VOLUME = 0.22
 
 
 def pick_music(post):
@@ -159,7 +160,7 @@ def render(post, words, audio, brolls, work, out_mp4, out_cover):
     music = pick_music(post)
     if music:
         fc += (f";[3:a]apad,atrim=0:{dur:.2f},asplit[v1][v2];"
-               f"[4:a]atrim=0:{dur:.2f},volume={post.get('music_volume', 0.32)},afade=t=in:d=0.8,"
+               f"[4:a]atrim=0:{dur:.2f},volume={post.get('music_volume', MUSIC_VOLUME)},afade=t=in:d=0.8,"
                f"afade=t=out:st={max(0, dur - 1.8):.2f}:d=1.8[m];"
                f"[m][v2]sidechaincompress=threshold=0.04:ratio=5:attack=25:release=450[md];"
                f"[v1][md]amix=inputs=2:duration=first:normalize=0[a]")
@@ -176,14 +177,19 @@ def render(post, words, audio, brolls, work, out_mp4, out_cover):
     return dur
 
 
-def add_music(mp4, music, dur, volume=0.32):
+def add_music(mp4, music, dur, volume=None, voice=None):
     """Mix a background track under the existing voice of a rendered reel (video stream copied)."""
+    volume = MUSIC_VOLUME if volume is None else volume
     mp4 = Path(mp4); tmp = mp4.with_suffix(".music.mp4")
+    src = [str(voice)] if voice and Path(voice).exists() else [str(mp4)]
     fc = (f"[0:a]apad,atrim=0:{dur:.2f},asplit[v1][v2];"
           f"[1:a]atrim=0:{dur:.2f},volume={volume},afade=t=in:d=0.8,afade=t=out:st={max(0, dur - 1.8):.2f}:d=1.8[m];"
           f"[m][v2]sidechaincompress=threshold=0.04:ratio=5:attack=25:release=450[md];"
           f"[v1][md]amix=inputs=2:duration=first:normalize=0[a]")
+    if src[0] != str(mp4):
+        fc = fc.replace("[0:a]", "[2:a]")
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(mp4), "-stream_loop", "-1", "-i", str(music),
+         *(["-i", src[0]] if src[0] != str(mp4) else []),
          "-filter_complex", fc, "-map", "0:v", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
          "-t", f"{dur:.2f}", "-movflags", "+faststart", str(tmp)])
     tmp.replace(mp4)
