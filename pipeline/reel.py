@@ -30,7 +30,7 @@ def scene_cuts(words, n, dur):
     return cuts
 
 
-def caption_groups(words, highlight, max_words=3, upper=False):
+def caption_groups(words, highlight, max_words=3, upper=False, lower=False):
     """Phrases split at punctuation/pauses/spoken numbers, then into balanced chunks of at most 3 words."""
     hl = {clean(h) for h in highlight}
     is_num = lambda w: clean(w["text"]) in NUM_WORDS and w["text"].endswith(".")
@@ -57,7 +57,7 @@ def caption_groups(words, highlight, max_words=3, upper=False):
         end = groups[i + 1][0]["start"] if i + 1 < len(groups) else g[-1]["end"] + 1.2
         num = len(g) == 1 and is_num(g[0])
         out.append({"start": start, "end": end, "num": num,
-                    "words": [((lambda t: t.upper() if upper else t)(w["text"].replace("...", "").rstrip("…")), clean(w["text"]) in hl) for w in g]})
+                    "words": [((lambda t: t.upper() if upper else (t.lower() if lower else t))(w["text"].replace("...", "").rstrip("…")), clean(w["text"]) in hl) for w in g]})
     return out
 
 
@@ -66,7 +66,7 @@ def ts(t):
     return f"{h}:{m:02d}:{s:05.2f}"
 
 
-def write_ass(path, groups, dur):
+def write_ass(path, groups, dur, style="sans"):
     head = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
@@ -75,7 +75,7 @@ WrapStyle: 2
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Inter ExtraBold,90,{INK_ASS},{INK_ASS},&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,0,4,5,60,60,0,1
+Style: Cap,{"Fraunces Italic Display" if style == "serif_italic" else "Inter ExtraBold"},{98 if style == "serif_italic" else 90},{INK_ASS},{INK_ASS},&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,0,4,5,60,60,0,1
 Style: Num,Fraunces SemiBold,190,{BRONZE_ASS},{BRONZE_ASS},&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,0,3,5,60,60,0,1
 Style: Mark,Fraunces SemiBold,42,{MUTED_ASS},{MUTED_ASS},&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,8,60,60,170,1
 
@@ -118,9 +118,12 @@ def render(post, words, audio, brolls, work, out_mp4, out_cover):
     for i, src in enumerate(brolls):
         d = cuts[i + 1] - cuts[i] + (0.3 if i < len(brolls) - 1 else 0)
         c = work / f"clip{i}.mp4"
+        grade = ("eq=saturation=0.12:contrast=1.12:brightness=-0.05,colorchannelmixer=rr=1.03:gg=1.0:bb=0.95,"
+                 "noise=alls=7:allf=t,vignette=PI/4,") if post.get("grade") == "mono" else \
+                ("eq=saturation=0.72:contrast=1.05:brightness=-0.04,"
+                 "colorchannelmixer=rr=1.04:gg=0.98:bb=0.9,vignette=PI/4.5,")
         vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},"
-              f"eq=saturation=0.72:contrast=1.05:brightness=-0.04,"
-              f"colorchannelmixer=rr=1.04:gg=0.98:bb=0.9,vignette=PI/4.5,"
+              f"{grade}"
               f"fade=in:st=0:d=0.3,fade=out:st={max(0, d - 0.3):.2f}:d=0.3,format=yuv420p")
         run(["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-ss", "0.5", "-t", f"{d:.2f}", "-i", str(src),
              "-an", "-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(c)])
@@ -128,7 +131,7 @@ def render(post, words, audio, brolls, work, out_mp4, out_cover):
     lst = work / "list.txt"; lst.write_text("".join(f"file '{c.name}'\n" for c in clips))
     base = work / "base.mp4"
     run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(base)])
-    ass = work / "captions.ass"; write_ass(ass, caption_groups(words, post.get("highlight", []), post.get("caption_words", 3), post.get("caption_upper", False)), dur)
+    ass = work / "captions.ass"; write_ass(ass, caption_groups(words, post.get("highlight", []), post.get("caption_words", 3), post.get("caption_upper", False), post.get("caption_lower", False)), dur, post.get("caption_style", "sans"))
     shade = work / "shade.png"; shade_png(shade)
     logo = work / "logo.png"; logo_png(230).save(logo)
     t_logo = max(0.0, dur - 1.8)

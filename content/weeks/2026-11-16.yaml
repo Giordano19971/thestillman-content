@@ -34,31 +34,31 @@ posts:
     platforms: [instagram, tiktok]
     title: What stands in the way becomes the way
     voiceover: >-
-      Marcus Aurelius ruled Rome through plague... and war.
-      In his private notes, he kept returning to one idea.
-      The obstacle is not in the way.
+      The obstacle... is not in the way.
+      It is the way.
+      Marcus Aurelius ruled Rome through plague and war,
+      and in his private notes, he kept returning to this.
       What stands in the way... becomes the way.
-      Not why me. But... what is this here to teach me?
-      A still man does not wait for easier days.
-      He lets the hard ones train him.
-      One. Name the obstacle.
-      Two. Ask what it teaches.
-      Three. Take the next small step.
-    highlight: [idea, obstacle, way, teach, still, train, step]
-    caption_words: 2
-    caption_upper: true
+      A still man does not ask, why me.
+      He asks... what is this here to teach me?
+      He does not wait for easier days.
+      He lets the hard ones... train him.
+    highlight: [obstacle, way, teach, still, train]
+    caption_words: 3
+    caption_lower: true
+    caption_style: serif_italic
+    grade: mono
     allow_statues: true
     broll:
-      - "img: marcus aurelius statue"
-      - "img: roman bust marble"
-      - "img: ancient rome ruins"
-      - "img: stoic statue"
-      - "img: candle book dark"
-      - "img: greek statue marble"
-      - "img: stormy sea rocks"
-      - "img: ancient columns sunset"
-      - "img: marble sculpture head"
-      - "img: mountain sunrise fog"
+      - "img: marcus aurelius bust"
+      - "img: marble statue face"
+      - "img: roman bust sculpture"
+      - "img: statue close up marble"
+      - "img: greek philosopher statue"
+      - "img: marble head sculpture"
+      - "img: ancient statue profile"
+      - "img: roman emperor statue"
+      - "img: classical sculpture dark"
     caption: |-
       What stands in the way becomes the way.
 
