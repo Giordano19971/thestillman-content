@@ -1,0 +1,46 @@
+name: Build week
+
+on:
+  push:
+    branches: [main]
+    paths: ["content/weeks/**", "pipeline/**", "brand/**"]
+  workflow_dispatch:
+    inputs:
+      week_file:
+        description: "Week file to build (default: newest in content/weeks)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-week
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install ffmpeg and libraries
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libcairo2 fonts-dejavu-core
+          pip install -q requests pyyaml pillow cairosvg
+      - name: Build newest week
+        env:
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+        run: |
+          FILE="${{ github.event.inputs.week_file }}"
+          if [ -z "$FILE" ]; then FILE=$(ls content/weeks/*.yaml | sort | tail -1); fi
+          echo "Building $FILE"
+          cd pipeline && python build_week.py "../$FILE"
+      - name: Commit built media
+        run: |
+          git config user.name "still-man-bot"
+          git config user.email "still-man-bot@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "Build media for week [skip ci]"
+          git push

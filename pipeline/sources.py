@@ -1,0 +1,71 @@
+"""External sources: Pexels b-roll and ElevenLabs voice with word timings."""
+import base64, os, random, time
+import requests
+
+PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
+ELEVEN_KEY = os.environ.get("ELEVENLABS_API_KEY", "")
+
+
+def _get(url, **kw):
+    for attempt in range(4):
+        r = requests.get(url, timeout=60, **kw)
+        if r.status_code == 429:
+            time.sleep(5 * (attempt + 1)); continue
+        r.raise_for_status()
+        return r
+    r.raise_for_status()
+
+
+def pexels_video(query, used_ids, dest):
+    """Download a portrait Pexels video matching `query` that has not been used yet. Returns path and credit."""
+    if not PEXELS_KEY:
+        raise RuntimeError("PEXELS_API_KEY missing")
+    headers = {"Authorization": PEXELS_KEY}
+    for q in (query, " ".join(query.split()[:3])):
+        r = _get("https://api.pexels.com/videos/search", headers=headers,
+                 params={"query": q, "orientation": "portrait", "size": "medium", "per_page": 15})
+        videos = [v for v in r.json().get("videos", []) if v["id"] not in used_ids and v.get("duration", 0) >= 4]
+        if videos:
+            break
+    if not videos:
+        raise RuntimeError(f"No Pexels video for: {query}")
+    v = videos[0] if len(videos) < 3 else random.Random(query).choice(videos[:3])
+    files = [f for f in v["video_files"] if f.get("file_type") == "video/mp4" and f.get("height") and f["height"] >= f.get("width", 0)]
+    files.sort(key=lambda f: abs(f["height"] - 1920))
+    f = files[0] if files else v["video_files"][0]
+    with _get(f["link"], stream=True) as resp, open(dest, "wb") as out:
+        for chunk in resp.iter_content(1 << 20):
+            out.write(chunk)
+    used_ids.add(v["id"])
+    return dest, {"pexels_id": v["id"], "author": v.get("user", {}).get("name"), "url": v.get("url")}
+
+
+def tts_with_words(text, voice_id, model, dest):
+    """ElevenLabs TTS with timestamps. Writes MP3 to dest, returns list of words [{text,start,end}]."""
+    if not ELEVEN_KEY:
+        raise RuntimeError("ELEVENLABS_API_KEY missing")
+    r = requests.post(
+        f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id}/with-timestamps",
+        headers={"xi-api-key": ELEVEN_KEY, "Content-Type": "application/json"},
+        params={"output_format": "mp3_44100_128"},
+        json={"text": text, "model_id": model,
+              "voice_settings": {"stability": 0.55, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": True}},
+        timeout=180)
+    r.raise_for_status()
+    data = r.json()
+    with open(dest, "wb") as f:
+        f.write(base64.b64decode(data["audio_base64"]))
+    al = data.get("normalized_alignment") or data["alignment"]
+    chars, st, en = al["characters"], al["character_start_times_seconds"], al["character_end_times_seconds"]
+    words, cur, s0 = [], "", None
+    for c, s, e in zip(chars, st, en):
+        if c.isspace():
+            if cur:
+                words.append({"text": cur, "start": s0, "end": last_e}); cur = ""
+            continue
+        if not cur:
+            s0 = s
+        cur += c; last_e = e
+    if cur:
+        words.append({"text": cur, "start": s0, "end": last_e})
+    return words
