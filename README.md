@@ -7,14 +7,15 @@ Automated weekly content for The Still Man (Instagram + TikTok). Calm confidence
 1. A weekly file in `content/weeks/YYYY-MM-DD.yaml` (Monday of the week) lists every post: date, time, captions, voiceover, b-roll searches, carousel slides.
 2. Pushing that file runs **Build week** (GitHub Actions):
    - voiceover with ElevenLabs (voice K. V. Hagen – Deep Warm Natural Narrator), with word timings;
-   - portrait b-roll from Pexels, graded to the brand look;
+   - b-roll from Pexels or Pixabay, graded to the brand look;
    - Reels rendered with word-synced captions (`pipeline/reel.py`), carousels with the brand template (`pipeline/carousel.py`);
    - output committed to `docs/<week>/`, served by GitHub Pages, with `docs/<week>/manifest.json`.
 3. Scheduled Claude tasks publish from the manifest: Instagram via Windsor.ai, TikTok via Metricool.
 
 ## Secrets (Settings → Secrets and variables → Actions)
 
-- `PEXELS_API_KEY` — free key from https://www.pexels.com/api/
+- `PIXABAY_API_KEY` — free key shown at https://pixabay.com/api/docs/ (used for b-roll)
+- `PEXELS_API_KEY` — optional; preferred when present (Pexels paused new keys in Nov 2026)
 - `ELEVENLABS_API_KEY` — from https://elevenlabs.io/app/settings/api-keys
 
 ## Brand

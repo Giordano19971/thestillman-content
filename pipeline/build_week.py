@@ -36,7 +36,7 @@ def main(week_file, only=None):
                     words = sources.tts_with_words(post["voiceover"], post.get("voice_id", VOICE_ID), TTS_MODEL, tmp / "vo.mp3")
                     brolls, credits = [], []
                     for i, q in enumerate(post["broll"]):
-                        pth, cr = sources.pexels_video(q, used, tmp / f"b{i}.mp4")
+                        pth, cr = sources.broll_video(q, used, tmp / f"b{i}.mp4")
                         brolls.append(pth); credits.append(cr)
                     mp4, jpg = out / f"{pid}.mp4", out / f"{pid}-cover.jpg"
                     dur = reel.render(post, words, tmp / "vo.mp3", brolls, tmp / "work", mp4, jpg)

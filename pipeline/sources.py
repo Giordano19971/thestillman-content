@@ -3,6 +3,7 @@ import base64, os, random, time
 import requests
 
 PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
+PIXABAY_KEY = os.environ.get("PIXABAY_API_KEY", "")
 ELEVEN_KEY = os.environ.get("ELEVENLABS_API_KEY", "")
 
 
@@ -38,6 +39,45 @@ def pexels_video(query, used_ids, dest):
             out.write(chunk)
     used_ids.add(v["id"])
     return dest, {"pexels_id": v["id"], "author": v.get("user", {}).get("name"), "url": v.get("url")}
+
+
+def pixabay_video(query, used_ids, dest):
+    """Download a Pixabay video for `query` (prefers 4K/vertical so a 9:16 crop stays sharp)."""
+    if not PIXABAY_KEY:
+        raise RuntimeError("PIXABAY_API_KEY missing")
+    hits = []
+    for q in (query, " ".join(query.split()[:3]), " ".join(query.split()[:2])):
+        r = _get("https://pixabay.com/api/videos/", params={"key": PIXABAY_KEY, "q": q[:100], "per_page": 30, "safesearch": "true"})
+        hits = [h for h in r.json().get("hits", []) if f"pb{h['id']}" not in used_ids and h.get("duration", 0) >= 4]
+        if hits:
+            break
+    if not hits:
+        raise RuntimeError(f"No Pixabay video for: {query}")
+    def score(h):
+        v = h["videos"]; big = v.get("large") or {}
+        vertical = any(x.get("height", 0) > x.get("width", 0) for x in v.values() if isinstance(x, dict))
+        return (vertical, big.get("height", 0) >= 2160, h.get("likes", 0))
+    hits.sort(key=score, reverse=True)
+    h = hits[0]
+    v = h["videos"]
+    f = next(v[k] for k in ("large", "medium", "small") if v.get(k, {}).get("url"))
+    with _get(f["url"], stream=True) as resp, open(dest, "wb") as out:
+        for chunk in resp.iter_content(1 << 20):
+            out.write(chunk)
+    used_ids.add(f"pb{h['id']}")
+    return dest, {"pixabay_id": h["id"], "author": h.get("user"), "url": h.get("pageURL")}
+
+
+def broll_video(query, used_ids, dest):
+    """Pexels when a key is configured, otherwise Pixabay."""
+    if PEXELS_KEY:
+        try:
+            return pexels_video(query, used_ids, dest)
+        except Exception as e:
+            if not PIXABAY_KEY:
+                raise
+            print(f"[pexels] {e} -> falling back to Pixabay", flush=True)
+    return pixabay_video(query, used_ids, dest)
 
 
 def tts_with_words(text, voice_id, model, dest):
