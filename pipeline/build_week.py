@@ -43,7 +43,7 @@ def main(week_file, only=None):
                 entry.update(video=url(mp4), cover=url(jpg), duration=dur, broll_credits=credits)
             manifest["posts"][pid] = entry
             manifest["pexels_used"] = sorted(used)
-            man_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False))
+            man_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False, default=str))
         except Exception as e:
             print(f"[error] {pid}: {e}", flush=True)
             errors.append(f"{pid}: {e}")
