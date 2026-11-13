@@ -38,7 +38,7 @@ posts:
       In his private notes, he kept returning to one idea.
       The obstacle is not in the way.
       What stands in the way... becomes the way.
-      Not "why me." But... "what is this here to teach me?"
+      Not why me. But... what is this here to teach me?
       A still man does not wait for easier days.
       He lets the hard ones train him.
       One. Name the obstacle.
@@ -49,16 +49,16 @@ posts:
     caption_upper: true
     allow_statues: true
     broll:
-      - marcus aurelius statue
-      - roman statue marble
-      - ancient rome ruins columns
-      - candle old books
-      - greek statue
-      - stormy sea rocks
-      - ancient ruins sunset
-      - mountain sunrise fog
-      - stone stairs light
-      - marble sculpture
+      - "img: marcus aurelius statue"
+      - "img: roman bust marble"
+      - "img: ancient rome ruins"
+      - "img: stoic statue"
+      - "img: candle book dark"
+      - "img: greek statue marble"
+      - "img: stormy sea rocks"
+      - "img: ancient columns sunset"
+      - "img: marble sculpture head"
+      - "img: mountain sunrise fog"
     caption: |-
       What stands in the way becomes the way.
 
