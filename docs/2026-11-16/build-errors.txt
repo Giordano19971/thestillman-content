@@ -1,8 +1,0 @@
-mon-reel: RuntimeError: HTTP 400 from https://pixabay.com/api/videos/: [ERROR 400] Invalid or missing API key (https://pixabay.com/api/docs/).
-tue-reel: RuntimeError: HTTP 400 from https://pixabay.com/api/videos/: [ERROR 400] Invalid or missing API key (https://pixabay.com/api/docs/).
-wed-reel: RuntimeError: HTTP 400 from https://pixabay.com/api/videos/: [ERROR 400] Invalid or missing API key (https://pixabay.com/api/docs/).
-thu-reel: RuntimeError: HTTP 400 from https://pixabay.com/api/videos/: [ERROR 400] Invalid or missing API key (https://pixabay.com/api/docs/).
-fri-reel: RuntimeError: HTTP 400 from https://pixabay.com/api/videos/: [ERROR 400] Invalid or missing API key (https://pixabay.com/api/docs/).
-sat-reel: RuntimeError: HTTP 400 from https://pixabay.com/api/videos/: [ERROR 400] Invalid or missing API key (https://pixabay.com/api/docs/).
-sun-reel: RuntimeError: HTTP 400 from https://pixabay.com/api/videos/: [ERROR 400] Invalid or missing API key (https://pixabay.com/api/docs/).
-pixabay key: len=24 format_ok=False
