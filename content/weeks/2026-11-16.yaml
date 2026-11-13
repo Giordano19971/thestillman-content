@@ -1,5 +1,5 @@
 week: 2026-11-16
-# Times are Europe/Rome. Reels 19:30 and 23:30 every day (23:30 = stoic series), carousels 12:30 Mon/Wed/Fri.
+# Times are Europe/Rome. Reels 19:30 and 23:30 every day (23:30 = motivation series), carousels 12:30 Mon/Wed/Fri.
 posts:
   - id: mon-reel
     type: reel
@@ -300,265 +300,247 @@ posts:
 
       #thestillman #sundayroutine #discipline #quietconfidence
 
-  - id: mon-stoic-late
+  - id: mon-late
     type: reel
     date: '2026-11-16'
     time: '23:30'
     platforms:
     - instagram
     - tiktok
-    title: We suffer more in imagination
-    voiceover: Most of what a man fears... never happens. Seneca saw it two thousand years ago. We suffer more often in imagination... than in reality. The still man notices the story his mind is telling. He asks one question. Is this happening now... or only in my head? Then he returns to the room he is actually in.
+    title: Nobody is coming to make it easier
+    voiceover: Nobody is coming... to make it easier. And that is good news. It means the next move belongs to him. Not to luck. Not to timing. Not to anyone's approval. A still man stops waiting for the perfect week. He takes the first quiet step... today. Then another, tomorrow. That is how ordinary men... become steady ones.
     highlight:
-    - never
-    - imagination
-    - reality
+    - nobody
+    - move
     - still
-    - now
+    - today
+    - steady
     caption_words: 3
     caption_lower: true
     caption_style: serif_italic
     grade: mono
     allow_statues: true
     broll:
-    - 'img: seneca bust'
+    - 'img: lone man mountain summit'
     - 'img: marble statue face'
-    - 'img: statue thinking'
-    - 'img: roman bust marble'
-    - 'img: classical sculpture dark'
-    - 'img: statue profile shadow'
-    - 'img: marble head'
-    - 'img: ancient statue'
-    caption: 'We suffer more often in imagination than in reality. Seneca, Letters to Lucilius.
+    - 'img: road sunrise'
+    - 'img: stone stairs light'
+    - 'img: mountain fog sunrise'
+    - 'img: marble bust dark'
+    - 'img: lighthouse storm'
+    - 'img: path forest morning'
+    caption: 'Nobody is coming to make it easier. Good. The next move is his.
 
 
-      Notice the story. Return to the room.
+      #motivation #selfimprovement #discipline #quietconfidence #thestillman'
+    tiktok_title: Nobody is coming to make it easier
 
-
-      #stoicism #seneca #overthinking #quietconfidence #thestillman'
-    tiktok_title: We suffer more in imagination
-
-  - id: tue-stoic-late
+  - id: tue-late
     type: reel
     date: '2026-11-17'
     time: '23:30'
     platforms:
     - instagram
     - tiktok
-    title: It is never the thing itself
-    voiceover: It is never the thing itself... that shakes a man. Epictetus taught this as a former slave. People are disturbed not by things... but by their judgments about things. A late reply. A cold look. A plan that falls apart. The event is neutral. The story is his. And the story... can be rewritten.
+    title: Slow is control
+    voiceover: The world rewards speed. But the man people trust... is the one who doesn't rush. He finishes his sentence. He takes a breath before he answers. He walks into the room at his own pace. Slow is not weak. Slow is control. And control... is what everyone notices first.
     highlight:
-    - thing
-    - judgments
-    - neutral
-    - story
-    - rewritten
+    - trust
+    - rush
+    - breath
+    - slow
+    - control
     caption_words: 3
     caption_lower: true
     caption_style: serif_italic
     grade: mono
     allow_statues: true
     broll:
-    - 'img: epictetus statue'
-    - 'img: greek philosopher bust'
     - 'img: marble statue face'
-    - 'img: stone sculpture close up'
-    - 'img: ancient greek statue'
-    - 'img: sculpture shadow dark'
+    - 'img: chess board dark'
+    - 'img: hourglass'
+    - 'img: calm sea horizon'
     - 'img: marble bust profile'
-    - 'img: statue eyes'
-    caption: 'People are disturbed not by things, but by their judgments about things. Epictetus.
+    - 'img: candle dark room'
+    - 'img: stone statue shadow'
+    - 'img: still water reflection'
+    caption: 'Slow is not weak. Slow is control.
 
 
-      The event is neutral. The story is yours to rewrite.
+      #motivation #quietconfidence #bodylanguage #selfimprovement #thestillman'
+    tiktok_title: Slow is control
 
-
-      #stoicism #epictetus #mindset #calm #thestillman'
-    tiktok_title: It is never the thing itself
-
-  - id: wed-stoic-late
+  - id: wed-late
     type: reel
     date: '2026-11-18'
     time: '23:30'
     platforms:
     - instagram
     - tiktok
-    title: The best revenge
-    voiceover: The best revenge... is not revenge. Marcus Aurelius wrote it plainly. The best revenge is not to be like your enemy. When someone is rude, the still man does not match the energy. He stays who he is. That is the whole victory. Calm... is not weakness. It is refusal.
+    title: Discipline when no one claps
+    voiceover: No one claps at six in the morning. No one sees the page he writes... the set he finishes... the message he doesn't send. That is exactly the point. Quiet discipline builds a man that no applause can shake. He does the work in silence. And lets the results... do the talking.
     highlight:
-    - revenge
-    - enemy
-    - still
-    - victory
-    - refusal
+    - claps
+    - discipline
+    - applause
+    - silence
+    - results
     caption_words: 3
     caption_lower: true
     caption_style: serif_italic
     grade: mono
     allow_statues: true
     broll:
-    - 'img: marcus aurelius statue'
-    - 'img: roman emperor bust'
+    - 'img: early morning window light'
+    - 'img: dumbbell dark gym'
+    - 'img: notebook pen coffee'
     - 'img: marble statue face'
-    - 'img: roman sculpture'
-    - 'img: emperor statue marble'
-    - 'img: ancient rome statue'
-    - 'img: classical bust dark'
-    - 'img: marble sculpture head'
-    caption: 'The best revenge is not to be like your enemy. Marcus Aurelius, Meditations.
+    - 'img: sunrise city skyline'
+    - 'img: running track dawn'
+    - 'img: marble bust dark'
+    - 'img: mountain sunrise'
+    caption: 'No one claps at 6am. That is the point.
 
 
-      Calm is not weakness. It is refusal.
+      #discipline #motivation #morningroutine #quietconfidence #thestillman'
+    tiktok_title: Discipline when no one claps
 
-
-      #stoicism #marcusaurelius #selfcontrol #quietconfidence #thestillman'
-    tiktok_title: The best revenge
-
-  - id: thu-stoic-late
+  - id: thu-late
     type: reel
     date: '2026-11-19'
     time: '23:30'
     platforms:
     - instagram
     - tiktok
-    title: Master of himself
-    voiceover: Freedom is not doing whatever he wants. Epictetus put it simply. No man is free... who is not master of himself. The urge to check the phone. To snap back. To quit at the hard part. Each one is a small test. The still man passes it... once. Then once more.
+    title: The best comebacks are quiet
+    voiceover: The best comebacks... make no noise. No announcements. No long posts. Just a man who goes to bed earlier. Trains harder. Reads more. Speaks less. Six months later, people ask what changed. He smiles. Everything did... quietly.
     highlight:
-    - freedom
-    - free
-    - master
-    - test
-    - once
+    - comebacks
+    - noise
+    - trains
+    - changed
+    - quietly
     caption_words: 3
     caption_lower: true
     caption_style: serif_italic
     grade: mono
     allow_statues: true
     broll:
-    - 'img: greek philosopher statue'
     - 'img: marble statue face'
-    - 'img: stone bust'
-    - 'img: statue hand'
-    - 'img: classical sculpture'
-    - 'img: marble statue dark'
-    - 'img: ancient sculpture'
-    - 'img: greek bust'
-    caption: 'No man is free who is not master of himself. Epictetus.
+    - 'img: books stack dark'
+    - 'img: phoenix fire dark'
+    - 'img: night city window'
+    - 'img: boxing gloves'
+    - 'img: road mountains'
+    - 'img: marble bust'
+    - 'img: sunrise ocean'
+    caption: 'The best comebacks make no noise.
 
 
-      One small test at a time.
+      #comeback #motivation #glowup #selfimprovement #thestillman'
+    tiktok_title: The best comebacks are quiet
 
-
-      #stoicism #epictetus #discipline #selfmastery #thestillman'
-    tiktok_title: Master of himself
-
-  - id: fri-stoic-late
+  - id: fri-late
     type: reel
     date: '2026-11-20'
     time: '23:30'
     platforms:
     - instagram
     - tiktok
-    title: While we postpone
-    voiceover: Seneca opened his first letter with a warning. While we are postponing... life speeds by. The message is not to rush. It is to begin. One page. One call. One honest conversation. The still man does not wait to feel ready. He starts small... and starts today.
+    title: Bet on yourself, once
+    voiceover: Every man reaches a point where the safe choice... becomes the risky one. Staying the same starts to cost more than trying. He doesn't need to be fearless. He just moves... with the fear in the passenger seat. One application. One conversation. One step. He bets on himself once. Then again.
     highlight:
-    - warning
-    - postponing
-    - begin
-    - ready
-    - today
+    - safe
+    - risky
+    - fearless
+    - step
+    - himself
     caption_words: 3
     caption_lower: true
     caption_style: serif_italic
     grade: mono
     allow_statues: true
     broll:
-    - 'img: seneca statue'
-    - 'img: hourglass'
-    - 'img: old letter candle'
-    - 'img: marble bust'
-    - 'img: roman sculpture'
-    - 'img: statue face marble'
-    - 'img: ancient statue shadow'
-    - 'img: classical sculpture'
-    caption: 'While we are postponing, life speeds by. Seneca, Letters to Lucilius.
+    - 'img: road ahead car night'
+    - 'img: cliff edge sea'
+    - 'img: marble statue face'
+    - 'img: open door light'
+    - 'img: mountain path'
+    - 'img: dice dark'
+    - 'img: marble sculpture dark'
+    - 'img: sunrise horizon'
+    caption: 'At some point the safe choice becomes the risky one.
 
 
-      Start small. Start today.
+      #motivation #betonyourself #courage #selfimprovement #thestillman'
+    tiktok_title: Bet on yourself, once
 
-
-      #stoicism #seneca #procrastination #discipline #thestillman'
-    tiktok_title: While we postpone
-
-  - id: sat-stoic-late
+  - id: sat-late
     type: reel
     date: '2026-11-21'
     time: '23:30'
     platforms:
     - instagram
     - tiktok
-    title: Be one
-    voiceover: Marcus Aurelius had little patience for endless debate about virtue. He wrote. Waste no more time arguing about what a good man should be. Be one. Not in theory. In the next small choice. Keep the promise. Hold the door. Say the true thing... calmly. That is the whole philosophy.
+    title: Be the calm in a loud room
+    voiceover: When everyone gets loud... the calm man becomes the center. He doesn't compete for attention. He listens. He speaks last. His words land because they are rare. Calm is not the absence of fire. It is fire... under control. That is the man worth becoming.
     highlight:
-    - debate
-    - good
-    - be
-    - choice
-    - calmly
+    - loud
+    - calm
+    - listens
+    - fire
+    - control
     caption_words: 3
     caption_lower: true
     caption_style: serif_italic
     grade: mono
     allow_statues: true
     broll:
-    - 'img: marcus aurelius bust'
-    - 'img: roman emperor statue'
     - 'img: marble statue face'
-    - 'img: statue profile'
-    - 'img: ancient rome statue'
-    - 'img: classical bust'
-    - 'img: marble sculpture dark'
-    - 'img: roman bust'
-    caption: 'Waste no more time arguing about what a good man should be. Be one. Marcus Aurelius, Meditations 10.16.
+    - 'img: candle flame dark'
+    - 'img: fireplace'
+    - 'img: storm sea calm'
+    - 'img: marble bust profile'
+    - 'img: lion statue'
+    - 'img: embers dark'
+    - 'img: still lake'
+    caption: 'Calm is not the absence of fire. It is fire under control.
 
 
-      #stoicism #marcusaurelius #character #quietconfidence #thestillman'
-    tiktok_title: Be one
+      #quietconfidence #motivation #selfcontrol #mensmindset #thestillman'
+    tiktok_title: Be the calm in a loud room
 
-  - id: sun-stoic-late
+  - id: sun-late
     type: reel
     date: '2026-11-22'
     time: '23:30'
     platforms:
     - instagram
     - tiktok
-    title: First say what you would be
-    voiceover: Before the week begins... one instruction from Epictetus. First say to yourself what you would be. And then do what you have to do. Not a list of goals. A description of a man. Calm. Steady. Honest. Then every choice this week... is simply a vote for him.
+    title: One promise this week
+    voiceover: Sunday night. The week is a blank page. He doesn't write ten resolutions. He writes one promise... and keeps it. Small promises kept build something stronger than motivation. They build trust. With himself. And a man who trusts himself... walks differently.
     highlight:
-    - instruction
-    - be
-    - man
-    - steady
-    - vote
+    - promise
+    - keeps
+    - trust
+    - himself
+    - differently
     caption_words: 3
     caption_lower: true
     caption_style: serif_italic
     grade: mono
     allow_statues: true
     broll:
-    - 'img: greek philosopher bust'
+    - 'img: notebook pen candle'
+    - 'img: blank page desk'
     - 'img: marble statue face'
-    - 'img: stone statue sunrise'
-    - 'img: classical sculpture'
-    - 'img: marble bust dark'
-    - 'img: ancient greek sculpture'
-    - 'img: statue profile light'
-    - 'img: marble head sculpture'
-    caption: 'First say to yourself what you would be; and then do what you have to do. Epictetus, Discourses.
+    - 'img: sunday morning window'
+    - 'img: calendar desk'
+    - 'img: marble bust light'
+    - 'img: road sunrise'
+    - 'img: still water dawn'
+    caption: 'One promise this week. Kept.
 
 
-      Describe the man. Then vote for him.
-
-
-      #stoicism #epictetus #identity #selfimprovement #thestillman'
-    tiktok_title: First say what you would be
+      #motivation #discipline #sundayreset #quietconfidence #thestillman'
+    tiktok_title: One promise this week
