@@ -3,7 +3,7 @@
 Usage: python pipeline/build_week.py content/weeks/2026-11-16.yaml [--only carousel]
 Posts already built (listed in an existing manifest) are skipped, so re-runs are cheap.
 """
-import json, sys, tempfile
+import json, re, os, sys, tempfile
 from pathlib import Path
 import yaml
 from common import ROOT, VOICE_ID, TTS_MODEL, PAGES_BASE
@@ -45,9 +45,18 @@ def main(week_file, only=None):
             manifest["pexels_used"] = sorted(used)
             man_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False, default=str))
         except Exception as e:
-            print(f"[error] {pid}: {e}", flush=True)
-            errors.append(f"{pid}: {e}")
+            msg = re.sub(r"(key=)[^&\s'\"]+", r"\1***", f"{type(e).__name__}: {e}")
+            for k in ("PIXABAY_API_KEY", "PEXELS_API_KEY", "ELEVENLABS_API_KEY"):
+                if os.environ.get(k):
+                    msg = msg.replace(os.environ[k], "***")
+            print(f"[error] {pid}: {msg}", flush=True)
+            errors.append(f"{pid}: {msg[:600]}")
     print(f"[done] {len(manifest['posts'])} posts in {man_path}")
+    err_path = out / "build-errors.txt"
+    if errors:
+        err_path.write_text("\n".join(errors) + "\n")
+    elif err_path.exists():
+        err_path.unlink()
     if errors:
         print("[failed] " + " | ".join(errors))
         sys.exit(1)

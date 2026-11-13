@@ -7,14 +7,19 @@ PIXABAY_KEY = os.environ.get("PIXABAY_API_KEY", "")
 ELEVEN_KEY = os.environ.get("ELEVENLABS_API_KEY", "")
 
 
+
+def _check(r):
+    if r.status_code >= 400:
+        raise RuntimeError(f"HTTP {r.status_code} from {r.url.split('?')[0]}: {r.text[:300]}")
+
 def _get(url, **kw):
     for attempt in range(4):
         r = requests.get(url, timeout=60, **kw)
         if r.status_code == 429:
             time.sleep(5 * (attempt + 1)); continue
-        r.raise_for_status()
+        _check(r)
         return r
-    r.raise_for_status()
+    _check(r)
 
 
 def pexels_video(query, used_ids, dest):
@@ -91,7 +96,7 @@ def tts_with_words(text, voice_id, model, dest):
         json={"text": text, "model_id": model,
               "voice_settings": {"stability": 0.55, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": True}},
         timeout=180)
-    r.raise_for_status()
+    _check(r)
     data = r.json()
     with open(dest, "wb") as f:
         f.write(base64.b64decode(data["audio_base64"]))
