@@ -27,7 +27,7 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg libcairo2 fonts-dejavu-core
-          pip install -q requests pyyaml pillow cairosvg
+          pip install -q requests pyyaml pillow cairosvg "opencv-python-headless<5"
       - name: Build newest week
         env:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}

@@ -46,31 +46,73 @@ def pexels_video(query, used_ids, dest):
     return dest, {"pexels_id": v["id"], "author": v.get("user", {}).get("name"), "url": v.get("url")}
 
 
+BANNED_TAGS = {"woman", "women", "girl", "girls", "lady", "portrait", "face", "faces", "model", "selfie", "mask",
+               "animation", "animated", "cartoon", "illustration", "3d", "render", "cgi", "fantasy", "smoke bomb",
+               "halloween", "christmas", "child", "children", "kid", "baby", "fashion", "party"}
+
+
+_FACE_NET = None
+
+
+def has_face(path, samples=8, conf=0.7):
+    """True if a human face is visible in any sampled frame (brand rule: faceless). Uses OpenCV's SSD face model."""
+    global _FACE_NET
+    try:
+        import cv2
+    except ImportError:
+        return False
+    if _FACE_NET is None:
+        d = os.path.join(os.path.dirname(__file__), "models")
+        _FACE_NET = cv2.dnn.readNetFromCaffe(os.path.join(d, "face.prototxt"), os.path.join(d, "face.caffemodel"))
+    cap = cv2.VideoCapture(str(path))
+    n = int(cap.get(cv2.CAP_PROP_FRAME_COUNT) or 0)
+    found = False
+    for i in range(samples):
+        cap.set(cv2.CAP_PROP_POS_FRAMES, max(0, int(n * (i + 0.5) / samples)))
+        ok, frame = cap.read()
+        if not ok:
+            continue
+        h, w = frame.shape[:2]
+        side = min(h, w)  # square tiles along the long side so faces are not squashed
+        for off in range(0, max(h, w) - side + 1, max(1, (max(h, w) - side) // 2 or 1)):
+            tile = frame[off:off + side, :] if h > w else frame[:, off:off + side]
+            blob = cv2.dnn.blobFromImage(cv2.resize(tile, (300, 300)), 1.0, (300, 300), (104, 177, 123))
+            _FACE_NET.setInput(blob)
+            det = _FACE_NET.forward()
+            if (det[0, 0, :, 2] > conf).any():
+                found = True; break
+        if found: break
+    cap.release()
+    return found
+
+
 def pixabay_video(query, used_ids, dest):
-    """Download a Pixabay video for `query` (prefers 4K/vertical so a 9:16 crop stays sharp)."""
+    """Download a faceless, real-footage Pixabay video for `query` (prefers vertical/4K so a 9:16 crop stays sharp)."""
     if not PIXABAY_KEY:
         raise RuntimeError("PIXABAY_API_KEY missing")
-    hits = []
+    tried = 0
     for q in (query, " ".join(query.split()[:3]), " ".join(query.split()[:2])):
-        r = _get("https://pixabay.com/api/videos/", params={"key": PIXABAY_KEY, "q": q[:100], "per_page": 30, "safesearch": "true"})
-        hits = [h for h in r.json().get("hits", []) if f"pb{h['id']}" not in used_ids and h.get("duration", 0) >= 4]
-        if hits:
-            break
-    if not hits:
-        raise RuntimeError(f"No Pixabay video for: {query}")
-    def score(h):
-        v = h["videos"]; big = v.get("large") or {}
-        vertical = any(x.get("height", 0) > x.get("width", 0) for x in v.values() if isinstance(x, dict))
-        return (vertical, big.get("height", 0) >= 2160, h.get("likes", 0))
-    hits.sort(key=score, reverse=True)
-    h = hits[0]
-    v = h["videos"]
-    f = next(v[k] for k in ("large", "medium", "small") if v.get(k, {}).get("url"))
-    with _get(f["url"], stream=True) as resp, open(dest, "wb") as out:
-        for chunk in resp.iter_content(1 << 20):
-            out.write(chunk)
-    used_ids.add(f"pb{h['id']}")
-    return dest, {"pixabay_id": h["id"], "author": h.get("user"), "url": h.get("pageURL")}
+        r = _get("https://pixabay.com/api/videos/", params={"key": PIXABAY_KEY, "q": q[:100], "per_page": 40,
+                                                           "safesearch": "true", "video_type": "film"})
+        hits = [h for h in r.json().get("hits", []) if f"pb{h['id']}" not in used_ids and h.get("duration", 0) >= 4
+                and not ({t.strip() for t in h.get("tags", "").lower().split(",")} & BANNED_TAGS)]
+        def score(h):
+            v = h["videos"]; big = v.get("large") or {}
+            vertical = any(x.get("height", 0) > x.get("width", 0) for x in v.values() if isinstance(x, dict))
+            return (vertical, big.get("height", 0) >= 2160, h.get("likes", 0))
+        hits.sort(key=score, reverse=True)
+        for h in hits[:6]:
+            v = h["videos"]
+            f = next(v[k] for k in ("large", "medium", "small") if v.get(k, {}).get("url"))
+            with _get(f["url"], stream=True) as resp, open(dest, "wb") as out:
+                for chunk in resp.iter_content(1 << 20):
+                    out.write(chunk)
+            used_ids.add(f"pb{h['id']}")
+            tried += 1
+            if has_face(dest):
+                continue
+            return dest, {"pixabay_id": h["id"], "author": h.get("user"), "url": h.get("pageURL")}
+    raise RuntimeError(f"No faceless Pixabay video for: {query} ({tried} rejected)")
 
 
 def broll_video(query, used_ids, dest):
