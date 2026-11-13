@@ -1,5 +1,5 @@
 week: 2026-11-16
-# Times are Europe/Rome. Reels 19:30 every day, carousels 12:30 Mon/Wed/Fri.
+# Times are Europe/Rome. Reels 19:30 and 23:30 every day (23:30 = stoic series), carousels 12:30 Mon/Wed/Fri.
 posts:
   - id: mon-reel
     type: reel
@@ -299,3 +299,266 @@ posts:
       Save your Sunday.
 
       #thestillman #sundayroutine #discipline #quietconfidence
+
+  - id: mon-stoic-late
+    type: reel
+    date: '2026-11-16'
+    time: '23:30'
+    platforms:
+    - instagram
+    - tiktok
+    title: We suffer more in imagination
+    voiceover: Most of what a man fears... never happens. Seneca saw it two thousand years ago. We suffer more often in imagination... than in reality. The still man notices the story his mind is telling. He asks one question. Is this happening now... or only in my head? Then he returns to the room he is actually in.
+    highlight:
+    - never
+    - imagination
+    - reality
+    - still
+    - now
+    caption_words: 3
+    caption_lower: true
+    caption_style: serif_italic
+    grade: mono
+    allow_statues: true
+    broll:
+    - 'img: seneca bust'
+    - 'img: marble statue face'
+    - 'img: statue thinking'
+    - 'img: roman bust marble'
+    - 'img: classical sculpture dark'
+    - 'img: statue profile shadow'
+    - 'img: marble head'
+    - 'img: ancient statue'
+    caption: 'We suffer more often in imagination than in reality. Seneca, Letters to Lucilius.
+
+
+      Notice the story. Return to the room.
+
+
+      #stoicism #seneca #overthinking #quietconfidence #thestillman'
+    tiktok_title: We suffer more in imagination
+
+  - id: tue-stoic-late
+    type: reel
+    date: '2026-11-17'
+    time: '23:30'
+    platforms:
+    - instagram
+    - tiktok
+    title: It is never the thing itself
+    voiceover: It is never the thing itself... that shakes a man. Epictetus taught this as a former slave. People are disturbed not by things... but by their judgments about things. A late reply. A cold look. A plan that falls apart. The event is neutral. The story is his. And the story... can be rewritten.
+    highlight:
+    - thing
+    - judgments
+    - neutral
+    - story
+    - rewritten
+    caption_words: 3
+    caption_lower: true
+    caption_style: serif_italic
+    grade: mono
+    allow_statues: true
+    broll:
+    - 'img: epictetus statue'
+    - 'img: greek philosopher bust'
+    - 'img: marble statue face'
+    - 'img: stone sculpture close up'
+    - 'img: ancient greek statue'
+    - 'img: sculpture shadow dark'
+    - 'img: marble bust profile'
+    - 'img: statue eyes'
+    caption: 'People are disturbed not by things, but by their judgments about things. Epictetus.
+
+
+      The event is neutral. The story is yours to rewrite.
+
+
+      #stoicism #epictetus #mindset #calm #thestillman'
+    tiktok_title: It is never the thing itself
+
+  - id: wed-stoic-late
+    type: reel
+    date: '2026-11-18'
+    time: '23:30'
+    platforms:
+    - instagram
+    - tiktok
+    title: The best revenge
+    voiceover: The best revenge... is not revenge. Marcus Aurelius wrote it plainly. The best revenge is not to be like your enemy. When someone is rude, the still man does not match the energy. He stays who he is. That is the whole victory. Calm... is not weakness. It is refusal.
+    highlight:
+    - revenge
+    - enemy
+    - still
+    - victory
+    - refusal
+    caption_words: 3
+    caption_lower: true
+    caption_style: serif_italic
+    grade: mono
+    allow_statues: true
+    broll:
+    - 'img: marcus aurelius statue'
+    - 'img: roman emperor bust'
+    - 'img: marble statue face'
+    - 'img: roman sculpture'
+    - 'img: emperor statue marble'
+    - 'img: ancient rome statue'
+    - 'img: classical bust dark'
+    - 'img: marble sculpture head'
+    caption: 'The best revenge is not to be like your enemy. Marcus Aurelius, Meditations.
+
+
+      Calm is not weakness. It is refusal.
+
+
+      #stoicism #marcusaurelius #selfcontrol #quietconfidence #thestillman'
+    tiktok_title: The best revenge
+
+  - id: thu-stoic-late
+    type: reel
+    date: '2026-11-19'
+    time: '23:30'
+    platforms:
+    - instagram
+    - tiktok
+    title: Master of himself
+    voiceover: Freedom is not doing whatever he wants. Epictetus put it simply. No man is free... who is not master of himself. The urge to check the phone. To snap back. To quit at the hard part. Each one is a small test. The still man passes it... once. Then once more.
+    highlight:
+    - freedom
+    - free
+    - master
+    - test
+    - once
+    caption_words: 3
+    caption_lower: true
+    caption_style: serif_italic
+    grade: mono
+    allow_statues: true
+    broll:
+    - 'img: greek philosopher statue'
+    - 'img: marble statue face'
+    - 'img: stone bust'
+    - 'img: statue hand'
+    - 'img: classical sculpture'
+    - 'img: marble statue dark'
+    - 'img: ancient sculpture'
+    - 'img: greek bust'
+    caption: 'No man is free who is not master of himself. Epictetus.
+
+
+      One small test at a time.
+
+
+      #stoicism #epictetus #discipline #selfmastery #thestillman'
+    tiktok_title: Master of himself
+
+  - id: fri-stoic-late
+    type: reel
+    date: '2026-11-20'
+    time: '23:30'
+    platforms:
+    - instagram
+    - tiktok
+    title: While we postpone
+    voiceover: Seneca opened his first letter with a warning. While we are postponing... life speeds by. The message is not to rush. It is to begin. One page. One call. One honest conversation. The still man does not wait to feel ready. He starts small... and starts today.
+    highlight:
+    - warning
+    - postponing
+    - begin
+    - ready
+    - today
+    caption_words: 3
+    caption_lower: true
+    caption_style: serif_italic
+    grade: mono
+    allow_statues: true
+    broll:
+    - 'img: seneca statue'
+    - 'img: hourglass'
+    - 'img: old letter candle'
+    - 'img: marble bust'
+    - 'img: roman sculpture'
+    - 'img: statue face marble'
+    - 'img: ancient statue shadow'
+    - 'img: classical sculpture'
+    caption: 'While we are postponing, life speeds by. Seneca, Letters to Lucilius.
+
+
+      Start small. Start today.
+
+
+      #stoicism #seneca #procrastination #discipline #thestillman'
+    tiktok_title: While we postpone
+
+  - id: sat-stoic-late
+    type: reel
+    date: '2026-11-21'
+    time: '23:30'
+    platforms:
+    - instagram
+    - tiktok
+    title: Be one
+    voiceover: Marcus Aurelius had little patience for endless debate about virtue. He wrote. Waste no more time arguing about what a good man should be. Be one. Not in theory. In the next small choice. Keep the promise. Hold the door. Say the true thing... calmly. That is the whole philosophy.
+    highlight:
+    - debate
+    - good
+    - be
+    - choice
+    - calmly
+    caption_words: 3
+    caption_lower: true
+    caption_style: serif_italic
+    grade: mono
+    allow_statues: true
+    broll:
+    - 'img: marcus aurelius bust'
+    - 'img: roman emperor statue'
+    - 'img: marble statue face'
+    - 'img: statue profile'
+    - 'img: ancient rome statue'
+    - 'img: classical bust'
+    - 'img: marble sculpture dark'
+    - 'img: roman bust'
+    caption: 'Waste no more time arguing about what a good man should be. Be one. Marcus Aurelius, Meditations 10.16.
+
+
+      #stoicism #marcusaurelius #character #quietconfidence #thestillman'
+    tiktok_title: Be one
+
+  - id: sun-stoic-late
+    type: reel
+    date: '2026-11-22'
+    time: '23:30'
+    platforms:
+    - instagram
+    - tiktok
+    title: First say what you would be
+    voiceover: Before the week begins... one instruction from Epictetus. First say to yourself what you would be. And then do what you have to do. Not a list of goals. A description of a man. Calm. Steady. Honest. Then every choice this week... is simply a vote for him.
+    highlight:
+    - instruction
+    - be
+    - man
+    - steady
+    - vote
+    caption_words: 3
+    caption_lower: true
+    caption_style: serif_italic
+    grade: mono
+    allow_statues: true
+    broll:
+    - 'img: greek philosopher bust'
+    - 'img: marble statue face'
+    - 'img: stone statue sunrise'
+    - 'img: classical sculpture'
+    - 'img: marble bust dark'
+    - 'img: ancient greek sculpture'
+    - 'img: statue profile light'
+    - 'img: marble head sculpture'
+    caption: 'First say to yourself what you would be; and then do what you have to do. Epictetus, Discourses.
+
+
+      Describe the man. Then vote for him.
+
+
+      #stoicism #epictetus #identity #selfimprovement #thestillman'
+    tiktok_title: First say what you would be
