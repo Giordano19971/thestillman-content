@@ -140,21 +140,229 @@
           "url": "https://pixabay.com/videos/id-222039/"
         }
       ]
+    },
+    "mon-reel": {
+      "date": "2026-11-16",
+      "time": "19:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "The loudest voice rarely holds the room. Steady does.\n\nFollow for one small rep a day.\n\n#thestillman #quietconfidence #bodylanguage #selfimprovement",
+      "title": "The loudest man",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-reel.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-reel-cover.jpg",
+      "duration": 25.12,
+      "broll_credits": [
+        {
+          "pixabay_id": 310093,
+          "author": "Kanenori",
+          "url": "https://pixabay.com/videos/id-310093/"
+        },
+        {
+          "pixabay_id": 238826,
+          "author": "xBriantcx",
+          "url": "https://pixabay.com/videos/id-238826/"
+        },
+        {
+          "pixabay_id": 296958,
+          "author": "engrahmad2653",
+          "url": "https://pixabay.com/videos/id-296958/"
+        },
+        {
+          "pixabay_id": 160975,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-160975/"
+        },
+        {
+          "pixabay_id": 49131,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-49131/"
+        }
+      ]
+    },
+    "wed-reel": {
+      "date": "2026-11-18",
+      "time": "19:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Ten seconds. Before the meeting, the date, the call.\n\nSave it and try it today.\n\n#thestillman #quietconfidence #breathwork #calm",
+      "title": "10 seconds before any conversation",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-reel.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-reel-cover.jpg",
+      "duration": 25.19,
+      "broll_credits": [
+        {
+          "pixabay_id": 8451,
+          "author": "Felix-Mittermeier",
+          "url": "https://pixabay.com/videos/id-8451/"
+        },
+        {
+          "pixabay_id": 28975,
+          "author": "adege",
+          "url": "https://pixabay.com/videos/id-28975/"
+        },
+        {
+          "pixabay_id": 140571,
+          "author": "Académie-Iqraa",
+          "url": "https://pixabay.com/videos/id-140571/"
+        },
+        {
+          "pixabay_id": 14385,
+          "author": "kieutruongphoto",
+          "url": "https://pixabay.com/videos/id-14385/"
+        }
+      ]
+    },
+    "thu-reel": {
+      "date": "2026-11-19",
+      "time": "19:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Confidence isn't a mask. It's a habit.\n\nFollow for the real version.\n\n#thestillman #quietconfidence #mindset #selfimprovement",
+      "title": "Fake it till you make it",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-reel.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-reel-cover.jpg",
+      "duration": 30.08,
+      "broll_credits": [
+        {
+          "pixabay_id": 16224,
+          "author": "Gam-Ol",
+          "url": "https://pixabay.com/videos/id-16224/"
+        },
+        {
+          "pixabay_id": 212453,
+          "author": "JoshuaWoroniecki",
+          "url": "https://pixabay.com/videos/id-212453/"
+        },
+        {
+          "pixabay_id": 30470,
+          "author": "mike-media",
+          "url": "https://pixabay.com/videos/id-30470/"
+        },
+        {
+          "pixabay_id": 210786,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-210786/"
+        },
+        {
+          "pixabay_id": 66810,
+          "author": "JustYøu",
+          "url": "https://pixabay.com/videos/id-66810/"
+        }
+      ]
+    },
+    "fri-reel": {
+      "date": "2026-11-20",
+      "time": "19:30",
+      "type": "reel",
+      "platforms": [
+        "tiktok"
+      ],
+      "caption": "Which one is hardest to drop?\n\nShare with a friend who needs it.\n\n#thestillman #quietconfidence #selfrespect",
+      "title": "3 things a calm man never does",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-reel.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-reel-cover.jpg",
+      "duration": 25.17,
+      "broll_credits": [
+        {
+          "pixabay_id": 218954,
+          "author": "xBriantcx",
+          "url": "https://pixabay.com/videos/id-218954/"
+        },
+        {
+          "pixabay_id": 149927,
+          "author": "Danishsiddiqui",
+          "url": "https://pixabay.com/videos/id-149927/"
+        },
+        {
+          "pixabay_id": 143679,
+          "author": "Leolo212",
+          "url": "https://pixabay.com/videos/id-143679/"
+        },
+        {
+          "pixabay_id": 86092,
+          "author": "ChristianBodhi",
+          "url": "https://pixabay.com/videos/id-86092/"
+        }
+      ]
+    },
+    "sat-reel": {
+      "date": "2026-11-21",
+      "time": "19:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Overthinking needs an exit, not a fight. Two lines, then close the notebook.\n\nFollow for more.\n\n#thestillman #overthinking #dating #quietconfidence",
+      "title": "Replaying the date",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-reel.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-reel-cover.jpg",
+      "duration": 30.57,
+      "broll_credits": [
+        {
+          "pixabay_id": 266428,
+          "author": "Kanenori",
+          "url": "https://pixabay.com/videos/id-266428/"
+        },
+        {
+          "pixabay_id": 204326,
+          "author": "voic",
+          "url": "https://pixabay.com/videos/id-204326/"
+        },
+        {
+          "pixabay_id": 180776,
+          "author": "Darioguzben",
+          "url": "https://pixabay.com/videos/id-180776/"
+        },
+        {
+          "pixabay_id": 137263,
+          "author": "blackmarketmusic",
+          "url": "https://pixabay.com/videos/id-137263/"
+        },
+        {
+          "pixabay_id": 290936,
+          "author": "haithamsardi",
+          "url": "https://pixabay.com/videos/id-290936/"
+        }
+      ]
     }
   },
   "pexels_used": [
+    "pb137250",
+    "pb137263",
+    "pb137265",
+    "pb140571",
+    "pb143679",
+    "pb14385",
     "pb149452",
+    "pb149927",
+    "pb160975",
+    "pb16224",
     "pb177081",
+    "pb180776",
     "pb184510",
     "pb185728",
     "pb19609",
     "pb19627",
     "pb202753",
     "pb203363",
+    "pb204326",
     "pb205006",
     "pb206272",
+    "pb210786",
     "pb21175",
+    "pb212453",
     "pb215407",
+    "pb218954",
     "pb222039",
     "pb224041",
     "pb227567",
@@ -162,19 +370,31 @@
     "pb233390",
     "pb236256",
     "pb238823",
+    "pb238826",
     "pb250395",
     "pb253998",
     "pb258799",
+    "pb266428",
     "pb27539",
     "pb286272",
     "pb28860",
+    "pb28975",
+    "pb290936",
+    "pb296958",
+    "pb30470",
+    "pb310093",
     "pb326725",
     "pb332900",
     "pb363873",
     "pb368623",
+    "pb39837",
     "pb43459",
+    "pb49131",
+    "pb66810",
     "pb73847",
     "pb78874",
+    "pb8451",
+    "pb86092",
     "pb86548"
   ]
 }
