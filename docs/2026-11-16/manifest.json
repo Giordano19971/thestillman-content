@@ -336,6 +336,69 @@
           "url": "https://pixabay.com/videos/id-290936/"
         }
       ]
+    },
+    "mon-stoic-reel": {
+      "date": "2026-11-16",
+      "time": "19:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "What stands in the way becomes the way.\n\nMarcus Aurelius wrote it 1,800 years ago. It still works.\n\n#stoicism #marcusaurelius #stoic #quietconfidence #thestillman",
+      "title": "What stands in the way becomes the way",
+      "tiktok_title": "What stands in the way becomes the way",
+      "tiktok_caption": "What stands in the way becomes the way. Marcus Aurelius, Meditations.\n\n#stoicism #marcusaurelius #stoic #philosophy #mindset #thestillman",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-stoic-reel.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-stoic-reel-cover.jpg",
+      "duration": 30.23,
+      "broll_credits": [
+        {
+          "pixabay_image_id": 7254622,
+          "author": "mrganso",
+          "url": "https://pixabay.com/photos/castle-marienburg-interior-hanover-7254622/"
+        },
+        {
+          "pixabay_image_id": 1911095,
+          "author": "little_arrows",
+          "url": "https://pixabay.com/photos/david-michelangelo-florence-1911095/"
+        },
+        {
+          "pixabay_image_id": 2410825,
+          "author": "Momentmal",
+          "url": "https://pixabay.com/photos/statue-church-tourism-sculpture-2410825/"
+        },
+        {
+          "pixabay_image_id": 8336780,
+          "author": "ChiemSeherin",
+          "url": "https://pixabay.com/photos/sculpture-stone-figure-artwork-art-8336780/"
+        },
+        {
+          "pixabay_image_id": 316704,
+          "author": "PublicDomainPictures",
+          "url": "https://pixabay.com/photos/female-roman-statue-316704/"
+        },
+        {
+          "pixabay_image_id": 3553727,
+          "author": "britaseifert",
+          "url": "https://pixabay.com/photos/beethoven-art-figure-artwork-3553727/"
+        },
+        {
+          "pixabay_image_id": 1024347,
+          "author": "SuzyT",
+          "url": "https://pixabay.com/photos/buddha-statue-temple-religion-1024347/"
+        },
+        {
+          "pixabay_image_id": 9596799,
+          "author": "wal_172619",
+          "url": "https://pixabay.com/photos/architecture-church-facade-9596799/"
+        },
+        {
+          "pixabay_image_id": 1284596,
+          "author": "Pexels",
+          "url": "https://pixabay.com/photos/angel-statue-sculpture-figure-1284596/"
+        }
+      ]
     }
   },
   "pexels_used": [
@@ -408,15 +471,24 @@
     "pb8451",
     "pb86092",
     "pb86548",
+    "pi1024347",
+    "pi1284596",
     "pi1507392",
     "pi1599527",
     "pi1807521",
+    "pi1911095",
     "pi2111061",
     "pi2401263",
+    "pi2410825",
     "pi2692556",
+    "pi316704",
     "pi316705",
+    "pi3553727",
     "pi4509879",
     "pi62844",
-    "pi9505446"
+    "pi7254622",
+    "pi8336780",
+    "pi9505446",
+    "pi9596799"
   ]
 }
