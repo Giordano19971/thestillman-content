@@ -1,33 +1,264 @@
 {
   "week": "2026-11-09",
-  "posts": {},
+  "posts": {
+    "sat-reel": {
+      "date": "2026-11-14",
+      "time": "19:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "A short answer, said gently, carries more weight than a speech.\n\n#quietconfidence #boundaries #selfrespect #selfimprovement #thestillman",
+      "title": "He stopped explaining himself",
+      "tiktok_title": "He stopped explaining himself",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-09/sat-reel.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-09/sat-reel-cover.jpg",
+      "duration": 25.15,
+      "broll_credits": [
+        {
+          "pixabay_id": 177081,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-177081/"
+        },
+        {
+          "pixabay_id": 34091,
+          "author": "jLasWilson",
+          "url": "https://pixabay.com/videos/id-34091/"
+        },
+        {
+          "pixabay_id": 28860,
+          "author": "FreeCreativeStuff",
+          "url": "https://pixabay.com/videos/id-28860/"
+        },
+        {
+          "pixabay_id": 14385,
+          "author": "kieutruongphoto",
+          "url": "https://pixabay.com/videos/id-14385/"
+        },
+        {
+          "pixabay_id": 21175,
+          "author": "ChristianBodhi",
+          "url": "https://pixabay.com/videos/id-21175/"
+        }
+      ],
+      "music": "lofi-rhodes.mp3"
+    },
+    "sat-late": {
+      "date": "2026-11-14",
+      "time": "23:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Some seasons are loud. Others are for building.\n\n#motivation #discipline #selfimprovement #quietconfidence #thestillman",
+      "title": "Saturday night, quiet work",
+      "tiktok_title": "Saturday night, quiet work",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-09/sat-late.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-09/sat-late-cover.jpg",
+      "duration": 25.23,
+      "broll_credits": [
+        {
+          "pixabay_image_id": 6140620,
+          "author": "ValeriaResto",
+          "url": "https://pixabay.com/photos/bust-sculpture-eye-patch-skincare-6140620/"
+        },
+        {
+          "pixabay_image_id": 5337079,
+          "author": "Ann_Milovidova",
+          "url": "https://pixabay.com/photos/incantation-conjuration-spell-5337079/"
+        },
+        {
+          "pixabay_image_id": 1845497,
+          "author": "Pexels",
+          "url": "https://pixabay.com/photos/car-lights-window-raindrops-glass-1845497/"
+        },
+        {
+          "pixabay_image_id": 62844,
+          "author": "WikiImages",
+          "url": "https://pixabay.com/photos/ludwig-van-beethoven-bust-composer-62844/"
+        },
+        {
+          "pixabay_image_id": 2587598,
+          "author": "karishea",
+          "url": "https://pixabay.com/photos/table-chair-desk-lamp-room-carpet-2587598/"
+        },
+        {
+          "pixabay_image_id": 8182800,
+          "author": "Kanenori",
+          "url": "https://pixabay.com/photos/fireworks-fireworks-display-lake-8182800/"
+        },
+        {
+          "pixabay_image_id": 316705,
+          "author": "PublicDomainPictures",
+          "url": "https://pixabay.com/photos/female-roman-statue-316705/"
+        },
+        {
+          "pixabay_image_id": 449475,
+          "author": "DeltaWorks",
+          "url": "https://pixabay.com/photos/mackerel-sky-moonlit-night-clouds-449475/"
+        }
+      ],
+      "music": "resolute-strings.mp3"
+    },
+    "sun-reel": {
+      "date": "2026-11-15",
+      "time": "19:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Small order on Sunday becomes calm on Monday.\n\n#sundayreset #routine #productivity #quietconfidence #thestillman",
+      "title": "The Sunday reset",
+      "tiktok_title": "The 20-minute Sunday reset",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-09/sun-reel.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-09/sun-reel-cover.jpg",
+      "duration": 25.13,
+      "broll_credits": [
+        {
+          "pixabay_id": 209424,
+          "author": "NGUYENTHONG7997",
+          "url": "https://pixabay.com/videos/id-209424/"
+        },
+        {
+          "pixabay_id": 286644,
+          "author": "Matias_Luge",
+          "url": "https://pixabay.com/videos/id-286644/"
+        },
+        {
+          "pixabay_id": 126924,
+          "author": "Mabelle-Elise",
+          "url": "https://pixabay.com/videos/id-126924/"
+        },
+        {
+          "pixabay_id": 48898,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-48898/"
+        },
+        {
+          "pixabay_id": 238823,
+          "author": "xBriantcx",
+          "url": "https://pixabay.com/videos/id-238823/"
+        }
+      ],
+      "music": "lofi-rhodes.mp3"
+    },
+    "sun-late": {
+      "date": "2026-11-15",
+      "time": "23:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Readiness comes after the first step. Never before.\n\n#motivation #mondaymotivation #discipline #selfimprovement #thestillman",
+      "title": "Tomorrow he starts again",
+      "tiktok_title": "Readiness comes after the first step",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-09/sun-late.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-09/sun-late-cover.jpg",
+      "duration": 25.15,
+      "broll_credits": [
+        {
+          "pixabay_image_id": 6706182,
+          "author": "chriszwettler",
+          "url": "https://pixabay.com/photos/alps-mountains-fog-clouds-nature-6706182/"
+        },
+        {
+          "pixabay_image_id": 1792400,
+          "author": "djedj",
+          "url": "https://pixabay.com/photos/italy-pisa-italian-tourism-statue-1792400/"
+        },
+        {
+          "pixabay_image_id": 3755884,
+          "author": "pixel2013",
+          "url": "https://pixabay.com/photos/cobblestones-ground-texture-3755884/"
+        },
+        {
+          "pixabay_image_id": 4270853,
+          "author": "vrolanas",
+          "url": "https://pixabay.com/photos/arch-castle-architecture-building-4270853/"
+        },
+        {
+          "pixabay_image_id": 3553727,
+          "author": "britaseifert",
+          "url": "https://pixabay.com/photos/beethoven-art-figure-artwork-3553727/"
+        },
+        {
+          "pixabay_image_id": 1825569,
+          "author": "OltreCreativeAgency",
+          "url": "https://pixabay.com/photos/big-ben-monument-clock-center-city-1825569/"
+        },
+        {
+          "pixabay_image_id": 2707528,
+          "author": "12019",
+          "url": "https://pixabay.com/photos/lighthouse-sunset-coast-tower-2707528/"
+        },
+        {
+          "pixabay_image_id": 166738,
+          "author": "44833",
+          "url": "https://pixabay.com/photos/boat-coast-palm-tree-palm-ocean-166738/"
+        }
+      ],
+      "music": "cinematic-piano-cello.mp3"
+    }
+  },
   "pexels_used": [
+    "pb126924",
+    "pb135024",
+    "pb14385",
+    "pb177081",
     "pb19609",
     "pb202753",
+    "pb209424",
+    "pb21175",
     "pb217105",
     "pb227567",
     "pb236256",
+    "pb238823",
     "pb258799",
+    "pb286644",
+    "pb28860",
     "pb28975",
     "pb326081",
     "pb328050",
+    "pb34091",
     "pb368623",
     "pb46989",
+    "pb48898",
     "pb73847",
+    "pi166738",
     "pi168132",
+    "pi1792400",
+    "pi1825569",
     "pi1835823",
+    "pi1845497",
     "pi1911095",
+    "pi2587598",
     "pi2681039",
     "pi2692556",
+    "pi2707528",
+    "pi316705",
     "pi3254149",
+    "pi3553727",
+    "pi3755884",
     "pi4252410",
+    "pi4270853",
     "pi4491416",
+    "pi449475",
     "pi4509879",
     "pi4667644",
+    "pi5337079",
     "pi5455265",
+    "pi565645",
+    "pi6140620",
+    "pi62844",
     "pi6469580",
+    "pi6706182",
     "pi7254622",
     "pi7679665",
+    "pi8182800",
     "pi8424565",
     "pi913046"
   ]
