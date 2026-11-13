@@ -336,6 +336,74 @@
           "url": "https://pixabay.com/videos/id-290936/"
         }
       ]
+    },
+    "mon-stoic-reel": {
+      "date": "2026-11-16",
+      "time": "19:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "What stands in the way becomes the way.\n\nMarcus Aurelius wrote it 1,800 years ago. It still works.\n\n#stoicism #marcusaurelius #stoic #quietconfidence #thestillman",
+      "title": "What stands in the way becomes the way",
+      "tiktok_title": "What stands in the way becomes the way",
+      "tiktok_caption": "What stands in the way becomes the way. Marcus Aurelius, Meditations.\n\n#stoicism #marcusaurelius #stoic #philosophy #mindset #thestillman",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-stoic-reel.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-stoic-reel-cover.jpg",
+      "duration": 34.96,
+      "broll_credits": [
+        {
+          "pixabay_image_id": 2401263,
+          "author": "pixel2013",
+          "url": "https://pixabay.com/photos/angel-statue-figure-stone-2401263/"
+        },
+        {
+          "pixabay_image_id": 2111061,
+          "author": "kasabubu",
+          "url": "https://pixabay.com/photos/florence-piazza-della-signoria-2111061/"
+        },
+        {
+          "pixabay_image_id": 9505446,
+          "author": "MARTINOPHUC",
+          "url": "https://pixabay.com/photos/italy-rome-colosseum-sunset-9505446/"
+        },
+        {
+          "pixabay_image_id": 1507392,
+          "author": "MonikaP",
+          "url": "https://pixabay.com/photos/king-artus-metal-sculpture-bronze-1507392/"
+        },
+        {
+          "pixabay_image_id": 2692556,
+          "author": "pixel2013",
+          "url": "https://pixabay.com/photos/tea-light-light-worships-2692556/"
+        },
+        {
+          "pixabay_image_id": 316705,
+          "author": "PublicDomainPictures",
+          "url": "https://pixabay.com/photos/female-roman-statue-316705/"
+        },
+        {
+          "pixabay_image_id": 1599527,
+          "author": "intographics",
+          "url": "https://pixabay.com/photos/mystery-island-dinosaur-skull-1599527/"
+        },
+        {
+          "pixabay_image_id": 1807521,
+          "author": "sasint",
+          "url": "https://pixabay.com/photos/hot-air-balloons-bagan-sunset-1807521/"
+        },
+        {
+          "pixabay_image_id": 62844,
+          "author": "WikiImages",
+          "url": "https://pixabay.com/photos/ludwig-van-beethoven-bust-composer-62844/"
+        },
+        {
+          "pixabay_image_id": 4509879,
+          "author": "negamuntaha",
+          "url": "https://pixabay.com/photos/sunset-yogyakarta-sunrise-potrait-4509879/"
+        }
+      ]
     }
   },
   "pexels_used": [
@@ -407,6 +475,16 @@
     "pb78918",
     "pb8451",
     "pb86092",
-    "pb86548"
+    "pb86548",
+    "pi1507392",
+    "pi1599527",
+    "pi1807521",
+    "pi2111061",
+    "pi2401263",
+    "pi2692556",
+    "pi316705",
+    "pi4509879",
+    "pi62844",
+    "pi9505446"
   ]
 }
