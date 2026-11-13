@@ -33,11 +33,11 @@ def main(week_file, only=None):
             else:
                 with tempfile.TemporaryDirectory() as tmp:
                     tmp = Path(tmp)
-                    words = sources.tts_with_words(post["voiceover"], post.get("voice_id", VOICE_ID), TTS_MODEL, tmp / "vo.mp3")
-                    brolls, credits = [], []
+                    brolls, credits = [], []  # b-roll first: a failure here costs no TTS credits
                     for i, q in enumerate(post["broll"]):
                         pth, cr = sources.broll_video(q, used, tmp / f"b{i}.mp4")
                         brolls.append(pth); credits.append(cr)
+                    words = sources.tts_with_words(post["voiceover"], post.get("voice_id", VOICE_ID), TTS_MODEL, tmp / "vo.mp3")
                     mp4, jpg = out / f"{pid}.mp4", out / f"{pid}-cover.jpg"
                     dur = reel.render(post, words, tmp / "vo.mp3", brolls, tmp / "work", mp4, jpg)
                 entry.update(video=url(mp4), cover=url(jpg), duration=dur, broll_credits=credits)
@@ -54,7 +54,9 @@ def main(week_file, only=None):
     print(f"[done] {len(manifest['posts'])} posts in {man_path}")
     err_path = out / "build-errors.txt"
     if errors:
-        err_path.write_text("\n".join(errors) + "\n")
+        k = sources.PIXABAY_KEY
+        hint = f"pixabay key: len={len(k)} format_ok={bool(re.fullmatch(r'\\d+-[0-9a-f]{25,40}', k))}"
+        err_path.write_text("\n".join(errors) + "\n" + hint + "\n")
     elif err_path.exists():
         err_path.unlink()
     if errors:

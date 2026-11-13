@@ -2,9 +2,9 @@
 import base64, os, random, time
 import requests
 
-PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
-PIXABAY_KEY = os.environ.get("PIXABAY_API_KEY", "")
-ELEVEN_KEY = os.environ.get("ELEVENLABS_API_KEY", "")
+PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "").strip().strip('"')
+PIXABAY_KEY = os.environ.get("PIXABAY_API_KEY", "").strip().strip('"')
+ELEVEN_KEY = os.environ.get("ELEVENLABS_API_KEY", "").strip().strip('"')
 
 
 
