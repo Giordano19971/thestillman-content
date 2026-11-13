@@ -31,7 +31,7 @@ posts:
     type: carousel
     date: 2026-11-16
     time: "12:30"
-    platforms: [instagram, tiktok]
+    platforms: [tiktok]  # already on Instagram (test post 13 Nov)
     title: 5 things calm men do when they walk into a room
     slides:
       - {kind: cover, title: "5 things calm men do when they walk into a room", subtitle: "Most people do the opposite."}
@@ -157,7 +157,7 @@ posts:
     type: reel
     date: 2026-11-20
     time: "19:30"
-    platforms: [instagram, tiktok]
+    platforms: [tiktok]  # already on Instagram (test post 13 Nov)
     title: 3 things a calm man never does
     voiceover: >-
       Three things a calm man never does.
