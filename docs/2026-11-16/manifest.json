@@ -741,6 +741,63 @@
           "url": "https://pixabay.com/photos/meditation-buddha-yin-and-yang-338446/"
         }
       ]
+    },
+    "mon-late": {
+      "date": "2026-11-16",
+      "time": "23:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Nobody is coming to make it easier. Good. The next move is his.\n\n#motivation #selfimprovement #discipline #quietconfidence #thestillman",
+      "title": "Nobody is coming to make it easier",
+      "tiktok_title": "Nobody is coming to make it easier",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-late.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-late-cover.jpg",
+      "duration": 27.47,
+      "broll_credits": [
+        {
+          "pixabay_image_id": 5173654,
+          "author": "sebadelval",
+          "url": "https://pixabay.com/photos/mountain-andes-patagonia-argentina-5173654/"
+        },
+        {
+          "pixabay_image_id": 4255694,
+          "author": "canforaalessio",
+          "url": "https://pixabay.com/photos/statue-sculpture-figure-face-4255694/"
+        },
+        {
+          "pixabay_image_id": 1846023,
+          "author": "Pexels",
+          "url": "https://pixabay.com/photos/architecture-avenue-buildings-city-1846023/"
+        },
+        {
+          "pixabay_image_id": 4270853,
+          "author": "vrolanas",
+          "url": "https://pixabay.com/photos/arch-castle-architecture-building-4270853/"
+        },
+        {
+          "pixabay_image_id": 6118182,
+          "author": "RyanK14",
+          "url": "https://pixabay.com/photos/mountains-snow-trail-couple-sunset-6118182/"
+        },
+        {
+          "pixabay_image_id": 3683986,
+          "author": "DenisDoukhan",
+          "url": "https://pixabay.com/photos/castle-of-compi%C3%A8gne-france-statue-3683986/"
+        },
+        {
+          "pixabay_image_id": 2707528,
+          "author": "12019",
+          "url": "https://pixabay.com/photos/lighthouse-sunset-coast-tower-2707528/"
+        },
+        {
+          "pixabay_image_id": 270160,
+          "author": "cocoparisienne",
+          "url": "https://pixabay.com/photos/winter-snow-forest-winter-magic-270160/"
+        }
+      ]
     }
   },
   "pexels_used": [
@@ -829,6 +886,7 @@
     "pi1792400",
     "pi1807521",
     "pi1835823",
+    "pi1846023",
     "pi1850095",
     "pi1850646",
     "pi1868632",
@@ -851,6 +909,8 @@
     "pi2587598",
     "pi2681039",
     "pi2692556",
+    "pi270160",
+    "pi2707528",
     "pi2734006",
     "pi2738532",
     "pi2765380",
@@ -877,6 +937,7 @@
     "pi3652228",
     "pi3659537",
     "pi3661611",
+    "pi3683986",
     "pi3713473",
     "pi3746423",
     "pi3755884",
@@ -886,6 +947,8 @@
     "pi398845",
     "pi4142859",
     "pi4252410",
+    "pi4255694",
+    "pi4270853",
     "pi4286600",
     "pi4353699",
     "pi4363254",
@@ -901,12 +964,14 @@
     "pi4775002",
     "pi4840084",
     "pi4945658",
+    "pi5173654",
     "pi5288635",
     "pi5455265",
     "pi5519945",
     "pi563800",
     "pi56930",
     "pi5773397",
+    "pi6118182",
     "pi6140620",
     "pi626422",
     "pi62844",
@@ -929,6 +994,7 @@
     "pi7855153",
     "pi7992123",
     "pi7992124",
+    "pi7992125",
     "pi8003723",
     "pi8026624",
     "pi8026627",
