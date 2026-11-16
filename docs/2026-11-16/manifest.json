@@ -3,7 +3,7 @@
   "posts": {
     "mon-carousel": {
       "date": "2026-11-16",
-      "time": "12:30",
+      "time": "13:00",
       "type": "carousel",
       "platforms": [
         "tiktok"
@@ -346,7 +346,7 @@
     },
     "mon-stoic-reel": {
       "date": "2026-11-16",
-      "time": "19:30",
+      "time": "12:00",
       "type": "reel",
       "platforms": [
         "instagram",
@@ -758,7 +758,7 @@
     },
     "mon-late": {
       "date": "2026-11-16",
-      "time": "23:30",
+      "time": "20:00",
       "type": "reel",
       "platforms": [
         "instagram",
