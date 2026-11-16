@@ -75,7 +75,7 @@ posts:
     type: carousel
     date: 2026-11-16
     time: "13:00"
-    platforms: [tiktok]  # already on Instagram (test post 13 Nov)
+    platforms: [instagram, tiktok]
     title: 5 things calm men do when they walk into a room
     slides:
       - {kind: cover, title: "5 things calm men do when they walk into a room", subtitle: "Most people do the opposite."}
