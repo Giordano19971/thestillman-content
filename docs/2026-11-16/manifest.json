@@ -814,54 +814,527 @@
         }
       ],
       "music": "cinematic-piano-cello.mp3"
+    },
+    "tue-carousel-am": {
+      "date": "2026-11-17",
+      "time": "10:30",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Three small words. One big difference.\n\nSave it and catch one today.\n\n#communication #selfrespect #thestillman #quietconfidence",
+      "title": "3 words calm men stop using",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-am-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-am-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-am-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-am-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-am-5.jpg"
+      ]
+    },
+    "tue-carousel-pm": {
+      "date": "2026-11-17",
+      "time": "16:30",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Joining a group is a skill, not a personality.\n\n#socialskills #conversation #thestillman #quietconfidence",
+      "title": "How to join a group conversation",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-pm-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-pm-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-pm-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-pm-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-pm-5.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-carousel-pm-6.jpg"
+      ]
+    },
+    "wed-carousel-pm": {
+      "date": "2026-11-18",
+      "time": "16:30",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Confidence that doesn't need volume.\n\nWhich one do you already have?\n\n#habits #selfimprovement #thestillman #quietconfidence",
+      "title": "5 habits of quietly confident men",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-carousel-pm-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-carousel-pm-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-carousel-pm-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-carousel-pm-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-carousel-pm-5.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-carousel-pm-6.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-carousel-pm-7.jpg"
+      ]
+    },
+    "thu-carousel-am": {
+      "date": "2026-11-19",
+      "time": "10:30",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Calm is built before 8am.\n\n#morningroutine #discipline #thestillman #quietconfidence",
+      "title": "The 10-minute morning reset",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-am-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-am-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-am-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-am-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-am-5.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-am-6.jpg"
+      ]
+    },
+    "thu-carousel-pm": {
+      "date": "2026-11-19",
+      "time": "16:30",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Hands give away nerves first.\n\n#bodylanguage #publicspeaking #thestillman #quietconfidence",
+      "title": "What to do with your hands when talking",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-pm-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-pm-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-pm-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-pm-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-pm-5.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-carousel-pm-6.jpg"
+      ]
+    },
+    "fri-carousel-pm": {
+      "date": "2026-11-20",
+      "time": "16:30",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Calm beats impressive.\n\nSave it for the next first date.\n\n#dating #datingtips #thestillman #quietconfidence",
+      "title": "First date: 4 quiet rules",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-carousel-pm-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-carousel-pm-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-carousel-pm-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-carousel-pm-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-carousel-pm-5.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-carousel-pm-6.jpg"
+      ]
+    },
+    "sat-carousel-am": {
+      "date": "2026-11-21",
+      "time": "10:30",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "The reply is not your job.\n\n#overthinking #texting #thestillman #quietconfidence",
+      "title": "Overthinking a text? Do this",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-am-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-am-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-am-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-am-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-am-5.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-am-6.jpg"
+      ]
+    },
+    "sat-carousel-pm": {
+      "date": "2026-11-21",
+      "time": "16:30",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Rejection is information, not a verdict.\n\n#rejection #resilience #thestillman #quietconfidence",
+      "title": "How calm men handle rejection",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-pm-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-pm-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-pm-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-pm-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-pm-5.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-carousel-pm-6.jpg"
+      ]
+    },
+    "sun-carousel-am": {
+      "date": "2026-11-22",
+      "time": "10:30",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Ten minutes on Sunday saves the week.\n\n#sundayreset #reflection #thestillman #quietconfidence",
+      "title": "4 questions for Sunday night",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-am-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-am-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-am-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-am-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-am-5.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-am-6.jpg"
+      ]
+    },
+    "sun-carousel-pm": {
+      "date": "2026-11-22",
+      "time": "16:30",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "No one sees them. Everyone feels them.\n\n#selfrespect #discipline #thestillman #quietconfidence",
+      "title": "Small signs of self-respect",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-pm-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-pm-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-pm-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-pm-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-pm-5.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-pm-6.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-carousel-pm-7.jpg"
+      ]
+    },
+    "tue-mid": {
+      "date": "2026-11-17",
+      "time": "13:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Same politeness. None of the shrinking.\n\n#selfrespect #communication #confidencetips #thestillman #quietconfidence",
+      "title": "He stopped saying sorry for everything",
+      "tiktok_title": "He stopped saying sorry for everything",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-mid.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/tue-mid-cover.jpg",
+      "duration": 25.23,
+      "broll_credits": [
+        {
+          "pixabay_id": 202743,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-202743/"
+        },
+        {
+          "pixabay_id": 217105,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-217105/"
+        },
+        {
+          "pixabay_id": 46989,
+          "author": "NickyPe",
+          "url": "https://pixabay.com/videos/id-46989/"
+        },
+        {
+          "pixabay_id": 230248,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-230248/"
+        },
+        {
+          "pixabay_id": 250458,
+          "author": "AbstractBackground",
+          "url": "https://pixabay.com/videos/id-250458/"
+        }
+      ],
+      "music": "felt-piano-ambient.mp3"
+    },
+    "wed-mid": {
+      "date": "2026-11-18",
+      "time": "13:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Two seconds. That's the whole trick.\n\n#communication #bodylanguage #confidencetips #thestillman #quietconfidence",
+      "title": "The two-second pause",
+      "tiktok_title": "The two-second pause",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-mid.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/wed-mid-cover.jpg",
+      "duration": 25.15,
+      "broll_credits": [
+        {
+          "pixabay_id": 34855,
+          "author": "Danil_Shostak",
+          "url": "https://pixabay.com/videos/id-34855/"
+        },
+        {
+          "pixabay_id": 159306,
+          "author": "Drjhony",
+          "url": "https://pixabay.com/videos/id-159306/"
+        },
+        {
+          "pixabay_id": 189813,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-189813/"
+        },
+        {
+          "pixabay_id": 34091,
+          "author": "jLasWilson",
+          "url": "https://pixabay.com/videos/id-34091/"
+        },
+        {
+          "pixabay_id": 13441,
+          "author": "adege",
+          "url": "https://pixabay.com/videos/id-13441/"
+        }
+      ],
+      "music": "lofi-rhodes.mp3"
+    },
+    "thu-mid": {
+      "date": "2026-11-19",
+      "time": "13:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Steady, not staring.\n\n#eyecontact #bodylanguage #socialskills #thestillman #quietconfidence",
+      "title": "Where calm men put their eyes",
+      "tiktok_title": "Where calm men put their eyes",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-mid.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-mid-cover.jpg",
+      "duration": 25.18,
+      "broll_credits": [
+        {
+          "pixabay_id": 225661,
+          "author": "Kanenori",
+          "url": "https://pixabay.com/videos/id-225661/"
+        },
+        {
+          "pixabay_id": 215484,
+          "author": "xBriantcx",
+          "url": "https://pixabay.com/videos/id-215484/"
+        },
+        {
+          "pixabay_id": 148052,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-148052/"
+        },
+        {
+          "pixabay_id": 237504,
+          "author": "xBriantcx",
+          "url": "https://pixabay.com/videos/id-237504/"
+        },
+        {
+          "pixabay_id": 156157,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-156157/"
+        }
+      ],
+      "music": "lofi-rhodes.mp3"
+    },
+    "fri-mid": {
+      "date": "2026-11-20",
+      "time": "13:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "People remember the one person who actually listened.\n\n#presence #socialskills #fridaynight #thestillman #quietconfidence",
+      "title": "Friday night, phone in pocket",
+      "tiktok_title": "Friday night, phone in pocket",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-mid.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-mid-cover.jpg",
+      "duration": 25.18,
+      "broll_credits": [
+        {
+          "pixabay_id": 367164,
+          "author": "Kanenori",
+          "url": "https://pixabay.com/videos/id-367164/"
+        },
+        {
+          "pixabay_id": 24603,
+          "author": "RafterJr72",
+          "url": "https://pixabay.com/videos/id-24603/"
+        },
+        {
+          "pixabay_id": 38057,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-38057/"
+        },
+        {
+          "pixabay_id": 283431,
+          "author": "Kanenori",
+          "url": "https://pixabay.com/videos/id-283431/"
+        },
+        {
+          "pixabay_id": 94978,
+          "author": "Kmeel_com",
+          "url": "https://pixabay.com/videos/id-94978/"
+        }
+      ],
+      "music": "lofi-rhodes.mp3"
+    },
+    "sat-mid": {
+      "date": "2026-11-21",
+      "time": "13:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Clear beats clever.\n\n#dating #datingtips #texting #thestillman #quietconfidence",
+      "title": "The text after a good date",
+      "tiktok_title": "The text after a good date",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-mid.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/sat-mid-cover.jpg",
+      "duration": 25.18,
+      "broll_credits": [
+        {
+          "pixabay_id": 180386,
+          "author": "Kanenori",
+          "url": "https://pixabay.com/videos/id-180386/"
+        },
+        {
+          "pixabay_id": 172350,
+          "author": "D-GM",
+          "url": "https://pixabay.com/videos/id-172350/"
+        },
+        {
+          "pixabay_id": 209424,
+          "author": "NGUYENTHONG7997",
+          "url": "https://pixabay.com/videos/id-209424/"
+        },
+        {
+          "pixabay_id": 153976,
+          "author": "adege",
+          "url": "https://pixabay.com/videos/id-153976/"
+        },
+        {
+          "pixabay_id": 26369,
+          "author": "Hans",
+          "url": "https://pixabay.com/videos/id-26369/"
+        }
+      ],
+      "music": "felt-piano-ambient.mp3"
+    },
+    "sun-mid": {
+      "date": "2026-11-22",
+      "time": "13:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "One fix a week is fifty-two a year.\n\n#sundayreset #selfimprovement #discipline #thestillman #quietconfidence",
+      "title": "One question every Sunday",
+      "tiktok_title": "One question every Sunday",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-mid.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-mid-cover.jpg",
+      "duration": 25.21,
+      "broll_credits": [
+        {
+          "pixabay_id": 18390,
+          "author": "Nature-Stock-Footage",
+          "url": "https://pixabay.com/videos/id-18390/"
+        },
+        {
+          "pixabay_id": 348057,
+          "author": "Gylfi",
+          "url": "https://pixabay.com/videos/id-348057/"
+        },
+        {
+          "pixabay_id": 80724,
+          "author": "MagicTV",
+          "url": "https://pixabay.com/videos/id-80724/"
+        },
+        {
+          "pixabay_id": 217727,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-217727/"
+        },
+        {
+          "pixabay_id": 160973,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-160973/"
+        }
+      ],
+      "music": "felt-piano-ambient.mp3"
     }
   },
   "pexels_used": [
+    "pb13441",
     "pb137250",
     "pb137263",
     "pb137265",
     "pb140571",
     "pb143679",
     "pb14385",
+    "pb148052",
     "pb149452",
     "pb149927",
+    "pb153976",
+    "pb156156",
+    "pb156157",
+    "pb159066",
+    "pb159306",
+    "pb160973",
     "pb160975",
     "pb16224",
     "pb165063",
+    "pb172350",
     "pb177081",
+    "pb180386",
     "pb180776",
+    "pb18390",
     "pb184510",
     "pb185728",
+    "pb189813",
     "pb19609",
     "pb19627",
     "pb197525",
+    "pb202743",
     "pb202753",
     "pb203363",
     "pb204326",
     "pb205006",
     "pb206272",
+    "pb209424",
     "pb210786",
     "pb21175",
     "pb212453",
     "pb213799",
     "pb215407",
+    "pb215484",
+    "pb217105",
+    "pb217727",
     "pb218954",
     "pb222039",
     "pb224041",
+    "pb225661",
     "pb227567",
     "pb228847",
+    "pb230248",
     "pb23258",
     "pb233390",
     "pb236256",
+    "pb237504",
     "pb238823",
     "pb238826",
+    "pb24603",
     "pb250395",
+    "pb250458",
     "pb253998",
     "pb258799",
     "pb260895",
     "pb26277",
+    "pb26369",
     "pb266428",
     "pb27539",
+    "pb283431",
     "pb286272",
     "pb28860",
     "pb28975",
@@ -872,20 +1345,29 @@
     "pb310093",
     "pb326725",
     "pb332900",
+    "pb34091",
+    "pb348057",
+    "pb34855",
     "pb353263",
     "pb363873",
+    "pb367164",
     "pb368623",
+    "pb375113",
+    "pb38057",
     "pb39837",
     "pb43459",
     "pb44057",
+    "pb46989",
     "pb49131",
     "pb66810",
     "pb73847",
     "pb78874",
     "pb78918",
+    "pb80724",
     "pb8451",
     "pb86092",
     "pb86548",
+    "pb94978",
     "pi1024347",
     "pi10285907",
     "pi1276384",
