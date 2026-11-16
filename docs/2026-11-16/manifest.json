@@ -1263,6 +1263,68 @@
         }
       ],
       "music": "felt-piano-ambient.mp3"
+    },
+    "mon-carousel-pm": {
+      "date": "2026-11-16",
+      "time": "20:00",
+      "type": "carousel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Nobody sees the nerves. Only the signals.\n\nSave it for the next big moment.\n\n#bodylanguage #anxiety #thestillman #quietconfidence",
+      "title": "4 ways to look calm when you're not",
+      "images": [
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-carousel-pm-1.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-carousel-pm-2.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-carousel-pm-3.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-carousel-pm-4.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-carousel-pm-5.jpg",
+        "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-carousel-pm-6.jpg"
+      ]
+    },
+    "mon-mid": {
+      "date": "2026-11-16",
+      "time": "16:00",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "The room follows his pace, not the other way around.\n\n#communication #bodylanguage #confidencetips #thestillman #quietconfidence",
+      "title": "Calm men talk slower",
+      "tiktok_title": "Calm men talk slower",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-mid.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/mon-mid-cover.jpg",
+      "duration": 25.18,
+      "broll_credits": [
+        {
+          "pixabay_id": 145582,
+          "author": "Nick_the_Photographer",
+          "url": "https://pixabay.com/videos/id-145582/"
+        },
+        {
+          "pixabay_id": 296062,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-296062/"
+        },
+        {
+          "pixabay_id": 186195,
+          "author": "NickyPe",
+          "url": "https://pixabay.com/videos/id-186195/"
+        },
+        {
+          "pixabay_id": 15779,
+          "author": "Felix-Mittermeier",
+          "url": "https://pixabay.com/videos/id-15779/"
+        },
+        {
+          "pixabay_id": 197946,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-197946/"
+        }
+      ],
+      "music": "felt-piano-ambient.mp3"
     }
   },
   "pexels_used": [
@@ -1273,12 +1335,14 @@
     "pb140571",
     "pb143679",
     "pb14385",
+    "pb145582",
     "pb148052",
     "pb149452",
     "pb149927",
     "pb153976",
     "pb156156",
     "pb156157",
+    "pb15779",
     "pb159066",
     "pb159306",
     "pb160973",
@@ -1292,10 +1356,12 @@
     "pb18390",
     "pb184510",
     "pb185728",
+    "pb186195",
     "pb189813",
     "pb19609",
     "pb19627",
     "pb197525",
+    "pb197946",
     "pb202743",
     "pb202753",
     "pb203363",
@@ -1339,6 +1405,7 @@
     "pb28860",
     "pb28975",
     "pb290936",
+    "pb296062",
     "pb296958",
     "pb30470",
     "pb307864",
