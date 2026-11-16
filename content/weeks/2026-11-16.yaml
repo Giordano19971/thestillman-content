@@ -303,7 +303,7 @@ posts:
   - id: mon-late
     type: reel
     date: '2026-11-16'
-    time: "20:00"
+    time: "23:00"
     platforms:
     - instagram
     - tiktok
@@ -1079,3 +1079,69 @@ posts:
 
 
       #selfrespect #discipline #thestillman #quietconfidence'
+
+  - id: mon-mid
+    type: reel
+    date: '2026-11-16'
+    time: '16:00'
+    platforms:
+    - instagram
+    - tiktok
+    title: Calm men talk slower
+    voiceover: Nervous men talk faster. Calm men... slow down. When the pressure rises, he drops his speed by half. Shorter sentences. Longer pauses. Lower voice. The room follows his pace... not the other way around. Follow for one small rep a day.
+    highlight:
+    - faster
+    - slow
+    - pauses
+    - lower
+    - pace
+    broll:
+    - man walking slowly city night from behind
+    - calm sea waves dusk
+    - hands resting on table
+    - rain window evening lights
+    - coffee steam close up
+    caption: 'The room follows his pace, not the other way around.
+
+
+      #communication #bodylanguage #confidencetips #thestillman #quietconfidence'
+    tiktok_title: Calm men talk slower
+
+  - id: mon-carousel-pm
+    type: carousel
+    date: '2026-11-16'
+    time: '20:00'
+    platforms:
+    - instagram
+    - tiktok
+    title: 4 ways to look calm when you're not
+    slides:
+    - kind: cover
+      title: 4 ways to look calm when you're not
+      subtitle: Nobody sees the nerves. Only the signals.
+    - kind: point
+      num: 1
+      title: Exhale longer.
+      body: Out for longer than in. Twice.
+    - kind: point
+      num: 2
+      title: Drop the shoulders.
+      body: Tension shows there first.
+    - kind: point
+      num: 3
+      title: Half-speed words.
+      body: Slow speech reads as control.
+    - kind: point
+      num: 4
+      title: Plant the feet.
+      body: Stop shifting the weight.
+    - kind: cta
+      title: Save this for the next big moment.
+      button: Save
+    caption: 'Nobody sees the nerves. Only the signals.
+
+
+      Save it for the next big moment.
+
+
+      #bodylanguage #anxiety #thestillman #quietconfidence'
