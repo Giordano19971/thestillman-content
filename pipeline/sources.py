@@ -46,7 +46,7 @@ def pexels_video(query, used_ids, dest):
     return dest, {"pexels_id": v["id"], "author": v.get("user", {}).get("name"), "url": v.get("url")}
 
 
-BANNED_TAGS = {"jesus", "christ", "buddha", "religion", "church", "angel", "man portrait", "old man", "elderly", "woman", "women", "girl", "girls", "lady", "portrait", "face", "faces", "model", "selfie", "mask",
+BANNED_TAGS = {"champagne", "wine", "alcohol", "beer", "cocktail", "new year", "celebration", "money", "luxury", "jesus", "christ", "buddha", "religion", "church", "angel", "man portrait", "old man", "elderly", "woman", "women", "girl", "girls", "lady", "portrait", "face", "faces", "model", "selfie", "mask",
                "animation", "animated", "cartoon", "illustration", "3d", "render", "cgi", "fantasy", "smoke bomb",
                "halloween", "christmas", "child", "children", "kid", "baby", "fashion", "party"}
 

@@ -1094,64 +1094,6 @@
       ],
       "music": "resolute-strings.mp3"
     },
-    "thu-late": {
-      "date": "2026-11-19",
-      "time": "23:30",
-      "type": "reel",
-      "platforms": [
-        "instagram",
-        "tiktok"
-      ],
-      "caption": "The 30-Day Rebuild — Day 2. One wake-up time. Every day.\n\n#30dayrebuild #morningroutine #discipline #thestillman",
-      "title": "Day 2 · One wake-up time",
-      "tiktok_title": "Day 2 · One wake-up time",
-      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-late.mp4",
-      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-late-cover.jpg",
-      "duration": 25.13,
-      "broll_credits": [
-        {
-          "pixabay_image_id": 7679665,
-          "author": "Bru-nO",
-          "url": "https://pixabay.com/photos/sparkling-wine-spirits-bottle-7679665/"
-        },
-        {
-          "pixabay_image_id": 5339659,
-          "author": "Paul_Henri",
-          "url": "https://pixabay.com/photos/church-window-monastery-window-5339659/"
-        },
-        {
-          "pixabay_image_id": 91479,
-          "author": "weinstock",
-          "url": "https://pixabay.com/photos/eyes-nose-face-grief-graveyard-91479/"
-        },
-        {
-          "pixabay_image_id": 339250,
-          "author": "Andre_Rau",
-          "url": "https://pixabay.com/photos/to-stage-sea-baltic-sea-339250/"
-        },
-        {
-          "pixabay_image_id": 8026623,
-          "author": "Mikewildadventure",
-          "url": "https://pixabay.com/photos/seneca-philosopher-statue-8026623/"
-        },
-        {
-          "pixabay_image_id": 839233,
-          "author": "Foundry",
-          "url": "https://pixabay.com/photos/coffee-mocha-espresso-cappuccino-839233/"
-        },
-        {
-          "pixabay_image_id": 5303864,
-          "author": "JoshuaWoroniecki",
-          "url": "https://pixabay.com/photos/buildings-traffic-street-cars-5303864/"
-        },
-        {
-          "pixabay_image_id": 877834,
-          "author": "Armelion",
-          "url": "https://pixabay.com/photos/spiral-staircase-stairs-877834/"
-        }
-      ],
-      "music": "cinematic-piano-cello.mp3"
-    },
     "sat-late": {
       "date": "2026-11-21",
       "time": "23:30",
