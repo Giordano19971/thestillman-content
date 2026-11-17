@@ -1209,6 +1209,122 @@
         }
       ],
       "music": "resolute-strings.mp3"
+    },
+    "fri-late": {
+      "date": "2026-11-20",
+      "time": "23:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "The 30-Day Rebuild — Day 3. Every doorway is a reset.\n\n#30dayrebuild #bodylanguage #posture #thestillman",
+      "title": "Day 3 · The doorway posture",
+      "tiktok_title": "Day 3 · The doorway posture",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-late.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/fri-late-cover.jpg",
+      "duration": 25.11,
+      "broll_credits": [
+        {
+          "pixabay_image_id": 2811141,
+          "author": "Mysticsartdesign",
+          "url": "https://pixabay.com/photos/door-passage-architecture-entrance-2811141/"
+        },
+        {
+          "pixabay_image_id": 8531576,
+          "author": "expressionswala",
+          "url": "https://pixabay.com/photos/mosque-tajmahal-tomb-monument-8531576/"
+        },
+        {
+          "pixabay_image_id": 6583471,
+          "author": "AchiR",
+          "url": "https://pixabay.com/photos/alley-stairs-buildings-city-6583471/"
+        },
+        {
+          "pixabay_image_id": 1565318,
+          "author": "dimitrisvetsikas1969",
+          "url": "https://pixabay.com/photos/alexandros-papadiamantis-author-1565318/"
+        },
+        {
+          "pixabay_image_id": 4010759,
+          "author": "Olgaozik",
+          "url": "https://pixabay.com/photos/uae-abu-dhabi-grand-mosque-lights-4010759/"
+        },
+        {
+          "pixabay_image_id": 3254433,
+          "author": "ntnvnc",
+          "url": "https://pixabay.com/photos/portal-columns-architecture-3254433/"
+        },
+        {
+          "pixabay_image_id": 6988677,
+          "author": "ChiemSeherin",
+          "url": "https://pixabay.com/photos/statue-art-museum-sculpture-bronze-6988677/"
+        },
+        {
+          "pixabay_image_id": 4950141,
+          "author": "zj900430",
+          "url": "https://pixabay.com/photos/subway-stairs-stair-handrail-4950141/"
+        }
+      ],
+      "music": "resolute-strings.mp3"
+    },
+    "sun-late": {
+      "date": "2026-11-22",
+      "time": "23:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "The 30-Day Rebuild — Day 5. Half speed sounds like control.\n\n#30dayrebuild #communication #confidence #thestillman",
+      "title": "Day 5 · Half-speed words",
+      "tiktok_title": "Day 5 · Half-speed words",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-late.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/sun-late-cover.jpg",
+      "duration": 25.16,
+      "broll_credits": [
+        {
+          "pixabay_image_id": 10415416,
+          "author": "Alexas_Fotos",
+          "url": "https://pixabay.com/photos/leaf-water-droplets-green-nature-10415416/"
+        },
+        {
+          "pixabay_image_id": 3180886,
+          "author": "PilotBrent",
+          "url": "https://pixabay.com/photos/sculpture-portrait-people-man-3180886/"
+        },
+        {
+          "pixabay_image_id": 3342628,
+          "author": "anaterate",
+          "url": "https://pixabay.com/photos/a-book-book-stack-stacked-books-3342628/"
+        },
+        {
+          "pixabay_image_id": 5842676,
+          "author": "rowar",
+          "url": "https://pixabay.com/photos/sculpture-bust-statue-figure-greek-5842676/"
+        },
+        {
+          "pixabay_image_id": 3112972,
+          "author": "moshehar",
+          "url": "https://pixabay.com/photos/gold-victory-old-chess-decoration-3112972/"
+        },
+        {
+          "pixabay_image_id": 3964050,
+          "author": "congerdesign",
+          "url": "https://pixabay.com/photos/book-read-book-pages-literature-3964050/"
+        },
+        {
+          "pixabay_image_id": 570963,
+          "author": "ronymichaud",
+          "url": "https://pixabay.com/photos/sphere-cement-abstract-570963/"
+        },
+        {
+          "pixabay_image_id": 1415723,
+          "author": "51581",
+          "url": "https://pixabay.com/photos/tower-fishing-night-fishing-rod-1415723/"
+        }
+      ],
+      "music": "cinematic-piano-cello.mp3"
     }
   },
   "pexels_used": [
@@ -1322,13 +1438,16 @@
     "pi101632",
     "pi1024347",
     "pi10285907",
+    "pi10415416",
     "pi108198",
     "pi1276384",
     "pi1284596",
     "pi1287222",
     "pi1351686",
+    "pi1415723",
     "pi1507392",
     "pi1527959",
+    "pi1565318",
     "pi1584711",
     "pi1599527",
     "pi1675277",
@@ -1373,6 +1492,7 @@
     "pi2765380",
     "pi2789915",
     "pi2800935",
+    "pi2811141",
     "pi2845272",
     "pi2846250",
     "pi2852016",
@@ -1380,16 +1500,20 @@
     "pi302790",
     "pi3051334",
     "pi3069912",
+    "pi3112972",
     "pi3117027",
     "pi316703",
     "pi316704",
     "pi316705",
     "pi316706",
+    "pi3180886",
     "pi3180889",
     "pi3202011",
     "pi3214878",
     "pi3254149",
+    "pi3254433",
     "pi3257611",
+    "pi3342628",
     "pi3346785",
     "pi338446",
     "pi339250",
@@ -1406,7 +1530,9 @@
     "pi3777416",
     "pi378137",
     "pi3950679",
+    "pi3964050",
     "pi398845",
+    "pi4010759",
     "pi4060710",
     "pi4142859",
     "pi4146176",
@@ -1431,6 +1557,7 @@
     "pi4775002",
     "pi4840084",
     "pi4945658",
+    "pi4950141",
     "pi5173654",
     "pi5288635",
     "pi5301517",
@@ -1440,8 +1567,10 @@
     "pi5519945",
     "pi563800",
     "pi56930",
+    "pi570963",
     "pi5747420",
     "pi5773397",
+    "pi5842676",
     "pi6118182",
     "pi6140620",
     "pi626422",
@@ -1451,11 +1580,13 @@
     "pi6469580",
     "pi6479150",
     "pi6556336",
+    "pi6583471",
     "pi6604492",
     "pi6604572",
     "pi6706182",
     "pi6834164",
     "pi6872383",
+    "pi6988677",
     "pi7118475",
     "pi7188630",
     "pi7242506",
@@ -1484,6 +1615,7 @@
     "pi839233",
     "pi8424565",
     "pi845709",
+    "pi8531576",
     "pi877834",
     "pi893537",
     "pi9064945",
