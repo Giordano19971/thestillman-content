@@ -17,14 +17,18 @@ def clean(w):
     return re.sub(r"[^\w']", "", w).lower()
 
 
-def scene_cuts(words, n, dur):
-    """Cut points for n scenes, snapped to the pauses in the voice nearest to equal splits."""
+def scene_cuts(words, n, dur, min_len=1.6):
+    """Cut points for up to n scenes, snapped to voice pauses near equal splits; every scene >= min_len seconds."""
+    n = max(1, min(n, int(dur // min_len)))
     gaps = [(words[i]["end"] + words[i + 1]["start"]) / 2 for i in range(len(words) - 1)
             if words[i + 1]["start"] - words[i]["end"] > 0.22]
     cuts = [0.0]
     for k in range(1, n):
         target = dur * k / n
-        cand = [g for g in gaps if g > cuts[-1] + 1.2] or [target]
+        lo, hi = cuts[-1] + min_len, dur - min_len * (n - k)
+        if lo > hi:
+            break
+        cand = [g for g in gaps if lo <= g <= hi] or [min(max(target, lo), hi)]
         cuts.append(min(cand, key=lambda g: abs(g - target)))
     cuts.append(dur)
     return cuts
@@ -134,6 +138,7 @@ def render(post, words, audio, brolls, work, out_mp4, out_cover):
     work = Path(work); work.mkdir(parents=True, exist_ok=True)
     dur = round(words[-1]["end"] + 1.6, 2)
     cuts = scene_cuts(words, len(brolls), dur)
+    brolls = brolls[:len(cuts) - 1]
     clips = []
     for i, src in enumerate(brolls):
         d = cuts[i + 1] - cuts[i] + (0.3 if i < len(brolls) - 1 else 0)
