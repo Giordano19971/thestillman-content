@@ -1267,6 +1267,64 @@
         }
       ],
       "music": "cinematic-piano-cello.mp3"
+    },
+    "thu-late": {
+      "date": "2026-11-19",
+      "time": "23:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "The 30-Day Rebuild — Day 2. One wake-up time. Every day.\n\n#30dayrebuild #morningroutine #discipline #thestillman",
+      "title": "Day 2 · One wake-up time",
+      "tiktok_title": "Day 2 · One wake-up time",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-late.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-late-cover.jpg",
+      "duration": 25.19,
+      "broll_credits": [
+        {
+          "pixabay_image_id": 1392492,
+          "author": "pixel2013",
+          "url": "https://pixabay.com/photos/dandelion-seeds-nature-spring-1392492/"
+        },
+        {
+          "pixabay_image_id": 4597416,
+          "author": "fotografierende",
+          "url": "https://pixabay.com/photos/coffee-tee-cup-keep-hand-arm-4597416/"
+        },
+        {
+          "pixabay_image_id": 3437759,
+          "author": "silverstream8",
+          "url": "https://pixabay.com/photos/stone-statue-carved-sculpture-3437759/"
+        },
+        {
+          "pixabay_image_id": 4320564,
+          "author": "vrolanas",
+          "url": "https://pixabay.com/photos/sea-beach-early-morning-black-sand-4320564/"
+        },
+        {
+          "pixabay_image_id": 7000555,
+          "author": "guofu",
+          "url": "https://pixabay.com/photos/bust-sculpture-roman-emperor-7000555/"
+        },
+        {
+          "pixabay_image_id": 2619216,
+          "author": "StockSnap",
+          "url": "https://pixabay.com/photos/cup-mug-steaming-smoke-coffee-tea-2619216/"
+        },
+        {
+          "pixabay_image_id": 5281668,
+          "author": "BarneyElo",
+          "url": "https://pixabay.com/photos/heaven-road-drone-nature-path-5281668/"
+        },
+        {
+          "pixabay_image_id": 10102767,
+          "author": "ahmetyuksek",
+          "url": "https://pixabay.com/photos/old-library-dramatic-lighting-10102767/"
+        }
+      ],
+      "music": "cinematic-piano-cello.mp3"
     }
   },
   "pexels_used": [
@@ -1377,6 +1435,7 @@
     "pb86092",
     "pb86548",
     "pb94978",
+    "pi10102767",
     "pi101632",
     "pi1024347",
     "pi10285907",
@@ -1386,6 +1445,7 @@
     "pi1284596",
     "pi1287222",
     "pi1351686",
+    "pi1392492",
     "pi1415723",
     "pi1507392",
     "pi1527959",
@@ -1423,7 +1483,9 @@
     "pi2559707",
     "pi2563389",
     "pi2573949",
+    "pi2583716",
     "pi2587598",
+    "pi2619216",
     "pi2678768",
     "pi2681039",
     "pi2692556",
@@ -1460,6 +1522,7 @@
     "pi338446",
     "pi339250",
     "pi3401730",
+    "pi3437759",
     "pi3485548",
     "pi3553727",
     "pi3652228",
@@ -1484,12 +1547,15 @@
     "pi4270853",
     "pi4272082",
     "pi4286600",
+    "pi4320564",
     "pi4353699",
     "pi4363254",
+    "pi436567",
     "pi440814",
     "pi4491416",
     "pi4509879",
     "pi4597415",
+    "pi4597416",
     "pi4608325",
     "pi4646114",
     "pi4651157",
@@ -1501,6 +1567,7 @@
     "pi4945658",
     "pi4950141",
     "pi5173654",
+    "pi5281668",
     "pi5288635",
     "pi5301517",
     "pi5303864",
@@ -1529,6 +1596,7 @@
     "pi6834164",
     "pi6872383",
     "pi6988677",
+    "pi7000555",
     "pi7118475",
     "pi7188630",
     "pi7242506",
