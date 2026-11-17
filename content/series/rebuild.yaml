@@ -1,0 +1,80 @@
+# The 30-Day Rebuild — nightly series at 23:30 (Europe/Rome), one day per night, starting Monday 2026-11-23.
+# The weekly planner copies days into content/weeks/<Monday>.yaml as posts "<day>-late" (style fields below),
+# using the full scripts when present and writing the missing ones from the arc (same rules, same voice).
+series: The 30-Day Rebuild
+start_date: 2026-11-23
+slot: "23:30"
+style: {caption_words: 3, caption_lower: true, caption_style: serif_italic, grade: mono, allow_statues: true}
+rules: >-
+  Hook max 8 words. 40-55 words. Third person ("he", "a still man"). One concrete exercise per day.
+  Last line: "Day N+1 tomorrow. Follow so you don't miss it." (Day 30 ends: "The rebuild is done. The man stays.")
+  Caption first line: "The 30-Day Rebuild — Day N." Hashtags include #30dayrebuild #thestillman.
+arc:
+  week1_foundation: [1 The honest audit, 2 One wake-up time, 3 The doorway posture, 4 The long exhale, 5 Half-speed words, 6 The first hour without a phone, 7 One kept promise]
+  week2_presence: [8 Eye contact for one sentence, 9 The two-second pause, 10 Taking up space, 11 Listening to the end, 12 Hands that stay still, 13 Walking slower, 14 The week-two review]
+  week3_connection: [15 The first word, 16 Joining a group, 17 The follow-up question, 18 Saying no once, 19 The calm text, 20 The good goodbye, 21 One honest conversation]
+  week4_self_respect: [22 Training on the bad day, 23 Leaving early, 24 Eating alone in public, 25 The apology without shrinking, 26 Money and quiet, 27 Saying the hard thing calmly, 28 The letter to day one, 29 What stays, 30 The still man]
+days:
+  - day: 1
+    title: "Day 1 · The honest audit"
+    voiceover: >-
+      Every rebuild starts with one honest look. Tonight... he writes three lines. Where he shrinks. Where he rushes.
+      Where he waits for permission. No judgment. Just the map. Thirty days from now... he reads it again.
+      Day two tomorrow. Follow so you don't miss it.
+    highlight: [honest, shrinks, rushes, permission, map]
+    broll: ["img: notebook pen candle dark", "img: marble statue face", "img: old map desk", "img: stone stairs light", "img: marble bust profile", "img: night window city", "img: mountain path dawn", "img: classical sculpture dark"]
+    caption: "The 30-Day Rebuild — Day 1. Three lines. No judgment. Just the map.\n\n#30dayrebuild #selfimprovement #quietconfidence #thestillman"
+  - day: 2
+    title: "Day 2 · One wake-up time"
+    voiceover: >-
+      Calm starts the night before. Day two... he picks one wake-up time. Same time. Every day. Weekends too.
+      Not early to impress anyone. Fixed... so the body stops negotiating. A steady morning... builds a steady man.
+      Day three tomorrow. Follow so you don't miss it.
+    highlight: [calm, one, same, steady, man]
+    broll: ["img: alarm clock dark", "img: sunrise window bedroom", "img: marble statue face", "img: calm sea dawn", "img: marble bust light", "img: coffee steam morning", "img: road sunrise", "img: classical sculpture shadow"]
+    caption: "The 30-Day Rebuild — Day 2. One wake-up time. Every day.\n\n#30dayrebuild #morningroutine #discipline #thestillman"
+  - day: 3
+    title: "Day 3 · The doorway posture"
+    voiceover: >-
+      People read his body before his words. Day three... every doorway is a reset. Before walking through,
+      he drops his shoulders, lifts his chest, slows his step. Ten doorways a day. Ten small resets.
+      By day thirty... it's simply how he walks. Day four tomorrow. Follow so you don't miss it.
+    highlight: [body, doorway, shoulders, resets, walks]
+    broll: ["img: open door light", "img: marble statue standing", "img: stone archway", "img: marble bust profile", "img: hallway light dark", "img: ancient columns", "img: classical sculpture dark", "img: stairs light"]
+    caption: "The 30-Day Rebuild — Day 3. Every doorway is a reset.\n\n#30dayrebuild #bodylanguage #posture #thestillman"
+  - day: 4
+    title: "Day 4 · The long exhale"
+    voiceover: >-
+      Nerves live in the breath first. Day four... before every hard moment, one long exhale. Out for longer than in.
+      Before the call. Before the room. Before the reply. It tells the body: nothing here is chasing him.
+      Day five tomorrow. Follow so you don't miss it.
+    highlight: [breath, exhale, longer, body, chasing]
+    broll: ["img: calm lake mist", "img: marble statue face", "img: candle flame dark", "img: still water reflection", "img: marble bust dark", "img: fog mountains", "img: ocean horizon calm", "img: classical sculpture light"]
+    caption: "The 30-Day Rebuild — Day 4. Out for longer than in.\n\n#30dayrebuild #breathwork #calm #thestillman"
+  - day: 5
+    title: "Day 5 · Half-speed words"
+    voiceover: >-
+      Fast talk sounds like asking for permission. Day five... he speaks at half speed for one full day.
+      Shorter sentences. Full stops. A pause before the answer. It will feel too slow. It isn't.
+      To everyone else... it sounds like control. Day six tomorrow. Follow so you don't miss it.
+    highlight: [permission, half, pause, slow, control]
+    broll: ["img: hourglass dark", "img: marble statue face", "img: old books candle", "img: marble bust profile", "img: chess board dark", "img: quiet library", "img: stone sculpture shadow", "img: calm sea night"]
+    caption: "The 30-Day Rebuild — Day 5. Half speed sounds like control.\n\n#30dayrebuild #communication #confidence #thestillman"
+  - day: 6
+    title: "Day 6 · The first hour, no phone"
+    voiceover: >-
+      Whoever gets his first hour... gets his day. Day six... the phone stays in another room for sixty minutes after waking.
+      Water. Light. A few lines on paper. The world can wait one hour. A man who starts calm... rarely ends rushed.
+      Day seven tomorrow. Follow so you don't miss it.
+    highlight: [first, hour, phone, wait, calm]
+    broll: ["img: morning window light", "img: notebook coffee desk", "img: marble statue face", "img: sunrise mountains", "img: marble bust light", "img: glass of water light", "img: quiet room morning", "img: classical sculpture dark"]
+    caption: "The 30-Day Rebuild — Day 6. Whoever gets his first hour gets his day.\n\n#30dayrebuild #morningroutine #digitaldetox #thestillman"
+  - day: 7
+    title: "Day 7 · One kept promise"
+    voiceover: >-
+      Confidence is a promise kept... repeatedly. Day seven... he makes one small promise to himself and keeps it.
+      Ten push-ups. Bed by eleven. One page. Small enough to never miss. Week one is done. The foundation is set.
+      Week two starts tomorrow. Follow so you don't miss it.
+    highlight: [promise, kept, small, foundation, tomorrow]
+    broll: ["img: stone foundation", "img: marble statue face", "img: notebook pen dark", "img: mountain summit dawn", "img: marble bust profile", "img: ancient ruins sunset", "img: candle book dark", "img: classical sculpture light"]
+    caption: "The 30-Day Rebuild — Day 7. Week one done. The foundation is set.\n\n#30dayrebuild #discipline #selfrespect #thestillman"
