@@ -1,8 +1,8 @@
-# The 30-Day Rebuild — nightly series at 23:30 (Europe/Rome), one day per night, starting Monday 2026-11-23.
+# The 30-Day Rebuild — nightly series at 23:30 (Europe/Rome), one day per night, starting Wednesday 2026-11-18.
 # The weekly planner copies days into content/weeks/<Monday>.yaml as posts "<day>-late" (style fields below),
 # using the full scripts when present and writing the missing ones from the arc (same rules, same voice).
 series: The 30-Day Rebuild
-start_date: 2026-11-23
+start_date: 2026-11-18
 slot: "23:30"
 style: {caption_words: 3, caption_lower: true, caption_style: serif_italic, grade: mono, allow_statues: true}
 rules: >-

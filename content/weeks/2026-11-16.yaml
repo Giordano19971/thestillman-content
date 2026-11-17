@@ -1,1147 +1,1189 @@
 week: 2026-11-16
 # Times are Europe/Rome. Reels 19:30 and 23:30 every day (23:30 = motivation series), carousels 12:30 Mon/Wed/Fri.
 posts:
-  - id: mon-reel
-    type: reel
-    date: 2026-11-16
-    time: "19:30"
-    platforms: [instagram, tiktok]
-    title: The loudest man
-    voiceover: >-
-      The most confident man in the room... is rarely the loudest.
-      He speaks slower. He pauses... before he answers.
-      He takes up space... without rushing to fill it.
-      None of this is personality. It's practice.
-      Calm is a skill. And skills... are built.
-    highlight: [loudest, slower, pauses, space, practice, skill, built]
-    broll:
-      - man from behind entering crowded bar warm light
-      - hands holding coffee cup slow
-      - man silhouette window city sunset
-      - man sitting relaxed alone from behind
-      - calm sea horizon sunrise
-    caption: |-
-      The loudest voice rarely holds the room. Steady does.
+- id: mon-reel
+  type: reel
+  date: 2026-11-16
+  time: '19:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: The loudest man
+  voiceover: The most confident man in the room... is rarely the loudest. He speaks slower. He pauses... before he answers. He takes up space... without rushing to fill it. None of this is personality. It's practice. Calm is a skill. And skills... are built.
+  highlight:
+  - loudest
+  - slower
+  - pauses
+  - space
+  - practice
+  - skill
+  - built
+  broll:
+  - man from behind entering crowded bar warm light
+  - hands holding coffee cup slow
+  - man silhouette window city sunset
+  - man sitting relaxed alone from behind
+  - calm sea horizon sunrise
+  caption: 'The loudest voice rarely holds the room. Steady does.
 
-      Follow for one small rep a day.
 
-      #thestillman #quietconfidence #bodylanguage #selfimprovement
+    Follow for one small rep a day.
 
-  - id: mon-stoic-reel
-    type: reel
-    date: 2026-11-16
-    time: "12:00"
-    platforms: [instagram, tiktok]
-    title: What stands in the way becomes the way
-    voiceover: >-
-      The obstacle... is not in the way.
-      It is the way.
-      Marcus Aurelius ruled Rome through plague and war,
-      and in his private notes, he kept returning to this.
-      What stands in the way... becomes the way.
-      A still man does not ask, why me.
-      He asks... what is this here to teach me?
-      He does not wait for easier days.
-      He lets the hard ones... train him.
-    highlight: [obstacle, way, teach, still, train]
-    caption_words: 3
-    caption_lower: true
-    caption_style: serif_italic
-    grade: mono
-    allow_statues: true
-    broll:
-      - "img: marcus aurelius bust"
-      - "img: marble statue face"
-      - "img: roman bust sculpture"
-      - "img: statue close up marble"
-      - "img: greek philosopher statue"
-      - "img: marble head sculpture"
-      - "img: ancient statue profile"
-      - "img: roman emperor statue"
-      - "img: classical sculpture dark"
-    caption: |-
-      What stands in the way becomes the way.
 
-      Marcus Aurelius wrote it 1,800 years ago. It still works.
+    #thestillman #quietconfidence #bodylanguage #selfimprovement'
+- id: mon-stoic-reel
+  type: reel
+  date: 2026-11-16
+  time: '12:00'
+  platforms:
+  - instagram
+  - tiktok
+  title: What stands in the way becomes the way
+  voiceover: The obstacle... is not in the way. It is the way. Marcus Aurelius ruled Rome through plague and war, and in his private notes, he kept returning to this. What stands in the way... becomes the way. A still man does not ask, why me. He asks... what is this here to teach me? He does not wait for easier days. He lets the hard ones... train him.
+  highlight:
+  - obstacle
+  - way
+  - teach
+  - still
+  - train
+  caption_words: 3
+  caption_lower: true
+  caption_style: serif_italic
+  grade: mono
+  allow_statues: true
+  broll:
+  - 'img: marcus aurelius bust'
+  - 'img: marble statue face'
+  - 'img: roman bust sculpture'
+  - 'img: statue close up marble'
+  - 'img: greek philosopher statue'
+  - 'img: marble head sculpture'
+  - 'img: ancient statue profile'
+  - 'img: roman emperor statue'
+  - 'img: classical sculpture dark'
+  caption: 'What stands in the way becomes the way.
 
-      #stoicism #marcusaurelius #stoic #quietconfidence #thestillman
-    tiktok_title: What stands in the way becomes the way
-    tiktok_caption: |-
-      What stands in the way becomes the way. Marcus Aurelius, Meditations.
 
-      #stoicism #marcusaurelius #stoic #philosophy #mindset #thestillman
+    Marcus Aurelius wrote it 1,800 years ago. It still works.
 
-  - id: mon-carousel
-    type: carousel
-    date: 2026-11-16
-    time: "13:00"
-    platforms: [instagram, tiktok]
+
+    #stoicism #marcusaurelius #stoic #quietconfidence #thestillman'
+  tiktok_title: What stands in the way becomes the way
+  tiktok_caption: 'What stands in the way becomes the way. Marcus Aurelius, Meditations.
+
+
+    #stoicism #marcusaurelius #stoic #philosophy #mindset #thestillman'
+- id: mon-carousel
+  type: carousel
+  date: 2026-11-16
+  time: '13:00'
+  platforms:
+  - instagram
+  - tiktok
+  title: 5 things calm men do when they walk into a room
+  slides:
+  - kind: cover
     title: 5 things calm men do when they walk into a room
-    slides:
-      - {kind: cover, title: "5 things calm men do when they walk into a room", subtitle: "Most people do the opposite."}
-      - {kind: point, num: 1, title: "They pause at the door.", body: "One second. Let the room come to them."}
-      - {kind: point, num: 2, title: "They scan slowly.", body: "Eyes move like they have time. Because they do."}
-      - {kind: point, num: 3, title: "They greet one person first.", body: "Not the whole room. One."}
-      - {kind: point, num: 4, title: "Hands stay out of the pockets.", body: "Visible hands read as open."}
-      - {kind: point, num: 5, title: "The phone stays away.", body: "The phone is where nervous energy hides."}
-      - {kind: cta, title: "Save this for your next event.", button: "Save"}
-    caption: |-
-      Which one is hardest? Most guys say #5.
-
-      Save it for the next event.
-
-      #thestillman #quietconfidence #socialskills
-
-  - id: tue-reel
-    type: reel
-    date: 2026-11-17
-    time: "19:30"
-    platforms: [instagram, tiktok]
-    title: Silent in every group
-    voiceover: >-
-      He used to go silent... in every group conversation.
-      He'd rehearse a line in his head. And by the time it was ready... the moment was gone.
-      Then he changed one thing.
-      No more speeches. Just one question. One per conversation.
-      "Wait... how did that happen?"
-      That's it.
-      Six weeks later, he doesn't rehearse anymore. He just talks.
-      One question. Every time.
-    highlight: [silent, gone, one, question, talks, time]
-    broll:
-      - friends at table bar from behind
-      - man hands fidgeting with glass
-      - man walking city morning from behind
-      - group of friends laughing night
-      - sunset horizon silhouette man
-    caption: |-
-      The fix wasn't confidence. It was one question.
-
-      Follow for part 2: how to ask it without sounding scripted.
-
-      #thestillman #quietconfidence #socialskills #conversation
-
-  - id: wed-reel
-    type: reel
-    date: 2026-11-18
-    time: "19:30"
-    platforms: [instagram, tiktok]
-    title: 10 seconds before any conversation
-    voiceover: >-
-      Try this... ten seconds before any conversation.
-      Breathe in... for four.
-      Out... for six.
-      Again.
-      Drop the shoulders. Chin level with the floor.
-      One more breath.
-      Now walk in.
-      The body calms down first. The mind follows.
-    highlight: [ten, four, six, shoulders, walk, follows]
-    broll:
-      - man standing in front of door from behind
-      - man breathing slowly silhouette
-      - man posture shoulders from behind
-      - door opening warm light
-    caption: |-
-      Ten seconds. Before the meeting, the date, the call.
-
-      Save it and try it today.
-
-      #thestillman #quietconfidence #breathwork #calm
-
-  - id: wed-carousel
-    type: carousel
-    date: 2026-11-18
-    time: "12:30"
-    platforms: [instagram, tiktok]
-    title: "When the conversation dies: 4 things to say"
-    slides:
-      - {kind: cover, title: "When the conversation dies: 4 things to say", subtitle: "Silence is fine. Panic isn't."}
-      - {kind: point, num: 1, title: "Notice something here.", body: "\"This place is louder than I expected.\""}
-      - {kind: point, num: 2, title: "Go back to something said earlier.", body: "\"Wait, you said you moved last year. From where?\""}
-      - {kind: point, num: 3, title: "Ask the open one.", body: "\"What's been taking up most of your time lately?\""}
-      - {kind: point, num: 4, title: "Share something small.", body: "A 20-second story invites one back."}
-      - {kind: cta, title: "Save this for next time.", button: "Save"}
-    caption: |-
-      A pause is not a failure. What comes after it is the skill.
-
-      Save for the next awkward silence.
-
-      #thestillman #quietconfidence #smalltalk #socialskills
-
-  - id: thu-reel
-    type: reel
-    date: 2026-11-19
-    time: "19:30"
-    platforms: [instagram, tiktok]
-    title: Fake it till you make it
-    voiceover: >-
-      "Fake it till you make it."
-      It's the most common advice men get. And it rarely works.
-      Faking it creates tension. People feel it... even when they can't name it.
-      Here's what works instead.
-      Don't fake the feeling. Do the small action. Every day.
-      Say hello first. Hold eye contact one second longer.
-      Reps... not acting.
-    highlight: [fake, tension, instead, action, reps]
-    broll:
-      - man in suit mask city night
-      - tense hands clenched close up
-      - handshake two men close up
-      - man walking street confident from behind
-      - gym barbell morning light
-    caption: |-
-      Confidence isn't a mask. It's a habit.
-
-      Follow for the real version.
-
-      #thestillman #quietconfidence #mindset #selfimprovement
-
-  - id: fri-reel
-    type: reel
-    date: 2026-11-20
-    time: "19:30"
-    platforms: [tiktok]  # already on Instagram (test post 13 Nov)
-    title: 3 things a calm man never does
-    voiceover: >-
-      Three things a calm man never does.
-      One. He doesn't explain himself twice.
-      Two. He doesn't chase approval... in a room that hasn't earned his.
-      Three. He doesn't rush his words.
-      Steady... is a choice.
-    highlight: [calm, man, twice, approval, rush, steady]
-    broll:
-      - man standing at lake dawn from behind
-      - man walking away from party night street
-      - man standing still crowd motion blur
-      - sea sunrise horizon calm
-    caption: |-
-      Which one is hardest to drop?
-
-      Share with a friend who needs it.
-
-      #thestillman #quietconfidence #selfrespect
-
-  - id: fri-carousel
-    type: carousel
-    date: 2026-11-20
-    time: "12:30"
-    platforms: [instagram, tiktok]
-    title: Body language that says steady
-    slides:
-      - {kind: cover, title: "Body language that says \"steady\" before a word is spoken", subtitle: "Practice one a day."}
-      - {kind: point, num: 1, title: "Upright, not stiff.", body: "Tall spine, loose shoulders."}
-      - {kind: point, num: 2, title: "Hands visible.", body: "On the table, at the sides, never hidden."}
-      - {kind: point, num: 3, title: "3-second eye contact.", body: "Then look away to the side, not down."}
-      - {kind: point, num: 4, title: "Slow gestures.", body: "Fast hands read as nerves."}
-      - {kind: point, num: 5, title: "Weight on both feet.", body: "No shifting, no swaying."}
-      - {kind: cta, title: "Save it. Practice one a day.", button: "Save"}
-    caption: |-
-      People decide how steady a man is in the first few seconds. Most of it is the body.
-
-      Save and practise one a day.
-
-      #thestillman #bodylanguage #quietconfidence
-
-  - id: sat-reel
-    type: reel
-    date: 2026-11-21
-    time: "19:30"
-    platforms: [instagram, tiktok]
-    title: Replaying the date
-    voiceover: >-
-      He kept replaying the date in his head... for days.
-      Every pause. Every word he should have said.
-      Then he tried something simple.
-      That night, he wrote down two lines.
-      One thing that went well. One thing to try next time.
-      Then he closed the notebook.
-      The replay stopped.
-      Not because he stopped caring. Because he gave the thought... somewhere to go.
-    highlight: [replaying, simple, two, lines, notebook, stopped]
-    broll:
-      - man lying bed night phone light ceiling
-      - wet city street night lights
-      - hand writing notebook lamp
-      - closing notebook desk
-      - sunrise horizon calm water
-    caption: |-
-      Overthinking needs an exit, not a fight. Two lines, then close the notebook.
-
-      Follow for more.
-
-      #thestillman #overthinking #dating #quietconfidence
-
-  - id: sun-reel
-    type: reel
-    date: 2026-11-22
-    time: "19:30"
-    platforms: [instagram, tiktok]
-    title: Sunday routine
-    voiceover: >-
-      Sunday routine... of a man building quiet confidence.
-      A walk at sunrise. No phone.
-      Ten minutes with a notebook. Three moments next week... where he'll do one small rep.
-      A slow training session.
-      An early night.
-      Nothing loud. Nothing to prove.
-      Just a man... getting ready.
-    highlight: [quiet, confidence, sunrise, notebook, rep, prove, ready]
-    broll:
-      - empty road sunrise man walking from behind
-      - notebook coffee morning table
-      - empty gym morning light
-      - lamp turning off night room
-      - calm sea horizon sunrise
-    caption: |-
-      The week is won on Sunday, quietly.
-
-      Save your Sunday.
-
-      #thestillman #sundayroutine #discipline #quietconfidence
-
-  - id: mon-late
-    type: reel
-    date: '2026-11-16'
-    time: "23:00"
-    platforms:
-    - instagram
-    - tiktok
-    title: Nobody is coming to make it easier
-    voiceover: Nobody is coming... to make it easier. And that is good news. It means the next move belongs to him. Not to luck. Not to timing. Not to anyone's approval. A still man stops waiting for the perfect week. He takes the first quiet step... today. Then another, tomorrow. That is how ordinary men... become steady ones.
-    highlight:
-    - nobody
-    - move
-    - still
-    - today
-    - steady
-    caption_words: 3
-    caption_lower: true
-    caption_style: serif_italic
-    grade: mono
-    allow_statues: true
-    broll:
-    - 'img: lone man mountain summit'
-    - 'img: marble statue face'
-    - 'img: road sunrise'
-    - 'img: stone stairs light'
-    - 'img: mountain fog sunrise'
-    - 'img: marble bust dark'
-    - 'img: lighthouse storm'
-    - 'img: path forest morning'
-    caption: 'Nobody is coming to make it easier. Good. The next move is his.
-
-
-      #motivation #selfimprovement #discipline #quietconfidence #thestillman'
-    tiktok_title: Nobody is coming to make it easier
-
-  - id: tue-late
-    type: reel
-    date: '2026-11-17'
-    time: '23:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: Slow is control
-    voiceover: The world rewards speed. But the man people trust... is the one who doesn't rush. He finishes his sentence. He takes a breath before he answers. He walks into the room at his own pace. Slow is not weak. Slow is control. And control... is what everyone notices first.
-    highlight:
-    - trust
-    - rush
-    - breath
-    - slow
-    - control
-    caption_words: 3
-    caption_lower: true
-    caption_style: serif_italic
-    grade: mono
-    allow_statues: true
-    broll:
-    - 'img: marble statue face'
-    - 'img: chess board dark'
-    - 'img: hourglass'
-    - 'img: calm sea horizon'
-    - 'img: marble bust profile'
-    - 'img: candle dark room'
-    - 'img: stone statue shadow'
-    - 'img: still water reflection'
-    caption: 'Slow is not weak. Slow is control.
-
-
-      #motivation #quietconfidence #bodylanguage #selfimprovement #thestillman'
-    tiktok_title: Slow is control
-
-  - id: wed-late
-    type: reel
-    date: '2026-11-18'
-    time: '23:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: Discipline when no one claps
-    voiceover: No one claps at six in the morning. No one sees the page he writes... the set he finishes... the message he doesn't send. That is exactly the point. Quiet discipline builds a man that no applause can shake. He does the work in silence. And lets the results... do the talking.
-    highlight:
-    - claps
-    - discipline
-    - applause
-    - silence
-    - results
-    caption_words: 3
-    caption_lower: true
-    caption_style: serif_italic
-    grade: mono
-    allow_statues: true
-    broll:
-    - 'img: early morning window light'
-    - 'img: dumbbell dark gym'
-    - 'img: notebook pen coffee'
-    - 'img: marble statue face'
-    - 'img: sunrise city skyline'
-    - 'img: running track dawn'
-    - 'img: marble bust dark'
-    - 'img: mountain sunrise'
-    caption: 'No one claps at 6am. That is the point.
-
-
-      #discipline #motivation #morningroutine #quietconfidence #thestillman'
-    tiktok_title: Discipline when no one claps
-
-  - id: thu-late
-    type: reel
-    date: '2026-11-19'
-    time: '23:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: The best comebacks are quiet
-    voiceover: The best comebacks... make no noise. No announcements. No long posts. Just a man who goes to bed earlier. Trains harder. Reads more. Speaks less. Six months later, people ask what changed. He smiles. Everything did... quietly.
-    highlight:
-    - comebacks
-    - noise
-    - trains
-    - changed
-    - quietly
-    caption_words: 3
-    caption_lower: true
-    caption_style: serif_italic
-    grade: mono
-    allow_statues: true
-    broll:
-    - 'img: marble statue face'
-    - 'img: books stack dark'
-    - 'img: phoenix fire dark'
-    - 'img: night city window'
-    - 'img: boxing gloves'
-    - 'img: road mountains'
-    - 'img: marble bust'
-    - 'img: sunrise ocean'
-    caption: 'The best comebacks make no noise.
-
-
-      #comeback #motivation #glowup #selfimprovement #thestillman'
-    tiktok_title: The best comebacks are quiet
-
-  - id: fri-late
-    type: reel
-    date: '2026-11-20'
-    time: '23:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: Bet on yourself, once
-    voiceover: Every man reaches a point where the safe choice... becomes the risky one. Staying the same starts to cost more than trying. He doesn't need to be fearless. He just moves... with the fear in the passenger seat. One application. One conversation. One step. He bets on himself once. Then again.
-    highlight:
-    - safe
-    - risky
-    - fearless
-    - step
-    - himself
-    caption_words: 3
-    caption_lower: true
-    caption_style: serif_italic
-    grade: mono
-    allow_statues: true
-    broll:
-    - 'img: road ahead car night'
-    - 'img: cliff edge sea'
-    - 'img: marble statue face'
-    - 'img: open door light'
-    - 'img: mountain path'
-    - 'img: dice dark'
-    - 'img: marble sculpture dark'
-    - 'img: sunrise horizon'
-    caption: 'At some point the safe choice becomes the risky one.
-
-
-      #motivation #betonyourself #courage #selfimprovement #thestillman'
-    tiktok_title: Bet on yourself, once
-
-  - id: sat-late
-    type: reel
-    date: '2026-11-21'
-    time: '23:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: Be the calm in a loud room
-    voiceover: When everyone gets loud... the calm man becomes the center. He doesn't compete for attention. He listens. He speaks last. His words land because they are rare. Calm is not the absence of fire. It is fire... under control. That is the man worth becoming.
-    highlight:
-    - loud
-    - calm
-    - listens
-    - fire
-    - control
-    caption_words: 3
-    caption_lower: true
-    caption_style: serif_italic
-    grade: mono
-    allow_statues: true
-    broll:
-    - 'img: marble statue face'
-    - 'img: candle flame dark'
-    - 'img: fireplace'
-    - 'img: storm sea calm'
-    - 'img: marble bust profile'
-    - 'img: lion statue'
-    - 'img: embers dark'
-    - 'img: still lake'
-    caption: 'Calm is not the absence of fire. It is fire under control.
-
-
-      #quietconfidence #motivation #selfcontrol #mensmindset #thestillman'
-    tiktok_title: Be the calm in a loud room
-
-  - id: sun-late
-    type: reel
-    date: '2026-11-22'
-    time: '23:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: One promise this week
-    voiceover: Sunday night. The week is a blank page. He doesn't write ten resolutions. He writes one promise... and keeps it. Small promises kept build something stronger than motivation. They build trust. With himself. And a man who trusts himself... walks differently.
-    highlight:
-    - promise
-    - keeps
-    - trust
-    - himself
-    - differently
-    caption_words: 3
-    caption_lower: true
-    caption_style: serif_italic
-    grade: mono
-    allow_statues: true
-    broll:
-    - 'img: notebook pen candle'
-    - 'img: blank page desk'
-    - 'img: marble statue face'
-    - 'img: sunday morning window'
-    - 'img: calendar desk'
-    - 'img: marble bust light'
-    - 'img: road sunrise'
-    - 'img: still water dawn'
-    caption: 'One promise this week. Kept.
-
-
-      #motivation #discipline #sundayreset #quietconfidence #thestillman'
-    tiktok_title: One promise this week
-
-  - id: tue-mid
-    type: reel
-    date: '2026-11-17'
-    time: '13:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: He stopped saying sorry for everything
-    voiceover: He stopped saying sorry for everything. Sorry to interrupt. Sorry, quick question. Sorry for asking. Now he says... excuse me. Or simply... thank you for waiting. Same politeness. None of the shrinking. Small words... change how a room sees a man. Follow for one small rep a day.
-    highlight:
-    - sorry
-    - excuse
-    - politeness
-    - shrinking
-    - room
-    broll:
-    - man walking city street from behind
-    - coffee shop window rain
-    - hands holding coffee cup
-    - office hallway light
-    - city night lights bokeh
-    caption: 'Same politeness. None of the shrinking.
-
-
-      #selfrespect #communication #confidencetips #thestillman #quietconfidence'
-    tiktok_title: He stopped saying sorry for everything
-
-  - id: wed-mid
-    type: reel
-    date: '2026-11-18'
-    time: '13:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: The two-second pause
-    voiceover: Before a hard answer... he waits two seconds. Not to look wise. To actually think. The pause tells the room he isn't rushing to please anyone. Then he answers... slower than feels natural. Two seconds. That's the whole trick. Follow for one small rep a day.
-    highlight:
-    - two
-    - think
-    - please
-    - slower
-    - trick
-    broll:
-    - clock ticking close up
-    - man silhouette window thinking
-    - calm lake morning
-    - hands folded table
-    - desk lamp night
-    caption: 'Two seconds. That''s the whole trick.
-
-
-      #communication #bodylanguage #confidencetips #thestillman #quietconfidence'
-    tiktok_title: The two-second pause
-
-  - id: thu-mid
-    type: reel
-    date: '2026-11-19'
-    time: '13:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: Where calm men put their eyes
-    voiceover: Calm men hold eye contact for one sentence. Then he looks away... slowly. Never down. To the side, like he's thinking. Then back. Steady... not staring. That rhythm reads as confidence. And it can be practiced in the very next conversation. Follow for one small rep a day.
-    highlight:
-    - sentence
-    - slowly
-    - steady
-    - rhythm
-    - practiced
-    broll:
-    - city crowd blur night
-    - window reflection rain
-    - man walking from behind sunset
-    - coffee table conversation hands
-    - street lights evening
-    caption: 'Steady, not staring.
-
-
-      #eyecontact #bodylanguage #socialskills #thestillman #quietconfidence'
-    tiktok_title: Where calm men put their eyes
-
-  - id: fri-mid
-    type: reel
-    date: '2026-11-20'
-    time: '13:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: Friday night, phone in pocket
-    voiceover: Friday night. Every phone is on the table. His stays in his pocket. When someone talks... he is fully there. It sounds small. It's rare. People remember the one person who actually listened. Tonight... he chooses to be that person. Follow for one small rep a day.
-    highlight:
-    - pocket
-    - fully
-    - rare
-    - listened
-    - tonight
-    broll:
-    - bar table drinks evening
-    - city night street
-    - candle restaurant table
-    - hands on table warm light
-    - night city lights
-    caption: 'People remember the one person who actually listened.
-
-
-      #presence #socialskills #fridaynight #thestillman #quietconfidence'
-    tiktok_title: Friday night, phone in pocket
-
-  - id: sat-mid
-    type: reel
-    date: '2026-11-21'
-    time: '13:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: The text after a good date
-    voiceover: After a good date... he doesn't overthink the text. One line. Specific. Calm. Had a great time. That story about your brother still makes me laugh. No essay. No games. No waiting three days. Clear beats clever. Follow for one small rep a day.
-    highlight:
-    - overthink
-    - specific
-    - calm
-    - games
-    - clear
-    broll:
-    - phone hand night
-    - city night window
-    - coffee cup morning table
-    - walking street evening from behind
-    - rain window lights
-    caption: 'Clear beats clever.
-
-
-      #dating #datingtips #texting #thestillman #quietconfidence'
-    tiktok_title: The text after a good date
-
-  - id: sun-mid
-    type: reel
-    date: '2026-11-22'
-    time: '13:30'
-    platforms:
-    - instagram
-    - tiktok
-    title: One question every Sunday
-    voiceover: Every Sunday... he asks one question. What made me feel weak this week? Then he picks one thing to fix. Not ten. One. A late night. A skipped workout. A broken promise. One fix a week... is fifty-two a year. Follow for one small rep a day.
-    highlight:
-    - question
-    - weak
-    - one
-    - fix
-    - year
-    broll:
-    - notebook pen desk morning
-    - coffee steam window
-    - sunrise city skyline
-    - calm sea morning
-    - man walking beach from behind
-    caption: 'One fix a week is fifty-two a year.
-
-
-      #sundayreset #selfimprovement #discipline #thestillman #quietconfidence'
-    tiktok_title: One question every Sunday
-
-  - id: tue-carousel-am
-    type: carousel
-    date: '2026-11-17'
-    time: '10:30'
-    platforms:
-    - instagram
-    - tiktok
+    subtitle: Most people do the opposite.
+  - kind: point
+    num: 1
+    title: They pause at the door.
+    body: One second. Let the room come to them.
+  - kind: point
+    num: 2
+    title: They scan slowly.
+    body: Eyes move like they have time. Because they do.
+  - kind: point
+    num: 3
+    title: They greet one person first.
+    body: Not the whole room. One.
+  - kind: point
+    num: 4
+    title: Hands stay out of the pockets.
+    body: Visible hands read as open.
+  - kind: point
+    num: 5
+    title: The phone stays away.
+    body: The phone is where nervous energy hides.
+  - kind: cta
+    title: Save this for your next event.
+    button: Save
+  caption: 'Which one is hardest? Most guys say #5.
+
+
+    Save it for the next event.
+
+
+    #thestillman #quietconfidence #socialskills'
+- id: tue-reel
+  type: reel
+  date: 2026-11-17
+  time: '19:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Silent in every group
+  voiceover: He used to go silent... in every group conversation. He'd rehearse a line in his head. And by the time it was ready... the moment was gone. Then he changed one thing. No more speeches. Just one question. One per conversation. "Wait... how did that happen?" That's it. Six weeks later, he doesn't rehearse anymore. He just talks. One question. Every time.
+  highlight:
+  - silent
+  - gone
+  - one
+  - question
+  - talks
+  - time
+  broll:
+  - friends at table bar from behind
+  - man hands fidgeting with glass
+  - man walking city morning from behind
+  - group of friends laughing night
+  - sunset horizon silhouette man
+  caption: 'The fix wasn''t confidence. It was one question.
+
+
+    Follow for part 2: how to ask it without sounding scripted.
+
+
+    #thestillman #quietconfidence #socialskills #conversation'
+- id: wed-reel
+  type: reel
+  date: 2026-11-18
+  time: '19:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: 10 seconds before any conversation
+  voiceover: Try this... ten seconds before any conversation. Breathe in... for four. Out... for six. Again. Drop the shoulders. Chin level with the floor. One more breath. Now walk in. The body calms down first. The mind follows.
+  highlight:
+  - ten
+  - four
+  - six
+  - shoulders
+  - walk
+  - follows
+  broll:
+  - man standing in front of door from behind
+  - man breathing slowly silhouette
+  - man posture shoulders from behind
+  - door opening warm light
+  caption: 'Ten seconds. Before the meeting, the date, the call.
+
+
+    Save it and try it today.
+
+
+    #thestillman #quietconfidence #breathwork #calm'
+- id: wed-carousel
+  type: carousel
+  date: 2026-11-18
+  time: '12:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: 'When the conversation dies: 4 things to say'
+  slides:
+  - kind: cover
+    title: 'When the conversation dies: 4 things to say'
+    subtitle: Silence is fine. Panic isn't.
+  - kind: point
+    num: 1
+    title: Notice something here.
+    body: '"This place is louder than I expected."'
+  - kind: point
+    num: 2
+    title: Go back to something said earlier.
+    body: '"Wait, you said you moved last year. From where?"'
+  - kind: point
+    num: 3
+    title: Ask the open one.
+    body: '"What''s been taking up most of your time lately?"'
+  - kind: point
+    num: 4
+    title: Share something small.
+    body: A 20-second story invites one back.
+  - kind: cta
+    title: Save this for next time.
+    button: Save
+  caption: 'A pause is not a failure. What comes after it is the skill.
+
+
+    Save for the next awkward silence.
+
+
+    #thestillman #quietconfidence #smalltalk #socialskills'
+- id: thu-reel
+  type: reel
+  date: 2026-11-19
+  time: '19:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Fake it till you make it
+  voiceover: '"Fake it till you make it." It''s the most common advice men get. And it rarely works. Faking it creates tension. People feel it... even when they can''t name it. Here''s what works instead. Don''t fake the feeling. Do the small action. Every day. Say hello first. Hold eye contact one second longer. Reps... not acting.'
+  highlight:
+  - fake
+  - tension
+  - instead
+  - action
+  - reps
+  broll:
+  - man in suit mask city night
+  - tense hands clenched close up
+  - handshake two men close up
+  - man walking street confident from behind
+  - gym barbell morning light
+  caption: 'Confidence isn''t a mask. It''s a habit.
+
+
+    Follow for the real version.
+
+
+    #thestillman #quietconfidence #mindset #selfimprovement'
+- id: fri-reel
+  type: reel
+  date: 2026-11-20
+  time: '19:30'
+  platforms:
+  - tiktok
+  title: 3 things a calm man never does
+  voiceover: Three things a calm man never does. One. He doesn't explain himself twice. Two. He doesn't chase approval... in a room that hasn't earned his. Three. He doesn't rush his words. Steady... is a choice.
+  highlight:
+  - calm
+  - man
+  - twice
+  - approval
+  - rush
+  - steady
+  broll:
+  - man standing at lake dawn from behind
+  - man walking away from party night street
+  - man standing still crowd motion blur
+  - sea sunrise horizon calm
+  caption: 'Which one is hardest to drop?
+
+
+    Share with a friend who needs it.
+
+
+    #thestillman #quietconfidence #selfrespect'
+- id: fri-carousel
+  type: carousel
+  date: 2026-11-20
+  time: '12:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Body language that says steady
+  slides:
+  - kind: cover
+    title: Body language that says "steady" before a word is spoken
+    subtitle: Practice one a day.
+  - kind: point
+    num: 1
+    title: Upright, not stiff.
+    body: Tall spine, loose shoulders.
+  - kind: point
+    num: 2
+    title: Hands visible.
+    body: On the table, at the sides, never hidden.
+  - kind: point
+    num: 3
+    title: 3-second eye contact.
+    body: Then look away to the side, not down.
+  - kind: point
+    num: 4
+    title: Slow gestures.
+    body: Fast hands read as nerves.
+  - kind: point
+    num: 5
+    title: Weight on both feet.
+    body: No shifting, no swaying.
+  - kind: cta
+    title: Save it. Practice one a day.
+    button: Save
+  caption: 'People decide how steady a man is in the first few seconds. Most of it is the body.
+
+
+    Save and practise one a day.
+
+
+    #thestillman #bodylanguage #quietconfidence'
+- id: sat-reel
+  type: reel
+  date: 2026-11-21
+  time: '19:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Replaying the date
+  voiceover: He kept replaying the date in his head... for days. Every pause. Every word he should have said. Then he tried something simple. That night, he wrote down two lines. One thing that went well. One thing to try next time. Then he closed the notebook. The replay stopped. Not because he stopped caring. Because he gave the thought... somewhere to go.
+  highlight:
+  - replaying
+  - simple
+  - two
+  - lines
+  - notebook
+  - stopped
+  broll:
+  - man lying bed night phone light ceiling
+  - wet city street night lights
+  - hand writing notebook lamp
+  - closing notebook desk
+  - sunrise horizon calm water
+  caption: 'Overthinking needs an exit, not a fight. Two lines, then close the notebook.
+
+
+    Follow for more.
+
+
+    #thestillman #overthinking #dating #quietconfidence'
+- id: sun-reel
+  type: reel
+  date: 2026-11-22
+  time: '19:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Sunday routine
+  voiceover: Sunday routine... of a man building quiet confidence. A walk at sunrise. No phone. Ten minutes with a notebook. Three moments next week... where he'll do one small rep. A slow training session. An early night. Nothing loud. Nothing to prove. Just a man... getting ready.
+  highlight:
+  - quiet
+  - confidence
+  - sunrise
+  - notebook
+  - rep
+  - prove
+  - ready
+  broll:
+  - empty road sunrise man walking from behind
+  - notebook coffee morning table
+  - empty gym morning light
+  - lamp turning off night room
+  - calm sea horizon sunrise
+  caption: 'The week is won on Sunday, quietly.
+
+
+    Save your Sunday.
+
+
+    #thestillman #sundayroutine #discipline #quietconfidence'
+- id: mon-late
+  type: reel
+  date: '2026-11-16'
+  time: '23:00'
+  platforms:
+  - instagram
+  - tiktok
+  title: Nobody is coming to make it easier
+  voiceover: Nobody is coming... to make it easier. And that is good news. It means the next move belongs to him. Not to luck. Not to timing. Not to anyone's approval. A still man stops waiting for the perfect week. He takes the first quiet step... today. Then another, tomorrow. That is how ordinary men... become steady ones.
+  highlight:
+  - nobody
+  - move
+  - still
+  - today
+  - steady
+  caption_words: 3
+  caption_lower: true
+  caption_style: serif_italic
+  grade: mono
+  allow_statues: true
+  broll:
+  - 'img: lone man mountain summit'
+  - 'img: marble statue face'
+  - 'img: road sunrise'
+  - 'img: stone stairs light'
+  - 'img: mountain fog sunrise'
+  - 'img: marble bust dark'
+  - 'img: lighthouse storm'
+  - 'img: path forest morning'
+  caption: 'Nobody is coming to make it easier. Good. The next move is his.
+
+
+    #motivation #selfimprovement #discipline #quietconfidence #thestillman'
+  tiktok_title: Nobody is coming to make it easier
+- id: tue-late
+  type: reel
+  date: '2026-11-17'
+  time: '23:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Slow is control
+  voiceover: The world rewards speed. But the man people trust... is the one who doesn't rush. He finishes his sentence. He takes a breath before he answers. He walks into the room at his own pace. Slow is not weak. Slow is control. And control... is what everyone notices first.
+  highlight:
+  - trust
+  - rush
+  - breath
+  - slow
+  - control
+  caption_words: 3
+  caption_lower: true
+  caption_style: serif_italic
+  grade: mono
+  allow_statues: true
+  broll:
+  - 'img: marble statue face'
+  - 'img: chess board dark'
+  - 'img: hourglass'
+  - 'img: calm sea horizon'
+  - 'img: marble bust profile'
+  - 'img: candle dark room'
+  - 'img: stone statue shadow'
+  - 'img: still water reflection'
+  caption: 'Slow is not weak. Slow is control.
+
+
+    #motivation #quietconfidence #bodylanguage #selfimprovement #thestillman'
+  tiktok_title: Slow is control
+- id: wed-late
+  type: reel
+  date: '2026-11-18'
+  time: '23:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Day 1 · The honest audit
+  voiceover: Every rebuild starts with one honest look. Tonight... he writes three lines. Where he shrinks. Where he rushes. Where he waits for permission. No judgment. Just the map. Thirty days from now... he reads it again. Day two tomorrow. Follow so you don't miss it.
+  highlight:
+  - honest
+  - shrinks
+  - rushes
+  - permission
+  - map
+  broll:
+  - 'img: notebook pen candle dark'
+  - 'img: marble statue face'
+  - 'img: old map desk'
+  - 'img: stone stairs light'
+  - 'img: marble bust profile'
+  - 'img: night window city'
+  - 'img: mountain path dawn'
+  - 'img: classical sculpture dark'
+  caption: 'The 30-Day Rebuild — Day 1. Three lines. No judgment. Just the map.
+
+
+    #30dayrebuild #selfimprovement #quietconfidence #thestillman'
+  tiktok_title: Day 1 · The honest audit
+  caption_words: 3
+  caption_lower: true
+  caption_style: serif_italic
+  grade: mono
+  allow_statues: true
+- id: thu-late
+  type: reel
+  date: '2026-11-19'
+  time: '23:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Day 2 · One wake-up time
+  voiceover: Calm starts the night before. Day two... he picks one wake-up time. Same time. Every day. Weekends too. Not early to impress anyone. Fixed... so the body stops negotiating. A steady morning... builds a steady man. Day three tomorrow. Follow so you don't miss it.
+  highlight:
+  - calm
+  - one
+  - same
+  - steady
+  - man
+  broll:
+  - 'img: alarm clock dark'
+  - 'img: sunrise window bedroom'
+  - 'img: marble statue face'
+  - 'img: calm sea dawn'
+  - 'img: marble bust light'
+  - 'img: coffee steam morning'
+  - 'img: road sunrise'
+  - 'img: classical sculpture shadow'
+  caption: 'The 30-Day Rebuild — Day 2. One wake-up time. Every day.
+
+
+    #30dayrebuild #morningroutine #discipline #thestillman'
+  tiktok_title: Day 2 · One wake-up time
+  caption_words: 3
+  caption_lower: true
+  caption_style: serif_italic
+  grade: mono
+  allow_statues: true
+- id: fri-late
+  type: reel
+  date: '2026-11-20'
+  time: '23:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Day 3 · The doorway posture
+  voiceover: People read his body before his words. Day three... every doorway is a reset. Before walking through, he drops his shoulders, lifts his chest, slows his step. Ten doorways a day. Ten small resets. By day thirty... it's simply how he walks. Day four tomorrow. Follow so you don't miss it.
+  highlight:
+  - body
+  - doorway
+  - shoulders
+  - resets
+  - walks
+  broll:
+  - 'img: open door light'
+  - 'img: marble statue standing'
+  - 'img: stone archway'
+  - 'img: marble bust profile'
+  - 'img: hallway light dark'
+  - 'img: ancient columns'
+  - 'img: classical sculpture dark'
+  - 'img: stairs light'
+  caption: 'The 30-Day Rebuild — Day 3. Every doorway is a reset.
+
+
+    #30dayrebuild #bodylanguage #posture #thestillman'
+  tiktok_title: Day 3 · The doorway posture
+  caption_words: 3
+  caption_lower: true
+  caption_style: serif_italic
+  grade: mono
+  allow_statues: true
+- id: sat-late
+  type: reel
+  date: '2026-11-21'
+  time: '23:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Day 4 · The long exhale
+  voiceover: 'Nerves live in the breath first. Day four... before every hard moment, one long exhale. Out for longer than in. Before the call. Before the room. Before the reply. It tells the body: nothing here is chasing him. Day five tomorrow. Follow so you don''t miss it.'
+  highlight:
+  - breath
+  - exhale
+  - longer
+  - body
+  - chasing
+  broll:
+  - 'img: calm lake mist'
+  - 'img: marble statue face'
+  - 'img: candle flame dark'
+  - 'img: still water reflection'
+  - 'img: marble bust dark'
+  - 'img: fog mountains'
+  - 'img: ocean horizon calm'
+  - 'img: classical sculpture light'
+  caption: 'The 30-Day Rebuild — Day 4. Out for longer than in.
+
+
+    #30dayrebuild #breathwork #calm #thestillman'
+  tiktok_title: Day 4 · The long exhale
+  caption_words: 3
+  caption_lower: true
+  caption_style: serif_italic
+  grade: mono
+  allow_statues: true
+- id: sun-late
+  type: reel
+  date: '2026-11-22'
+  time: '23:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Day 5 · Half-speed words
+  voiceover: Fast talk sounds like asking for permission. Day five... he speaks at half speed for one full day. Shorter sentences. Full stops. A pause before the answer. It will feel too slow. It isn't. To everyone else... it sounds like control. Day six tomorrow. Follow so you don't miss it.
+  highlight:
+  - permission
+  - half
+  - pause
+  - slow
+  - control
+  broll:
+  - 'img: hourglass dark'
+  - 'img: marble statue face'
+  - 'img: old books candle'
+  - 'img: marble bust profile'
+  - 'img: chess board dark'
+  - 'img: quiet library'
+  - 'img: stone sculpture shadow'
+  - 'img: calm sea night'
+  caption: 'The 30-Day Rebuild — Day 5. Half speed sounds like control.
+
+
+    #30dayrebuild #communication #confidence #thestillman'
+  tiktok_title: Day 5 · Half-speed words
+  caption_words: 3
+  caption_lower: true
+  caption_style: serif_italic
+  grade: mono
+  allow_statues: true
+- id: tue-mid
+  type: reel
+  date: '2026-11-17'
+  time: '13:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: He stopped saying sorry for everything
+  voiceover: He stopped saying sorry for everything. Sorry to interrupt. Sorry, quick question. Sorry for asking. Now he says... excuse me. Or simply... thank you for waiting. Same politeness. None of the shrinking. Small words... change how a room sees a man. Follow for one small rep a day.
+  highlight:
+  - sorry
+  - excuse
+  - politeness
+  - shrinking
+  - room
+  broll:
+  - man walking city street from behind
+  - coffee shop window rain
+  - hands holding coffee cup
+  - office hallway light
+  - city night lights bokeh
+  caption: 'Same politeness. None of the shrinking.
+
+
+    #selfrespect #communication #confidencetips #thestillman #quietconfidence'
+  tiktok_title: He stopped saying sorry for everything
+- id: wed-mid
+  type: reel
+  date: '2026-11-18'
+  time: '13:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: The two-second pause
+  voiceover: Before a hard answer... he waits two seconds. Not to look wise. To actually think. The pause tells the room he isn't rushing to please anyone. Then he answers... slower than feels natural. Two seconds. That's the whole trick. Follow for one small rep a day.
+  highlight:
+  - two
+  - think
+  - please
+  - slower
+  - trick
+  broll:
+  - clock ticking close up
+  - man silhouette window thinking
+  - calm lake morning
+  - hands folded table
+  - desk lamp night
+  caption: 'Two seconds. That''s the whole trick.
+
+
+    #communication #bodylanguage #confidencetips #thestillman #quietconfidence'
+  tiktok_title: The two-second pause
+- id: thu-mid
+  type: reel
+  date: '2026-11-19'
+  time: '13:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Where calm men put their eyes
+  voiceover: Calm men hold eye contact for one sentence. Then he looks away... slowly. Never down. To the side, like he's thinking. Then back. Steady... not staring. That rhythm reads as confidence. And it can be practiced in the very next conversation. Follow for one small rep a day.
+  highlight:
+  - sentence
+  - slowly
+  - steady
+  - rhythm
+  - practiced
+  broll:
+  - city crowd blur night
+  - window reflection rain
+  - man walking from behind sunset
+  - coffee table conversation hands
+  - street lights evening
+  caption: 'Steady, not staring.
+
+
+    #eyecontact #bodylanguage #socialskills #thestillman #quietconfidence'
+  tiktok_title: Where calm men put their eyes
+- id: fri-mid
+  type: reel
+  date: '2026-11-20'
+  time: '13:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Friday night, phone in pocket
+  voiceover: Friday night. Every phone is on the table. His stays in his pocket. When someone talks... he is fully there. It sounds small. It's rare. People remember the one person who actually listened. Tonight... he chooses to be that person. Follow for one small rep a day.
+  highlight:
+  - pocket
+  - fully
+  - rare
+  - listened
+  - tonight
+  broll:
+  - bar table drinks evening
+  - city night street
+  - candle restaurant table
+  - hands on table warm light
+  - night city lights
+  caption: 'People remember the one person who actually listened.
+
+
+    #presence #socialskills #fridaynight #thestillman #quietconfidence'
+  tiktok_title: Friday night, phone in pocket
+- id: sat-mid
+  type: reel
+  date: '2026-11-21'
+  time: '13:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: The text after a good date
+  voiceover: After a good date... he doesn't overthink the text. One line. Specific. Calm. Had a great time. That story about your brother still makes me laugh. No essay. No games. No waiting three days. Clear beats clever. Follow for one small rep a day.
+  highlight:
+  - overthink
+  - specific
+  - calm
+  - games
+  - clear
+  broll:
+  - phone hand night
+  - city night window
+  - coffee cup morning table
+  - walking street evening from behind
+  - rain window lights
+  caption: 'Clear beats clever.
+
+
+    #dating #datingtips #texting #thestillman #quietconfidence'
+  tiktok_title: The text after a good date
+- id: sun-mid
+  type: reel
+  date: '2026-11-22'
+  time: '13:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: One question every Sunday
+  voiceover: Every Sunday... he asks one question. What made me feel weak this week? Then he picks one thing to fix. Not ten. One. A late night. A skipped workout. A broken promise. One fix a week... is fifty-two a year. Follow for one small rep a day.
+  highlight:
+  - question
+  - weak
+  - one
+  - fix
+  - year
+  broll:
+  - notebook pen desk morning
+  - coffee steam window
+  - sunrise city skyline
+  - calm sea morning
+  - man walking beach from behind
+  caption: 'One fix a week is fifty-two a year.
+
+
+    #sundayreset #selfimprovement #discipline #thestillman #quietconfidence'
+  tiktok_title: One question every Sunday
+- id: tue-carousel-am
+  type: carousel
+  date: '2026-11-17'
+  time: '10:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: 3 words calm men stop using
+  slides:
+  - kind: cover
     title: 3 words calm men stop using
-    slides:
-    - kind: cover
-      title: 3 words calm men stop using
-      subtitle: They shrink every sentence.
-    - kind: point
-      num: 1
-      title: Just.
-      body: '"I just wanted to ask" makes the ask smaller.'
-    - kind: point
-      num: 2
-      title: Sorry.
-      body: Save it for real mistakes.
-    - kind: point
-      num: 3
-      title: I think maybe.
-      body: Say what you think. Once.
-    - kind: cta
-      title: Save this. Catch one today.
-      button: Save
-    caption: 'Three small words. One big difference.
+    subtitle: They shrink every sentence.
+  - kind: point
+    num: 1
+    title: Just.
+    body: '"I just wanted to ask" makes the ask smaller.'
+  - kind: point
+    num: 2
+    title: Sorry.
+    body: Save it for real mistakes.
+  - kind: point
+    num: 3
+    title: I think maybe.
+    body: Say what you think. Once.
+  - kind: cta
+    title: Save this. Catch one today.
+    button: Save
+  caption: 'Three small words. One big difference.
 
 
-      Save it and catch one today.
+    Save it and catch one today.
 
 
-      #communication #selfrespect #thestillman #quietconfidence'
-
-  - id: tue-carousel-pm
-    type: carousel
-    date: '2026-11-17'
-    time: '16:30'
-    platforms:
-    - instagram
-    - tiktok
+    #communication #selfrespect #thestillman #quietconfidence'
+- id: tue-carousel-pm
+  type: carousel
+  date: '2026-11-17'
+  time: '16:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: How to join a group conversation
+  slides:
+  - kind: cover
     title: How to join a group conversation
-    slides:
-    - kind: cover
-      title: How to join a group conversation
-      subtitle: Without the awkward entrance.
-    - kind: point
-      num: 1
-      title: Stand at the edge.
-      body: Listen for ten seconds first.
-    - kind: point
-      num: 2
-      title: Nod at the speaker.
-      body: Eye contact earns the opening.
-    - kind: point
-      num: 3
-      title: Add to the topic.
-      body: Not a new one. Build on theirs.
-    - kind: point
-      num: 4
-      title: Ask one question.
-      body: Then let them talk.
-    - kind: cta
-      title: Save this for your next event.
-      button: Save
-    caption: 'Joining a group is a skill, not a personality.
+    subtitle: Without the awkward entrance.
+  - kind: point
+    num: 1
+    title: Stand at the edge.
+    body: Listen for ten seconds first.
+  - kind: point
+    num: 2
+    title: Nod at the speaker.
+    body: Eye contact earns the opening.
+  - kind: point
+    num: 3
+    title: Add to the topic.
+    body: Not a new one. Build on theirs.
+  - kind: point
+    num: 4
+    title: Ask one question.
+    body: Then let them talk.
+  - kind: cta
+    title: Save this for your next event.
+    button: Save
+  caption: 'Joining a group is a skill, not a personality.
 
 
-      #socialskills #conversation #thestillman #quietconfidence'
-
-  - id: wed-carousel-pm
-    type: carousel
-    date: '2026-11-18'
-    time: '16:30'
-    platforms:
-    - instagram
-    - tiktok
+    #socialskills #conversation #thestillman #quietconfidence'
+- id: wed-carousel-pm
+  type: carousel
+  date: '2026-11-18'
+  time: '16:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: 5 habits of quietly confident men
+  slides:
+  - kind: cover
     title: 5 habits of quietly confident men
-    slides:
-    - kind: cover
-      title: 5 habits of quietly confident men
-      subtitle: None of them are loud.
-    - kind: point
-      num: 1
-      title: He arrives early.
-      body: Rushing reads as anxiety.
-    - kind: point
-      num: 2
-      title: He speaks last.
-      body: Then his words land.
-    - kind: point
-      num: 3
-      title: He keeps small promises.
-      body: Mostly to himself.
-    - kind: point
-      num: 4
-      title: He asks, then listens.
-      body: Fully. No phone.
-    - kind: point
-      num: 5
-      title: He walks slower.
-      body: Like he has time. Because he does.
-    - kind: cta
-      title: Which one is yours? Save it.
-      button: Save
-    caption: 'Confidence that doesn''t need volume.
+    subtitle: None of them are loud.
+  - kind: point
+    num: 1
+    title: He arrives early.
+    body: Rushing reads as anxiety.
+  - kind: point
+    num: 2
+    title: He speaks last.
+    body: Then his words land.
+  - kind: point
+    num: 3
+    title: He keeps small promises.
+    body: Mostly to himself.
+  - kind: point
+    num: 4
+    title: He asks, then listens.
+    body: Fully. No phone.
+  - kind: point
+    num: 5
+    title: He walks slower.
+    body: Like he has time. Because he does.
+  - kind: cta
+    title: Which one is yours? Save it.
+    button: Save
+  caption: 'Confidence that doesn''t need volume.
 
 
-      Which one do you already have?
+    Which one do you already have?
 
 
-      #habits #selfimprovement #thestillman #quietconfidence'
-
-  - id: thu-carousel-am
-    type: carousel
-    date: '2026-11-19'
-    time: '10:30'
-    platforms:
-    - instagram
-    - tiktok
+    #habits #selfimprovement #thestillman #quietconfidence'
+- id: thu-carousel-am
+  type: carousel
+  date: '2026-11-19'
+  time: '10:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: The 10-minute morning reset
+  slides:
+  - kind: cover
     title: The 10-minute morning reset
-    slides:
-    - kind: cover
-      title: The 10-minute morning reset
-      subtitle: Calm is built before 8am.
-    - kind: point
-      num: 1
-      title: No phone for 10 minutes.
-      body: The day waits. Let it.
-    - kind: point
-      num: 2
-      title: Water, then light.
-      body: Open the window first.
-    - kind: point
-      num: 3
-      title: Three lines on paper.
-      body: What matters today. Nothing else.
-    - kind: point
-      num: 4
-      title: One hard thing first.
-      body: Cold shower, short walk, ten push-ups.
-    - kind: cta
-      title: Save this for tomorrow morning.
-      button: Save
-    caption: 'Calm is built before 8am.
+    subtitle: Calm is built before 8am.
+  - kind: point
+    num: 1
+    title: No phone for 10 minutes.
+    body: The day waits. Let it.
+  - kind: point
+    num: 2
+    title: Water, then light.
+    body: Open the window first.
+  - kind: point
+    num: 3
+    title: Three lines on paper.
+    body: What matters today. Nothing else.
+  - kind: point
+    num: 4
+    title: One hard thing first.
+    body: Cold shower, short walk, ten push-ups.
+  - kind: cta
+    title: Save this for tomorrow morning.
+    button: Save
+  caption: 'Calm is built before 8am.
 
 
-      #morningroutine #discipline #thestillman #quietconfidence'
-
-  - id: thu-carousel-pm
-    type: carousel
-    date: '2026-11-19'
-    time: '16:30'
-    platforms:
-    - instagram
-    - tiktok
+    #morningroutine #discipline #thestillman #quietconfidence'
+- id: thu-carousel-pm
+  type: carousel
+  date: '2026-11-19'
+  time: '16:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: What to do with your hands when talking
+  slides:
+  - kind: cover
     title: What to do with your hands when talking
-    slides:
-    - kind: cover
-      title: What to do with your hands when talking
-      subtitle: Hands give away nerves first.
-    - kind: point
-      num: 1
-      title: Out of the pockets.
-      body: Visible hands read as open.
-    - kind: point
-      num: 2
-      title: Slow, small gestures.
-      body: At chest height, not above.
-    - kind: point
-      num: 3
-      title: Hold something light.
-      body: A glass, a pen. Then stop fidgeting.
-    - kind: point
-      num: 4
-      title: Rest them still.
-      body: On the table. Silence is fine.
-    - kind: cta
-      title: Save this before your next talk.
-      button: Save
-    caption: 'Hands give away nerves first.
+    subtitle: Hands give away nerves first.
+  - kind: point
+    num: 1
+    title: Out of the pockets.
+    body: Visible hands read as open.
+  - kind: point
+    num: 2
+    title: Slow, small gestures.
+    body: At chest height, not above.
+  - kind: point
+    num: 3
+    title: Hold something light.
+    body: A glass, a pen. Then stop fidgeting.
+  - kind: point
+    num: 4
+    title: Rest them still.
+    body: On the table. Silence is fine.
+  - kind: cta
+    title: Save this before your next talk.
+    button: Save
+  caption: 'Hands give away nerves first.
 
 
-      #bodylanguage #publicspeaking #thestillman #quietconfidence'
-
-  - id: fri-carousel-pm
-    type: carousel
-    date: '2026-11-20'
-    time: '16:30'
-    platforms:
-    - instagram
-    - tiktok
+    #bodylanguage #publicspeaking #thestillman #quietconfidence'
+- id: fri-carousel-pm
+  type: carousel
+  date: '2026-11-20'
+  time: '16:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: 'First date: 4 quiet rules'
+  slides:
+  - kind: cover
     title: 'First date: 4 quiet rules'
-    slides:
-    - kind: cover
-      title: 'First date: 4 quiet rules'
-      subtitle: Calm beats impressive.
-    - kind: point
-      num: 1
-      title: Pick the place.
-      body: A plan is attractive.
-    - kind: point
-      num: 2
-      title: Ask, then follow up.
-      body: The second question shows you listened.
-    - kind: point
-      num: 3
-      title: Phone face down.
-      body: 'Better: in your pocket.'
-    - kind: point
-      num: 4
-      title: End on a high.
-      body: Leave while it's good.
-    - kind: cta
-      title: Save this for Friday.
-      button: Save
-    caption: 'Calm beats impressive.
+    subtitle: Calm beats impressive.
+  - kind: point
+    num: 1
+    title: Pick the place.
+    body: A plan is attractive.
+  - kind: point
+    num: 2
+    title: Ask, then follow up.
+    body: The second question shows you listened.
+  - kind: point
+    num: 3
+    title: Phone face down.
+    body: 'Better: in your pocket.'
+  - kind: point
+    num: 4
+    title: End on a high.
+    body: Leave while it's good.
+  - kind: cta
+    title: Save this for Friday.
+    button: Save
+  caption: 'Calm beats impressive.
 
 
-      Save it for the next first date.
+    Save it for the next first date.
 
 
-      #dating #datingtips #thestillman #quietconfidence'
-
-  - id: sat-carousel-am
-    type: carousel
-    date: '2026-11-21'
-    time: '10:30'
-    platforms:
-    - instagram
-    - tiktok
+    #dating #datingtips #thestillman #quietconfidence'
+- id: sat-carousel-am
+  type: carousel
+  date: '2026-11-21'
+  time: '10:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Overthinking a text? Do this
+  slides:
+  - kind: cover
     title: Overthinking a text? Do this
-    slides:
-    - kind: cover
-      title: Overthinking a text? Do this
-      subtitle: Four steps. Two minutes.
-    - kind: point
-      num: 1
-      title: Write it once.
-      body: Don't polish it five times.
-    - kind: point
-      num: 2
-      title: Cut the first line.
-      body: It's usually the apology.
-    - kind: point
-      num: 3
-      title: Read it out loud.
-      body: If it sounds like you, it's done.
-    - kind: point
-      num: 4
-      title: Send. Put the phone away.
-      body: The reply is not your job.
-    - kind: cta
-      title: Save this for the next text.
-      button: Save
-    caption: 'The reply is not your job.
+    subtitle: Four steps. Two minutes.
+  - kind: point
+    num: 1
+    title: Write it once.
+    body: Don't polish it five times.
+  - kind: point
+    num: 2
+    title: Cut the first line.
+    body: It's usually the apology.
+  - kind: point
+    num: 3
+    title: Read it out loud.
+    body: If it sounds like you, it's done.
+  - kind: point
+    num: 4
+    title: Send. Put the phone away.
+    body: The reply is not your job.
+  - kind: cta
+    title: Save this for the next text.
+    button: Save
+  caption: 'The reply is not your job.
 
 
-      #overthinking #texting #thestillman #quietconfidence'
-
-  - id: sat-carousel-pm
-    type: carousel
-    date: '2026-11-21'
-    time: '16:30'
-    platforms:
-    - instagram
-    - tiktok
+    #overthinking #texting #thestillman #quietconfidence'
+- id: sat-carousel-pm
+  type: carousel
+  date: '2026-11-21'
+  time: '16:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: How calm men handle rejection
+  slides:
+  - kind: cover
     title: How calm men handle rejection
-    slides:
-    - kind: cover
-      title: How calm men handle rejection
-      subtitle: It's information, not a verdict.
-    - kind: point
-      num: 1
-      title: He doesn't argue.
-      body: '"Got it. Thanks for being honest."'
-    - kind: point
-      num: 2
-      title: He doesn't ask why.
-      body: The answer rarely helps.
-    - kind: point
-      num: 3
-      title: He keeps his day.
-      body: Same plans. Same training.
-    - kind: point
-      num: 4
-      title: He tries again.
-      body: Next week. Different person.
-    - kind: cta
-      title: Save this. You'll need it once.
-      button: Save
-    caption: 'Rejection is information, not a verdict.
+    subtitle: It's information, not a verdict.
+  - kind: point
+    num: 1
+    title: He doesn't argue.
+    body: '"Got it. Thanks for being honest."'
+  - kind: point
+    num: 2
+    title: He doesn't ask why.
+    body: The answer rarely helps.
+  - kind: point
+    num: 3
+    title: He keeps his day.
+    body: Same plans. Same training.
+  - kind: point
+    num: 4
+    title: He tries again.
+    body: Next week. Different person.
+  - kind: cta
+    title: Save this. You'll need it once.
+    button: Save
+  caption: 'Rejection is information, not a verdict.
 
 
-      #rejection #resilience #thestillman #quietconfidence'
-
-  - id: sun-carousel-am
-    type: carousel
-    date: '2026-11-22'
-    time: '10:30'
-    platforms:
-    - instagram
-    - tiktok
+    #rejection #resilience #thestillman #quietconfidence'
+- id: sun-carousel-am
+  type: carousel
+  date: '2026-11-22'
+  time: '10:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: 4 questions for Sunday night
+  slides:
+  - kind: cover
     title: 4 questions for Sunday night
-    slides:
-    - kind: cover
-      title: 4 questions for Sunday night
-      subtitle: Ten minutes. One notebook.
-    - kind: point
-      num: 1
-      title: What gave me energy?
-      body: Do more of it.
-    - kind: point
-      num: 2
-      title: What drained me?
-      body: Do less of it.
-    - kind: point
-      num: 3
-      title: Which promise did I break?
-      body: Keep it this week.
-    - kind: point
-      num: 4
-      title: Who do I owe a message?
-      body: Send it today.
-    - kind: cta
-      title: Save this for every Sunday.
-      button: Save
-    caption: 'Ten minutes on Sunday saves the week.
+    subtitle: Ten minutes. One notebook.
+  - kind: point
+    num: 1
+    title: What gave me energy?
+    body: Do more of it.
+  - kind: point
+    num: 2
+    title: What drained me?
+    body: Do less of it.
+  - kind: point
+    num: 3
+    title: Which promise did I break?
+    body: Keep it this week.
+  - kind: point
+    num: 4
+    title: Who do I owe a message?
+    body: Send it today.
+  - kind: cta
+    title: Save this for every Sunday.
+    button: Save
+  caption: 'Ten minutes on Sunday saves the week.
 
 
-      #sundayreset #reflection #thestillman #quietconfidence'
-
-  - id: sun-carousel-pm
-    type: carousel
-    date: '2026-11-22'
-    time: '16:30'
-    platforms:
-    - instagram
-    - tiktok
+    #sundayreset #reflection #thestillman #quietconfidence'
+- id: sun-carousel-pm
+  type: carousel
+  date: '2026-11-22'
+  time: '16:30'
+  platforms:
+  - instagram
+  - tiktok
+  title: Small signs of self-respect
+  slides:
+  - kind: cover
     title: Small signs of self-respect
-    slides:
-    - kind: cover
-      title: Small signs of self-respect
-      subtitle: No one sees them. Everyone feels them.
-    - kind: point
-      num: 1
-      title: He sleeps on time.
-      body: Even when no one checks.
-    - kind: point
-      num: 2
-      title: He says no once.
-      body: No long explanation.
-    - kind: point
-      num: 3
-      title: He leaves early.
-      body: When the room stops being good for him.
-    - kind: point
-      num: 4
-      title: He trains anyway.
-      body: Mood is not a schedule.
-    - kind: point
-      num: 5
-      title: He keeps his word.
-      body: Especially the small ones.
-    - kind: cta
-      title: Which one is hardest? Save it.
-      button: Save
-    caption: 'No one sees them. Everyone feels them.
+    subtitle: No one sees them. Everyone feels them.
+  - kind: point
+    num: 1
+    title: He sleeps on time.
+    body: Even when no one checks.
+  - kind: point
+    num: 2
+    title: He says no once.
+    body: No long explanation.
+  - kind: point
+    num: 3
+    title: He leaves early.
+    body: When the room stops being good for him.
+  - kind: point
+    num: 4
+    title: He trains anyway.
+    body: Mood is not a schedule.
+  - kind: point
+    num: 5
+    title: He keeps his word.
+    body: Especially the small ones.
+  - kind: cta
+    title: Which one is hardest? Save it.
+    button: Save
+  caption: 'No one sees them. Everyone feels them.
 
 
-      #selfrespect #discipline #thestillman #quietconfidence'
+    #selfrespect #discipline #thestillman #quietconfidence'
+- id: mon-mid
+  type: reel
+  date: '2026-11-16'
+  time: '16:00'
+  platforms:
+  - instagram
+  - tiktok
+  title: Calm men talk slower
+  voiceover: Nervous men talk faster. Calm men... slow down. When the pressure rises, he drops his speed by half. Shorter sentences. Longer pauses. Lower voice. The room follows his pace... not the other way around. Follow for one small rep a day.
+  highlight:
+  - faster
+  - slow
+  - pauses
+  - lower
+  - pace
+  broll:
+  - man walking slowly city night from behind
+  - calm sea waves dusk
+  - hands resting on table
+  - rain window evening lights
+  - coffee steam close up
+  caption: 'The room follows his pace, not the other way around.
 
-  - id: mon-mid
-    type: reel
-    date: '2026-11-16'
-    time: '16:00'
-    platforms:
-    - instagram
-    - tiktok
-    title: Calm men talk slower
-    voiceover: Nervous men talk faster. Calm men... slow down. When the pressure rises, he drops his speed by half. Shorter sentences. Longer pauses. Lower voice. The room follows his pace... not the other way around. Follow for one small rep a day.
-    highlight:
-    - faster
-    - slow
-    - pauses
-    - lower
-    - pace
-    broll:
-    - man walking slowly city night from behind
-    - calm sea waves dusk
-    - hands resting on table
-    - rain window evening lights
-    - coffee steam close up
-    caption: 'The room follows his pace, not the other way around.
 
-
-      #communication #bodylanguage #confidencetips #thestillman #quietconfidence'
-    tiktok_title: Calm men talk slower
-
-  - id: mon-carousel-pm
-    type: carousel
-    date: '2026-11-16'
-    time: '20:00'
-    platforms:
-    - instagram
-    - tiktok
+    #communication #bodylanguage #confidencetips #thestillman #quietconfidence'
+  tiktok_title: Calm men talk slower
+- id: mon-carousel-pm
+  type: carousel
+  date: '2026-11-16'
+  time: '20:00'
+  platforms:
+  - instagram
+  - tiktok
+  title: 4 ways to look calm when you're not
+  slides:
+  - kind: cover
     title: 4 ways to look calm when you're not
-    slides:
-    - kind: cover
-      title: 4 ways to look calm when you're not
-      subtitle: Nobody sees the nerves. Only the signals.
-    - kind: point
-      num: 1
-      title: Exhale longer.
-      body: Out for longer than in. Twice.
-    - kind: point
-      num: 2
-      title: Drop the shoulders.
-      body: Tension shows there first.
-    - kind: point
-      num: 3
-      title: Half-speed words.
-      body: Slow speech reads as control.
-    - kind: point
-      num: 4
-      title: Plant the feet.
-      body: Stop shifting the weight.
-    - kind: cta
-      title: Save this for the next big moment.
-      button: Save
-    caption: 'Nobody sees the nerves. Only the signals.
+    subtitle: Nobody sees the nerves. Only the signals.
+  - kind: point
+    num: 1
+    title: Exhale longer.
+    body: Out for longer than in. Twice.
+  - kind: point
+    num: 2
+    title: Drop the shoulders.
+    body: Tension shows there first.
+  - kind: point
+    num: 3
+    title: Half-speed words.
+    body: Slow speech reads as control.
+  - kind: point
+    num: 4
+    title: Plant the feet.
+    body: Stop shifting the weight.
+  - kind: cta
+    title: Save this for the next big moment.
+    button: Save
+  caption: 'Nobody sees the nerves. Only the signals.
 
 
-      Save it for the next big moment.
+    Save it for the next big moment.
 
 
-      #bodylanguage #anxiety #thestillman #quietconfidence'
+    #bodylanguage #anxiety #thestillman #quietconfidence'
