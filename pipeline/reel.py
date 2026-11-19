@@ -134,6 +134,18 @@ def pick_music(post):
         return None
     return tracks[int(hashlib.md5(post["id"].encode()).hexdigest(), 16) % len(tracks)]
 
+def series_tag(post):
+    """On-screen series label for The 30-Day Rebuild episodes (title "Day N · ...")."""
+    import re
+    m = re.match(r"Day (\d+)\s*·", post.get("title", ""))
+    if not m or "Rebuild" not in post.get("caption", ""):
+        return ""
+    f = f"{FONTS}/Inter-800.ttf"
+    sh = ":shadowcolor=black@0.6:shadowx=2:shadowy=2"
+    return (f",drawtext=fontfile={f}:text='THE 30-DAY REBUILD':fontsize=40:fontcolor=0xEDE8DF:x=(w-tw)/2:y=250{sh}"
+            f",drawtext=fontfile={f}:text='DAY {m.group(1)} / 30':fontsize=34:fontcolor=0xC08A4E:x=(w-tw)/2:y=310{sh}")
+
+
 def render(post, words, audio, brolls, work, out_mp4, out_cover):
     work = Path(work); work.mkdir(parents=True, exist_ok=True)
     dur = round(words[-1]["end"] + 1.6, 2)
@@ -160,7 +172,7 @@ def render(post, words, audio, brolls, work, out_mp4, out_cover):
     shade = work / "shade.png"; shade_png(shade)
     logo = work / "logo.png"; logo_png(230).save(logo)
     t_logo = max(0.0, dur - 1.8)
-    fc = (f"[0:v][1:v]overlay=0:0[s];[s]ass={ass}:fontsdir={FONTS}[c];"
+    fc = (f"[0:v][1:v]overlay=0:0[s];[s]ass={ass}:fontsdir={FONTS}{series_tag(post)}[c];"
           f"[2:v]format=rgba,fade=in:st={t_logo:.2f}:d=0.6:alpha=1[l];[c][l]overlay=(W-w)/2:360:shortest=0[v]")
     music = pick_music(post)
     if music:
