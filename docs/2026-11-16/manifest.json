@@ -1325,9 +1325,52 @@
         }
       ],
       "music": "cinematic-piano-cello.mp3"
+    },
+    "thu-now": {
+      "date": "2026-11-19",
+      "time": "23:55",
+      "type": "reel",
+      "platforms": [
+        "tiktok"
+      ],
+      "caption": "Seven seconds. Three things. Which one do you already do?\n\nSave it for the next room you walk into.\n\n#bodylanguage #firstimpressions #thestillman #quietconfidence",
+      "title": "Judged in 7 seconds",
+      "tiktok_title": "Judged in 7 seconds",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-now.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-16/thu-now-cover.jpg",
+      "duration": 25.19,
+      "broll_credits": [
+        {
+          "pixabay_id": 282995,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-282995/"
+        },
+        {
+          "pixabay_id": 203196,
+          "author": "TonyDias7",
+          "url": "https://pixabay.com/videos/id-203196/"
+        },
+        {
+          "pixabay_id": 181786,
+          "author": "NickyPe",
+          "url": "https://pixabay.com/videos/id-181786/"
+        },
+        {
+          "pixabay_id": 183136,
+          "author": "StefWithAnF",
+          "url": "https://pixabay.com/videos/id-183136/"
+        },
+        {
+          "pixabay_id": 131195,
+          "author": "tvchrist",
+          "url": "https://pixabay.com/videos/id-131195/"
+        }
+      ],
+      "music": "lofi-rhodes.mp3"
     }
   },
   "pexels_used": [
+    "pb131195",
     "pb13441",
     "pb137250",
     "pb137263",
@@ -1353,6 +1396,8 @@
     "pb177081",
     "pb180386",
     "pb180776",
+    "pb181786",
+    "pb183136",
     "pb18390",
     "pb184510",
     "pb185728",
@@ -1364,6 +1409,7 @@
     "pb197946",
     "pb202743",
     "pb202753",
+    "pb203196",
     "pb203363",
     "pb204326",
     "pb205006",
@@ -1400,6 +1446,7 @@
     "pb26369",
     "pb266428",
     "pb27539",
+    "pb282995",
     "pb283431",
     "pb286272",
     "pb28860",
