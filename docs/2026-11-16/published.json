@@ -1,74 +1,77 @@
 {
-  "mon-reel": {
-    "instagram": "manual 2026-11-13",
-    "tiktok": "manual 2026-11-13"
-  },
-  "mon-stoic-reel": {
-    "instagram": "17956980408269885",
-    "tiktok": "429891124"
-  },
-  "mon-carousel": {
-    "instagram": "18173900293464313",
-    "tiktok": "429962954"
-  },
-  "mon-mid": {
-    "instagram": "18001516670825926",
-    "tiktok": "430193113"
-  },
-  "mon-carousel-pm": {
-    "instagram": "18135445009778523",
-    "tiktok": "430518115"
-  },
-  "mon-late": {
-    "instagram": "18653544679017270",
-    "tiktok": "430628699"
-  },
-  "tue-carousel-am": {
-    "instagram": "18143240974715571",
-    "tiktok": "431187357"
-  },
-  "tue-mid": {
-    "instagram": "18135746104666143",
-    "tiktok": "431383244"
-  },
-  "tue-carousel-pm": {
-    "instagram": "18100621910409397",
-    "tiktok": "431616950"
-  },
-  "tue-reel": {
-    "instagram": "18095402540282085",
-    "tiktok": "431854892"
-  },
-  "tue-late": {
-    "instagram": "18391153411231517",
-    "tiktok": "432114366"
-  },
-  "wed-carousel": {
-    "instagram": "18361261630175877",
-    "tiktok": "432699475"
-  },
-  "wed-mid": {
-    "instagram": "18115431365130990",
-    "tiktok": "432765512"
-  },
-  "wed-carousel-pm": {
-    "instagram": "17918365149494688",
-    "tiktok": "432993497"
-  },
-  "wed-reel": {
-    "instagram": "18131178772846102",
-    "tiktok": "433231105"
-  },
-  "wed-late": {
-    "instagram": "18005008602009455",
-    "tiktok": "433507775"
-  },
-  "thu-carousel-am": {
-    "instagram": "18132575356702129",
-    "tiktok": "433959289"
-  },
-  "thu-mid": {
-    "instagram": "18092604926268189",
-    "tiktok": "434153618"
-  }
+ "mon-reel": {
+  "instagram": "manual 2026-11-13",
+  "tiktok": "manual 2026-11-13"
+ },
+ "mon-stoic-reel": {
+  "instagram": "17956980408269885",
+  "tiktok": "429891124"
+ },
+ "mon-carousel": {
+  "instagram": "18173900293464313",
+  "tiktok": "429962954"
+ },
+ "mon-mid": {
+  "instagram": "18001516670825926",
+  "tiktok": "430193113"
+ },
+ "mon-carousel-pm": {
+  "instagram": "18135445009778523",
+  "tiktok": "430518115"
+ },
+ "mon-late": {
+  "instagram": "18653544679017270",
+  "tiktok": "430628699"
+ },
+ "tue-carousel-am": {
+  "instagram": "18143240974715571",
+  "tiktok": "431187357"
+ },
+ "tue-mid": {
+  "instagram": "18135746104666143",
+  "tiktok": "431383244"
+ },
+ "tue-carousel-pm": {
+  "instagram": "18100621910409397",
+  "tiktok": "431616950"
+ },
+ "tue-reel": {
+  "instagram": "18095402540282085",
+  "tiktok": "431854892"
+ },
+ "tue-late": {
+  "instagram": "18391153411231517",
+  "tiktok": "432114366"
+ },
+ "wed-carousel": {
+  "instagram": "18361261630175877",
+  "tiktok": "432699475"
+ },
+ "wed-mid": {
+  "instagram": "18115431365130990",
+  "tiktok": "432765512"
+ },
+ "wed-carousel-pm": {
+  "instagram": "17918365149494688",
+  "tiktok": "432993497"
+ },
+ "wed-reel": {
+  "instagram": "18131178772846102",
+  "tiktok": "433231105"
+ },
+ "wed-late": {
+  "instagram": "18005008602009455",
+  "tiktok": "433507775"
+ },
+ "thu-carousel-am": {
+  "instagram": "18132575356702129",
+  "tiktok": "433959289"
+ },
+ "thu-mid": {
+  "instagram": "18092604926268189",
+  "tiktok": "434153618"
+ },
+ "thu-reel": {
+  "tiktok": "manual"
+ }
 }
