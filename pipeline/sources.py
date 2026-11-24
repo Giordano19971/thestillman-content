@@ -97,10 +97,14 @@ def pixabay_video(query, used_ids, dest, allow_statues=False):
                                                            "safesearch": "true", "video_type": "film"})
         hits = [h for h in r.json().get("hits", []) if f"pb{h['id']}" not in used_ids and h.get("duration", 0) >= 4
                 and not ({t.strip() for t in h.get("tags", "").lower().split(",")} & banned)]
+        STOP = {"a", "an", "the", "of", "in", "on", "at", "from", "with", "and", "to", "slowly", "close", "up"}
+        qw = {w for w in query.lower().split() if w not in STOP}
         def score(h):
             v = h["videos"]; big = v.get("large") or {}
             vertical = any(x.get("height", 0) > x.get("width", 0) for x in v.values() if isinstance(x, dict))
-            return (vertical, big.get("height", 0) >= 2160, h.get("likes", 0))
+            tags = h.get("tags", "").lower()
+            match = sum(1 for w in qw if w in tags or w.rstrip("s") in tags)  # relevance to the scene first
+            return (match, vertical, big.get("height", 0) >= 2160, h.get("likes", 0))
         hits.sort(key=score, reverse=True)
         for h in hits[:6]:
             v = h["videos"]

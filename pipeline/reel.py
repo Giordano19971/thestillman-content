@@ -176,7 +176,9 @@ def render(post, words, audio, brolls, work, out_mp4, out_cover):
     for i, src in enumerate(brolls):
         d = cuts[i + 1] - cuts[i] + (0.3 if (i < len(brolls) - 1 and not (v2 and i < 3)) else 0)
         c = work / f"clip{i}.mp4"
-        grade = ("eq=saturation=0.12:contrast=1.12:brightness=-0.05,colorchannelmixer=rr=1.03:gg=1.0:bb=0.95,"
+        grade = ("eq=saturation=0.75:contrast=1.06:gamma=1.12:brightness=0.02,"
+                 "colorchannelmixer=rr=1.04:gg=0.98:bb=0.9,vignette=PI/5,") if (v2 and post.get("grade") != "mono") else \
+                ("eq=saturation=0.12:contrast=1.12:brightness=-0.05,colorchannelmixer=rr=1.03:gg=1.0:bb=0.95,"
                  "noise=alls=7:allf=t,vignette=PI/4,") if post.get("grade") == "mono" else \
                 ("eq=saturation=0.72:contrast=1.05:brightness=-0.04,"
                  "colorchannelmixer=rr=1.04:gg=0.98:bb=0.9,vignette=PI/4.5,")
