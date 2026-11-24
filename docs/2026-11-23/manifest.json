@@ -1287,21 +1287,143 @@
         }
       ],
       "music": "cinematic-piano-cello.mp3"
+    },
+    "test-v2-late": {
+      "date": "2026-11-24",
+      "time": "23:59",
+      "type": "reel",
+      "platforms": [
+        "tiktok"
+      ],
+      "caption": "Be honest: when you walk in late, do you rush or do you own it? 👇\n\nLate is a fact. Panic is a choice.\n\n#bodylanguage #presence #confidence #thestillman #quietconfidence",
+      "title": "He walked in 12 minutes late",
+      "tiktok_title": "He walked in 12 minutes late",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-23/test-v2-late.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-23/test-v2-late-cover.jpg",
+      "duration": 23.81,
+      "broll_credits": [
+        {
+          "pixabay_id": 181376,
+          "author": "NickyPe",
+          "url": "https://pixabay.com/videos/id-181376/"
+        },
+        {
+          "pixabay_id": 32246,
+          "author": "sensorycznyTata",
+          "url": "https://pixabay.com/videos/id-32246/"
+        },
+        {
+          "pixabay_id": 160972,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-160972/"
+        },
+        {
+          "pixabay_id": 149453,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-149453/"
+        },
+        {
+          "pixabay_id": 137260,
+          "author": "blackmarketmusic",
+          "url": "https://pixabay.com/videos/id-137260/"
+        },
+        {
+          "pixabay_id": 327359,
+          "author": "Kanenori",
+          "url": "https://pixabay.com/videos/id-327359/"
+        },
+        {
+          "pixabay_id": 136268,
+          "author": "blackmarketmusic",
+          "url": "https://pixabay.com/videos/id-136268/"
+        },
+        {
+          "pixabay_id": 230248,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-230248/"
+        }
+      ],
+      "music": "lofi-rhodes.mp3"
+    },
+    "test-v2-no": {
+      "date": "2026-11-24",
+      "time": "23:59",
+      "type": "reel",
+      "platforms": [
+        "tiktok"
+      ],
+      "caption": "Be honest: what do you do when she says no? 👇\n\nRejection is an answer, not a verdict.\n\n#rejection #dating #confidence #thestillman #quietconfidence",
+      "title": "She said no. He smiled.",
+      "tiktok_title": "She said no. He smiled.",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-23/test-v2-no.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-23/test-v2-no-cover.jpg",
+      "duration": 25.16,
+      "broll_credits": [
+        {
+          "pixabay_id": 245583,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-245583/"
+        },
+        {
+          "pixabay_id": 13441,
+          "author": "adege",
+          "url": "https://pixabay.com/videos/id-13441/"
+        },
+        {
+          "pixabay_id": 250458,
+          "author": "AbstractBackground",
+          "url": "https://pixabay.com/videos/id-250458/"
+        },
+        {
+          "pixabay_id": 111280,
+          "author": "AttilaPergel",
+          "url": "https://pixabay.com/videos/id-111280/"
+        },
+        {
+          "pixabay_id": 206272,
+          "author": "TonyDias7",
+          "url": "https://pixabay.com/videos/id-206272/"
+        },
+        {
+          "pixabay_id": 361492,
+          "author": "Janhom",
+          "url": "https://pixabay.com/videos/id-361492/"
+        },
+        {
+          "pixabay_id": 39836,
+          "author": "AlexKopeykin",
+          "url": "https://pixabay.com/videos/id-39836/"
+        },
+        {
+          "pixabay_id": 225661,
+          "author": "Kanenori",
+          "url": "https://pixabay.com/videos/id-225661/"
+        }
+      ],
+      "music": "felt-piano-ambient.mp3"
     }
   },
   "pexels_used": [
     "pb107240",
+    "pb111280",
     "pb126924",
+    "pb13441",
+    "pb136259",
+    "pb136268",
     "pb137250",
+    "pb137260",
     "pb137263",
+    "pb137264",
     "pb137265",
     "pb14385",
     "pb145582",
     "pb149452",
+    "pb149453",
     "pb149927",
     "pb153821",
     "pb154401",
     "pb159306",
+    "pb160972",
     "pb160973",
     "pb160975",
     "pb161071",
@@ -1311,6 +1433,7 @@
     "pb177081",
     "pb180386",
     "pb180776",
+    "pb181376",
     "pb18390",
     "pb185341",
     "pb186195",
@@ -1326,10 +1449,13 @@
     "pb203449",
     "pb204326",
     "pb205208",
+    "pb206272",
     "pb206294",
     "pb210786",
     "pb215485",
+    "pb225661",
     "pb227567",
+    "pb230248",
     "pb232399",
     "pb23258",
     "pb232641",
@@ -1339,13 +1465,16 @@
     "pb238823",
     "pb238826",
     "pb245520",
+    "pb245583",
     "pb24603",
     "pb248417",
     "pb248495",
     "pb250395",
+    "pb250458",
     "pb257593",
     "pb258799",
     "pb266428",
+    "pb268230",
     "pb273931",
     "pb274403",
     "pb27539",
@@ -1355,17 +1484,23 @@
     "pb296958",
     "pb302405",
     "pb31377",
+    "pb32246",
+    "pb327359",
     "pb33014",
     "pb34091",
     "pb34855",
+    "pb361492",
+    "pb363873",
     "pb367164",
     "pb368623",
     "pb377431",
+    "pb39836",
     "pb40797",
     "pb42814",
     "pb46989",
     "pb63970",
     "pb66810",
+    "pb69952",
     "pb73847",
     "pb87050",
     "pb87592",
