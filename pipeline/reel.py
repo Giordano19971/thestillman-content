@@ -70,7 +70,7 @@ def ts(t):
     return f"{h}:{m:02d}:{s:05.2f}"
 
 
-def write_ass(path, groups, dur, style="sans"):
+def write_ass(path, groups, dur, style="sans", strong_pop=False):
     head = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: {W}
@@ -89,7 +89,8 @@ Dialogue: 0,{ts(0)},{ts(dur)},Mark,,0,0,0,,The Still Man
 """
     lines = []
     for g in groups:
-        pop = r"{\pos(540,1150)\fscx88\fscy88\t(0,140,\fscx100\fscy100)}"
+        pop = (r"{\pos(540,1150)\fscx70\fscy70\t(0,90,\fscx112\fscy112)\t(90,170,\fscx100\fscy100)}" if strong_pop
+               else r"{\pos(540,1150)\fscx88\fscy88\t(0,140,\fscx100\fscy100)}")
         if g["num"]:
             txt = re.sub(r"[^\w]", "", g["words"][0][0])
             txt = {"one": "1", "two": "2", "three": "3", "four": "4", "five": "5"}.get(txt.lower(), txt)
@@ -146,29 +147,51 @@ def series_tag(post):
             f",drawtext=fontfile={f}:text='DAY {m.group(1)} / 30':fontsize=34:fontcolor=0xC08A4E:x=(w-tw)/2:y=310{sh}")
 
 
+WHOOSH = Path(__file__).resolve().parent.parent / "brand" / "sfx" / "whoosh.wav"
+
+
+def add_whoosh(audio, work, times, vol=0.35):
+    """Overlay a short whoosh at each intro cut onto the voice track (returns new audio path)."""
+    out = Path(work) / "vo_sfx.wav"
+    ins = ["-i", str(audio)] + sum([["-i", str(WHOOSH)] for _ in times], [])
+    parts = [f"[{k + 1}:a]adelay={int(t * 1000)}|{int(t * 1000)},volume={vol}[w{k}]" for k, t in enumerate(times)]
+    fc = ";".join(parts) + ";[0:a]" + "".join(f"[w{k}]" for k in range(len(times))) + \
+         f"amix=inputs={len(times) + 1}:duration=first:normalize=0[a]"
+    run(["ffmpeg", "-y", "-loglevel", "error", *ins, "-filter_complex", fc, "-map", "[a]", str(out)])
+    return out
+
 def render(post, words, audio, brolls, work, out_mp4, out_cover):
     work = Path(work); work.mkdir(parents=True, exist_ok=True)
     dur = round(words[-1]["end"] + 1.6, 2)
-    cuts = scene_cuts(words, len(brolls), dur)
+    v2 = post.get("style") == "v2"
+    if v2 and len(brolls) >= 5:
+        # three fast 0.7 s cuts to stop the scroll, then normal scenes snapped to voice pauses
+        intro = [0.0, 0.7, 1.4, 2.1]
+        rest = scene_cuts([{**w, "start": w["start"] - 2.1, "end": w["end"] - 2.1} for w in words if w["start"] >= 2.1] or words, len(brolls) - 3, dur - 2.1)
+        cuts = intro + [2.1 + c for c in rest[1:]]
+    else:
+        cuts = scene_cuts(words, len(brolls), dur)
     brolls = brolls[:len(cuts) - 1]
     clips = []
     for i, src in enumerate(brolls):
-        d = cuts[i + 1] - cuts[i] + (0.3 if i < len(brolls) - 1 else 0)
+        d = cuts[i + 1] - cuts[i] + (0.3 if (i < len(brolls) - 1 and not (v2 and i < 3)) else 0)
         c = work / f"clip{i}.mp4"
         grade = ("eq=saturation=0.12:contrast=1.12:brightness=-0.05,colorchannelmixer=rr=1.03:gg=1.0:bb=0.95,"
                  "noise=alls=7:allf=t,vignette=PI/4,") if post.get("grade") == "mono" else \
                 ("eq=saturation=0.72:contrast=1.05:brightness=-0.04,"
                  "colorchannelmixer=rr=1.04:gg=0.98:bb=0.9,vignette=PI/4.5,")
-        vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},"
-              f"{grade}"
-              f"fade=in:st=0:d=0.3,fade=out:st={max(0, d - 0.3):.2f}:d=0.3,format=yuv420p")
+        fades = "" if (v2 and i < 3) else f"fade=in:st=0:d=0.3,fade=out:st={max(0, d - 0.3):.2f}:d=0.3,"
+        zoom = (f"zoompan=z='min(1+0.10*on/{max(1, int(d * FPS))},1.10)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps={FPS},"
+                if (v2 and i == 0) else "")
+        vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},fps={FPS},{zoom}"
+              f"{grade}{fades}format=yuv420p")
         run(["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-ss", "0.5", "-t", f"{d:.2f}", "-i", str(src),
              "-an", "-vf", vf, "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", str(c)])
         clips.append(c)
     lst = work / "list.txt"; lst.write_text("".join(f"file '{c.name}'\n" for c in clips))
     base = work / "base.mp4"
     run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(base)])
-    ass = work / "captions.ass"; write_ass(ass, caption_groups(words, post.get("highlight", []), post.get("caption_words", 3), post.get("caption_upper", False), post.get("caption_lower", False)), dur, post.get("caption_style", "sans"))
+    ass = work / "captions.ass"; write_ass(ass, caption_groups(words, post.get("highlight", []), post.get("caption_words", 2 if v2 else 3), post.get("caption_upper", False), post.get("caption_lower", False)), dur, post.get("caption_style", "sans"), strong_pop=v2)
     shade = work / "shade.png"; shade_png(shade)
     logo = work / "logo.png"; logo_png(230).save(logo)
     t_logo = max(0.0, dur - 1.8)
@@ -186,6 +209,8 @@ def render(post, words, audio, brolls, work, out_mp4, out_cover):
     else:
         ins = ["-i", str(audio)]
         amap = ["-map", "3:a", "-af", "apad"]
+    if v2 and WHOOSH.exists():
+        audio = add_whoosh(audio, work, [0.0, 0.7, 1.4, 2.1])
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(base), "-loop", "1", "-i", str(shade), "-loop", "1", "-i", str(logo),
          *ins, "-filter_complex", fc, "-map", "[v]", *amap,
          "-t", f"{dur:.2f}", "-r", str(FPS), "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-pix_fmt", "yuv420p",

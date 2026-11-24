@@ -1195,3 +1195,74 @@ posts:
   caption_style: serif_italic
   grade: mono
   allow_statues: true
+# --- Format test v2 (fast intro, story hook, loop ending, faster voice). Owner uploads manually to TikTok. ---
+- id: test-v2-late
+  type: reel
+  style: v2
+  date: 2026-11-24
+  time: '23:59'
+  platforms:
+  - tiktok
+  voice_settings:
+    speed: 1.12
+    style: 0.3
+  title: He walked in 12 minutes late
+  tiktok_title: He walked in 12 minutes late
+  voiceover: He walked in twelve minutes late. Twelve heads turned. He didn't rush. He didn't apologise to the whole room. One nod... one slow step to his chair... and he sat down. The meeting went on. But nobody looked away. Because he walked in like a man who is never late.
+  highlight:
+  - late
+  - rush
+  - nod
+  - slow
+  - never
+  broll:
+  - man opening door office
+  - business meeting table
+  - man walking office corridor
+  - man walking slowly from behind
+  - conference room meeting
+  - man sitting down chair
+  - business people table discussion
+  - office window city
+  caption: 'Be honest: when you walk in late, do you rush or do you own it? 👇
+
+
+    Late is a fact. Panic is a choice.
+
+
+    #bodylanguage #presence #confidence #thestillman #quietconfidence'
+- id: test-v2-no
+  type: reel
+  style: v2
+  date: 2026-11-24
+  time: '23:59'
+  platforms:
+  - tiktok
+  voice_settings:
+    speed: 1.12
+    style: 0.3
+  title: She said no. He smiled.
+  tiktok_title: She said no. He smiled.
+  voiceover: She said no. He smiled. And that is exactly why she remembered him. No arguing. No "why not". No sulking for the rest of the night. Just... "Fair enough. Enjoy your night." Then back to his friends... and he actually had fun. Rejection is not a verdict. It is an answer. And she said no.
+  highlight:
+  - smiled
+  - remembered
+  - fair
+  - answer
+  - verdict
+  broll:
+  - man walking night street
+  - friends laughing night
+  - city lights night bokeh
+  - man hands in pockets night
+  - people silhouette party
+  - neon lights night city
+  - friends walking night city
+  - man standing night city
+  caption: 'Be honest: what do you do when she says no? 👇
+
+
+    Rejection is an answer, not a verdict.
+
+
+    #rejection #dating #confidence #thestillman #quietconfidence'

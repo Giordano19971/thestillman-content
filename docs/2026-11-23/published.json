@@ -18,5 +18,11 @@
  "mon-late": {
   "tiktok": "manual",
   "instagram": "17945020410391118"
+ },
+ "test-v2-late": {
+  "tiktok": "manual"
+ },
+ "test-v2-no": {
+  "tiktok": "manual"
  }
 }

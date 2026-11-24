@@ -169,7 +169,7 @@ def broll_video(query, used_ids, dest, allow_statues=False):
     return pixabay_video(query, used_ids, dest, allow_statues)
 
 
-def tts_with_words(text, voice_id, model, dest):
+def tts_with_words(text, voice_id, model, dest, settings=None):
     """ElevenLabs TTS with timestamps. Writes MP3 to dest, returns list of words [{text,start,end}]."""
     if not ELEVEN_KEY:
         raise RuntimeError("ELEVENLABS_API_KEY missing")
@@ -178,7 +178,7 @@ def tts_with_words(text, voice_id, model, dest):
         headers={"xi-api-key": ELEVEN_KEY, "Content-Type": "application/json"},
         params={"output_format": "mp3_44100_128"},
         json={"text": text, "model_id": model,
-              "voice_settings": {"stability": 0.55, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": True}},
+              "voice_settings": {"stability": 0.55, "similarity_boost": 0.8, "style": 0.15, "use_speaker_boost": True, **(settings or {})}},
         timeout=180)
     _check(r)
     data = r.json()
