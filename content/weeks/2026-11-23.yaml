@@ -859,37 +859,41 @@ posts:
   platforms:
   - instagram
   - tiktok
-  title: 4 ways to stop seeking approval
+  title: How a calm man loves
+  accent:
+  - loves
   slides:
   - kind: cover
-    title: 4 ways to stop seeking approval
-    subtitle: Self-worth that doesn't need a vote.
+    title: How a calm man loves
+    subtitle: Quiet love lasts longer.
+    accent:
+    - loves
   - kind: point
     num: 1
-    title: Ask for input, not permission.
-    body: Decide first. Then listen.
+    title: He listens to the small things.
+    body: Then remembers them a week later.
   - kind: point
     num: 2
-    title: Let a compliment land.
-    body: '''Thanks.'' No deflecting.'
+    title: He's the same on bad days.
+    body: Steady is the most romantic thing he can be.
   - kind: point
     num: 3
-    title: Skip the check-glance.
-    body: After speaking, no scanning faces for a verdict.
+    title: He says it plainly.
+    body: No games. No mixed signals.
   - kind: point
     num: 4
-    title: Keep one opinion.
-    body: Disagree once, politely. Nothing breaks.
+    title: He keeps his own life.
+    body: Love is a choice, not a need.
   - kind: cta
-    title: Save this. Try one today.
+    title: Save this for the one who deserves it.
     button: Save
-  caption: 'Approval is nice. It isn''t needed.
+  caption: 'Be honest: which one is hardest for you? 👇
 
 
-    Save it and try one today.
+    Quiet love lasts longer. Save it for the one who deserves it.
 
 
-    #selfworth #confidence #thestillman #quietconfidence'
+    #love #relationships #dating #thestillman #quietconfidence'
 - id: sat-mid
   type: reel
   date: 2026-11-28
