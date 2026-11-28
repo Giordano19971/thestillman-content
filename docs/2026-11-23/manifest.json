@@ -1358,6 +1358,54 @@
         }
       ],
       "music": "felt-piano-ambient.mp3"
+    },
+    "sat-mid": {
+      "date": "2026-11-28",
+      "time": "13:30",
+      "type": "reel",
+      "platforms": [
+        "instagram",
+        "tiktok"
+      ],
+      "caption": "Be honest: what gives away your nerves on a first date? 👇\n\nSlow is attractive. Save it for your next date.\n\n#dating #datingtips #firstdate #thestillman #quietconfidence",
+      "title": "How to look calm on a date",
+      "tiktok_title": "How to look calm on a date",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-23/sat-mid.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-23/sat-mid-cover.jpg",
+      "duration": 25.9,
+      "broll_credits": [
+        {
+          "pixabay_id": 38057,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-38057/"
+        },
+        {
+          "pixabay_id": 38059,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-38059/"
+        },
+        {
+          "pixabay_id": 27230,
+          "author": "jeffjacobs1990",
+          "url": "https://pixabay.com/videos/id-27230/"
+        },
+        {
+          "pixabay_id": 232937,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-232937/"
+        },
+        {
+          "pixabay_id": 91261,
+          "author": "Kaffeesüchtig",
+          "url": "https://pixabay.com/videos/id-91261/"
+        },
+        {
+          "pixabay_id": 153976,
+          "author": "adege",
+          "url": "https://pixabay.com/videos/id-153976/"
+        }
+      ],
+      "music": "felt-piano-ambient.mp3"
     }
   },
   "pexels_used": [
@@ -1368,6 +1416,7 @@
     "pb111280",
     "pb1191",
     "pb126924",
+    "pb133988",
     "pb13441",
     "pb136259",
     "pb136264",
@@ -1393,6 +1442,7 @@
     "pb149453",
     "pb149927",
     "pb153821",
+    "pb153976",
     "pb154401",
     "pb156156",
     "pb156157",
@@ -1405,6 +1455,7 @@
     "pb163333",
     "pb174460",
     "pb177081",
+    "pb177164",
     "pb178715",
     "pb178716",
     "pb180386",
@@ -1432,6 +1483,8 @@
     "pb210786",
     "pb210791",
     "pb215485",
+    "pb216597",
+    "pb216598",
     "pb225661",
     "pb227567",
     "pb230248",
@@ -1439,6 +1492,7 @@
     "pb232399",
     "pb23258",
     "pb232641",
+    "pb232937",
     "pb233399",
     "pb2338",
     "pb236256",
@@ -1457,6 +1511,7 @@
     "pb258799",
     "pb266428",
     "pb268230",
+    "pb27230",
     "pb273931",
     "pb274403",
     "pb27539",
@@ -1485,6 +1540,8 @@
     "pb367164",
     "pb368623",
     "pb377431",
+    "pb38057",
+    "pb38059",
     "pb39836",
     "pb40797",
     "pb42814",
@@ -1504,6 +1561,7 @@
     "pb87050",
     "pb87592",
     "pb87593",
+    "pb91261",
     "pb91744",
     "pb92480",
     "pi101632",
