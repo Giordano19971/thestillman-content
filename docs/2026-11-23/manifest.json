@@ -1000,49 +1000,6 @@
       ],
       "music": "resolute-strings.mp3"
     },
-    "sat-mid": {
-      "date": "2026-11-28",
-      "time": "13:30",
-      "type": "reel",
-      "platforms": [
-        "instagram",
-        "tiktok"
-      ],
-      "caption": "Walk. Stop. Plant. Look. Then speak.\n\n#publicspeaking #bodylanguage #presence #thestillman #quietconfidence",
-      "title": "The walk up is the speech",
-      "tiktok_title": "The walk up is the speech",
-      "video": "https://giordano19971.github.io/thestillman-content/2026-11-23/sat-mid.mp4",
-      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-23/sat-mid-cover.jpg",
-      "duration": 25.18,
-      "broll_credits": [
-        {
-          "pixabay_id": 63970,
-          "author": "Matthias_Groeneveld",
-          "url": "https://pixabay.com/videos/id-63970/"
-        },
-        {
-          "pixabay_id": 160973,
-          "author": "Matthias_Groeneveld",
-          "url": "https://pixabay.com/videos/id-160973/"
-        },
-        {
-          "pixabay_id": 126924,
-          "author": "Mabelle-Elise",
-          "url": "https://pixabay.com/videos/id-126924/"
-        },
-        {
-          "pixabay_id": 163333,
-          "author": "adege",
-          "url": "https://pixabay.com/videos/id-163333/"
-        },
-        {
-          "pixabay_id": 202743,
-          "author": "Matthias_Groeneveld",
-          "url": "https://pixabay.com/videos/id-202743/"
-        }
-      ],
-      "music": "felt-piano-ambient.mp3"
-    },
     "sat-reel": {
       "date": "2026-11-28",
       "time": "19:30",

@@ -899,27 +899,31 @@ posts:
   platforms:
   - instagram
   - tiktok
-  title: The walk up is the speech
-  voiceover: The walk up is already the speech. A still man walks to the front a little slower. He stops.
-    Plants both feet. Looks up. Counts two. Only then... the first word. The room settles... because he
-    settled first. Follow for one small rep a day.
+  voice_settings:
+    speed: 1.12
+  title: How to look calm on a date
+  voiceover: Most men lose the date in the first ten minutes. Not with what they say. With how fast they say it. A calm man slows everything down. He sits back. Hands still, on the table. He lets two seconds pass before answering. And when she talks... he actually listens. Calm is attractive. Follow for one small rep a day.
   highlight:
-  - walk
-  - slower
-  - plants
-  - looks
-  - settled
+  - fast
+  - slows
+  - still
+  - listens
+  - calm
   broll:
-  - empty stage spotlight
-  - man walking corridor from behind
-  - empty conference room chairs
-  - microphone stand dark
-  - shoes walking floor
-  caption: 'Walk. Stop. Plant. Look. Then speak.
+  - restaurant table candle
+  - coffee cups table cafe
+  - hands on table cafe
+  - restaurant evening lights
+  - man hands coffee cup
+  - cafe window evening
+  caption: 'Be honest: what gives away your nerves on a first date? 👇
 
 
-    #publicspeaking #bodylanguage #presence #thestillman #quietconfidence'
-  tiktok_title: The walk up is the speech
+    Slow is attractive. Save it for your next date.
+
+
+    #dating #datingtips #firstdate #thestillman #quietconfidence'
+  tiktok_title: How to look calm on a date
 - id: sat-carousel-pm
   type: carousel
   date: 2026-11-28
