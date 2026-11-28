@@ -11,6 +11,10 @@ from common import GROUND, INK, MUTED, BRONZE, LINE, font, logo_png
 W, H = 1080, 1350
 M = 96  # outer margin
 HANDLE = "The Still Man"
+TEXT = {
+    "en": {"swipe": "SWIPE", "follow": "Follow ", "tag": "One small rep a day. Calm confidence, built daily."},
+    "it": {"swipe": "SCORRI", "follow": "Segui ", "tag": "Un piccolo passo al giorno. Sicurezza calma, ogni giorno."},
+}
 STOP = {"a", "an", "the", "of", "to", "and", "or", "in", "on", "at", "for", "with", "is", "his", "your", "you", "he", "it",
         "before", "after", "when", "what", "how", "do", "this", "that", "4", "5", "3", "6", "7"}
 
@@ -104,7 +108,8 @@ def keywords(title, given=None):
     return {max(cand, key=len)} if cand else set()
 
 
-def slide(s, idx, total):
+def slide(s, idx, total, lang="en"):
+    T = TEXT.get(lang, TEXT["en"])
     k = s["kind"]
     im = ground(idx)
     d = ImageDraw.Draw(im)
@@ -123,7 +128,7 @@ def slide(s, idx, total):
         if sub:
             text_block(d, (M, y + 80), sub, sf, MUTED, W - 2 * M, 60)
         # swipe chip
-        chip = "SWIPE"
+        chip = T["swipe"]
         cf = font("Inter-800.ttf", 28)
         cw = d.textlength(chip, font=cf) + 110
         x0, y0 = W - M - cw, H - 170
@@ -161,13 +166,13 @@ def slide(s, idx, total):
         bx, by = M, y
         d.polygon([(bx, by), (bx + 64, by), (bx + 64, by + 86), (bx + 32, by + 64), (bx, by + 86)], fill=BRONZE)
         y = text_block(d, (M, y + 130), s["title"], tf, INK, W - 2 * M, 110)
-        bf = font("Inter-800.ttf", 36); label = (s.get("button", "Save") + " it").upper() if s.get("button", "Save") == "Save" else s["button"].upper()
+        bf = font("Inter-800.ttf", 36); label = "SAVE IT" if s.get("button", "Save") == "Save" else s["button"].upper()
         bw = d.textlength(label, font=bf) + 96
         d.rounded_rectangle([M, y + 60, M + bw, y + 150], 45, fill=BRONZE)
         d.text((M + 48, y + 84), label, font=bf, fill=GROUND)
         d.rectangle([M, H - 330, W - M, H - 328], fill=LINE)
-        d.text((M, H - 290), "Follow " + HANDLE, font=font("Inter-800.ttf", 44), fill=INK)
-        d.text((M, H - 222), "One small rep a day. Calm confidence, built daily.", font=font("Inter-500.ttf", 32), fill=MUTED)
+        d.text((M, H - 290), T["follow"] + HANDLE, font=font("Inter-800.ttf", 44), fill=INK)
+        d.text((M, H - 222), T["tag"], font=font("Inter-500.ttf", 32), fill=MUTED)
     return im
 
 
@@ -176,6 +181,6 @@ def render(post, out_dir, prefix):
     total = len(post["slides"])
     for i, s in enumerate(post["slides"], 1):
         p = out_dir / f"{prefix}-{i}.jpg"
-        slide(s, i, total).save(p, quality=92)
+        slide(s, i, total, post.get("lang", "en")).save(p, quality=92)
         paths.append(p)
     return paths
