@@ -1406,12 +1406,60 @@
         }
       ],
       "music": "felt-piano-ambient.mp3"
+    },
+    "sat-reel-it": {
+      "date": "2026-11-28",
+      "time": "19:30",
+      "type": "reel",
+      "platforms": [
+        "tiktok"
+      ],
+      "caption": "Sii sincero: quante volte al giorno dici \"scusa\" senza motivo? 👇\n\nStessa gentilezza. Zero sentirsi piccoli.\n\n#sicurezzainsestessi #autostima #comunicazione #crescitapersonale #thestillman",
+      "title": "Ha smesso di chiedere scusa",
+      "tiktok_title": "Ha smesso di chiedere scusa",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-23/sat-reel-it.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-23/sat-reel-it-cover.jpg",
+      "duration": 25.67,
+      "broll_credits": [
+        {
+          "pixabay_id": 177092,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-177092/"
+        },
+        {
+          "pixabay_id": 38060,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-38060/"
+        },
+        {
+          "pixabay_id": 6395,
+          "author": "Coverr-Free-Footage",
+          "url": "https://pixabay.com/videos/id-6395/"
+        },
+        {
+          "pixabay_id": 47743,
+          "author": "crew_jak",
+          "url": "https://pixabay.com/videos/id-47743/"
+        },
+        {
+          "pixabay_id": 109801,
+          "author": "21698102",
+          "url": "https://pixabay.com/videos/id-109801/"
+        },
+        {
+          "pixabay_id": 147041,
+          "author": "Engin_Akyurt",
+          "url": "https://pixabay.com/videos/id-147041/"
+        }
+      ],
+      "music": "lofi-rhodes.mp3"
     }
   },
   "pexels_used": [
     "pb10120",
     "pb1035",
     "pb107240",
+    "pb109801",
     "pb1112",
     "pb111280",
     "pb1191",
@@ -1438,6 +1486,7 @@
     "pb137265",
     "pb14385",
     "pb145582",
+    "pb147041",
     "pb149452",
     "pb149453",
     "pb149927",
@@ -1455,6 +1504,7 @@
     "pb163333",
     "pb174460",
     "pb177081",
+    "pb177092",
     "pb177164",
     "pb178715",
     "pb178716",
@@ -1542,13 +1592,17 @@
     "pb377431",
     "pb38057",
     "pb38059",
+    "pb38060",
     "pb39836",
+    "pb39837",
     "pb40797",
     "pb42814",
     "pb45254",
     "pb46989",
     "pb4723",
     "pb4740",
+    "pb47743",
+    "pb6395",
     "pb63970",
     "pb63973",
     "pb6409",
