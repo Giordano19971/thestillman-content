@@ -859,41 +859,39 @@ posts:
   platforms:
   - instagram
   - tiktok
-  title: How a calm man loves
-  accent:
-  - loves
+  title: 4 rules for a calm relationship
   slides:
   - kind: cover
-    title: How a calm man loves
-    subtitle: Quiet love lasts longer.
+    title: 4 rules for a calm relationship
+    subtitle: Steady men build steady relationships.
     accent:
-    - loves
+    - relationship
   - kind: point
     num: 1
-    title: He listens to the small things.
-    body: Then remembers them a week later.
+    title: Argue about the issue, not the person.
+    body: One topic. No old stories.
   - kind: point
     num: 2
-    title: He's the same on bad days.
-    body: Steady is the most romantic thing he can be.
+    title: Never punish with silence.
+    body: Space, yes. Coldness, no.
   - kind: point
     num: 3
-    title: He says it plainly.
-    body: No games. No mixed signals.
+    title: Say what you need, plainly.
+    body: Before it turns into resentment.
   - kind: point
     num: 4
-    title: He keeps his own life.
-    body: Love is a choice, not a need.
+    title: Keep your own life.
+    body: Two full lives make one strong relationship.
   - kind: cta
-    title: Save this for the one who deserves it.
+    title: Save this for your relationship.
     button: Save
-  caption: 'Be honest: which one is hardest for you? 👇
+  caption: 'Be honest: which one does your relationship need most? 👇
 
 
-    Quiet love lasts longer. Save it for the one who deserves it.
+    Steady men build steady relationships. Save it.
 
 
-    #love #relationships #dating #thestillman #quietconfidence'
+    #relationships #relationshipadvice #love #thestillman #quietconfidence'
 - id: sat-mid
   type: reel
   date: 2026-11-28
