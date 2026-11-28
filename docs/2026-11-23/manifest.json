@@ -1453,12 +1453,55 @@
         }
       ],
       "music": "lofi-rhodes.mp3"
+    },
+    "sat-reel-it2": {
+      "date": "2026-11-28",
+      "time": "19:31",
+      "type": "reel",
+      "platforms": [
+        "tiktok"
+      ],
+      "caption": "Sii sincero: quanti piani hai annunciato e mai iniziato? 👇\n\nNovanta giorni di lavoro in silenzio. Poi lascia parlare i risultati.\n\n#disciplina #mentalita #crescitapersonale #obiettivi #thestillman",
+      "title": "Ha smesso di annunciare i suoi piani",
+      "tiktok_title": "Ha smesso di annunciare i suoi piani",
+      "video": "https://giordano19971.github.io/thestillman-content/2026-11-23/sat-reel-it2.mp4",
+      "cover": "https://giordano19971.github.io/thestillman-content/2026-11-23/sat-reel-it2-cover.jpg",
+      "duration": 25.6,
+      "broll_credits": [
+        {
+          "pixabay_id": 207436,
+          "author": "conte_public",
+          "url": "https://pixabay.com/videos/id-207436/"
+        },
+        {
+          "pixabay_id": 10822,
+          "author": "Coverr-Free-Footage",
+          "url": "https://pixabay.com/videos/id-10822/"
+        },
+        {
+          "pixabay_id": 238449,
+          "author": "Nils_Vega",
+          "url": "https://pixabay.com/videos/id-238449/"
+        },
+        {
+          "pixabay_id": 302408,
+          "author": "Matthias_Groeneveld",
+          "url": "https://pixabay.com/videos/id-302408/"
+        },
+        {
+          "pixabay_id": 149958,
+          "author": "Danishsiddiqui",
+          "url": "https://pixabay.com/videos/id-149958/"
+        }
+      ],
+      "music": "felt-piano-ambient.mp3"
     }
   },
   "pexels_used": [
     "pb10120",
     "pb1035",
     "pb107240",
+    "pb10822",
     "pb109801",
     "pb1112",
     "pb111280",
@@ -1490,6 +1533,7 @@
     "pb149452",
     "pb149453",
     "pb149927",
+    "pb149958",
     "pb153821",
     "pb153976",
     "pb154401",
@@ -1530,6 +1574,7 @@
     "pb205208",
     "pb206272",
     "pb206294",
+    "pb207436",
     "pb210786",
     "pb210791",
     "pb215485",
@@ -1548,6 +1593,7 @@
     "pb236256",
     "pb236711",
     "pb237504",
+    "pb238449",
     "pb238823",
     "pb238826",
     "pb245520",
@@ -1576,6 +1622,7 @@
     "pb29344",
     "pb296958",
     "pb302405",
+    "pb302408",
     "pb31377",
     "pb3171",
     "pb32246",
